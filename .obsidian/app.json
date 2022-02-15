@@ -1,0 +1,13 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "autoPairBrackets": false,
+  "newFileLocation": "current",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "fileSortOrder": "alphabetical"
+}

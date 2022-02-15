@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "ffb415976b0d4691",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf524eefe91e5aa9",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "-- START HERE.md",
+            "mode": "preview",
+            "backlinks": true,
+            "source": false
+          },
+          "pinned": true
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8f201f8f8a66e995",
+    "type": "split",
+    "children": [
+      {
+        "id": "59946d8f3eab641d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6fcb759a5efbd3f0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "63262ff5055ba39b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9f8ea005b88c9c70",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "0a351a5505dc4535",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 333
+  },
+  "right": {
+    "id": "00bf19fef4db5a00",
+    "type": "split",
+    "children": [
+      {
+        "id": "2831b5dd3bc99c6a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28a108fc0b7e93eb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "-- START HERE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b141cf7d5beae213",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "-- START HERE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "38ac4119e1e83983",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e3be98d0571678d9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "-- START HERE.md"
+              }
+            }
+          },
+          {
+            "id": "3c9f4dced90ca037",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 236
+  },
+  "active": "bf524eefe91e5aa9",
+  "lastOpenFiles": [
+    "-- START HERE.md",
+    "example case/poi-Allister Kemp.md",
+    "example case/poi-Gabriella Parkington.md",
+    "example case/poi-Isiah Kemp.md",
+    "example case/Example standalone mindmap.md",
+    "example case/- tasks for example files.md",
+    "example case/domain-iwa.temp.md",
+    "example case/loc-123 Main Street, Anytown, XX, USA 11111.md",
+    "tasks.md",
+    "example case/pexels-pixabay-220453.jpg"
+  ]
+}

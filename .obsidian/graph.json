@@ -1,0 +1,30 @@
+{
+  "collapse-filter": false,
+  "search": "path:\"example case\"",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 13193952
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -0.8,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 2.85280898876405,
+  "collapse-forces": true,
+  "centerStrength": 0.344444444444444,
+  "repelStrength": 10,
+  "linkStrength": 0.75,
+  "linkDistance": 236,
+  "scale": 0.6984992345980721,
+  "close": false
+}

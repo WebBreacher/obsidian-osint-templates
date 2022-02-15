@@ -1,0 +1,14 @@
+{
+  "todoPageName": "checklist\ntodo",
+  "showChecked": true,
+  "autoRefresh": true,
+  "subGroups": false,
+  "groupBy": "page",
+  "sortDirectionItems": "new->old",
+  "sortDirectionGroups": "new->old",
+  "sortDirectionSubGroups": "new->old",
+  "includeFiles": "",
+  "lookAndFeel": "classic",
+  "_collapsedSections": [],
+  "_hiddenTags": []
+}
