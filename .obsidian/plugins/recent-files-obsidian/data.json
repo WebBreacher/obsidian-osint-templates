@@ -5,6 +5,10 @@
       "path": "-- START HERE.md"
     },
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "poi-Allister Kemp",
       "path": "example case/poi-Allister Kemp.md"
     },
