@@ -16,7 +16,7 @@ Both resources walk you through the basics of how Obsidian works and what you ca
 These templates are suggestions of how the Obsidian notetaking tool can be used during an OSINT investigation.  The example data in those files should allow you to make some connections _(see what I did there?)_ between how you record your data during an investigation and some of what the tool can offer FOR FREE!
 
 ### Use the Templates
-- I created the [[-- person]] and [[-- domain or ip]] templates to illustrate how you can templatize the information you might need to collect during an investigation.
+- I created the [[person]] and [[domain or ip]] templates to illustrate how you can templatize the information you might need to collect during an investigation.
 - Consider creating your own templates for other data you need to collect.
 - Modify the existing templates to customize them for your needs.
 

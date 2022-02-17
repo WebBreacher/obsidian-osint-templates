@@ -5,7 +5,6 @@ tags:
 # Domains and IP Addresses
 ## Domain
 - Web tracking codes
-- Similarities among associates
 - Domain creation date(s)
 - Subdomains
 - Components
@@ -14,60 +13,60 @@ tags:
 ## Whois Data
 ### Current Registration
 #### Administrative contact
-- Name:
-- Company:
-- Physical address:
-- Email:
-- Phone:
+- Name
+- Company
+- Physical address
+- Email
+- Phone
 #### Technical contact
-- Name:
-- Company:
-- Physical address:
-- Email:
-- Phone:
+- Name
+- Company
+- Physical address
+- Email
+- Phone
 #### Abuse contact
-- Name:
-- Company:
-- Physical address:
-- Email:
-- Phone:
+- Name
+- Company
+- Physical address
+- Email
+- Phone
 #### Dates
-- Creation:
-- Update:
-- Expiration:
+- Creation
+- Update
+- Expiration
 #### Name Servers
-- Name server 1:
+- Name server 1
 
 ### Historic Registration
 #### Administrative contact
-- Name:
-- Company:
-- Physical address:
-- Email:
-- Phone:
+- Name
+- Company
+- Physical address
+- Email
+- Phone
 #### Technical contact
-- Name:
-- Company:
-- Physical address:
-- Email:
-- Phone:
+- Name
+- Company
+- Physical address
+- Email
+- Phone
 #### Abuse contact
-- Name:
-- Company:
-- Physical address:
-- Email:
-- Phone:
+- Name
+- Company
+- Physical address
+- Email
+- Phone
 #### Dates
-- Creation:
-- Update:
-- Expiration:
+- Creation
+- Update
+- Expiration
 #### Name Servers
-- Name server 1:
+- Name server 1
 
 ## IP Address Owner
-- Company name:
-- Location:
-- ASN:
+- Company name
+- Location
+- ASN
 
 ## TLS/SSL Certificate History
 - Phone Number(s)

@@ -9,6 +9,14 @@
       "path": "README.md"
     },
     {
+      "basename": "domain or ip",
+      "path": "-- templates/domain or ip.md"
+    },
+    {
+      "basename": "person",
+      "path": "-- templates/person.md"
+    },
+    {
       "basename": "poi-Allister Kemp",
       "path": "example case/poi-Allister Kemp.md"
     },
@@ -39,14 +47,6 @@
     {
       "basename": "pexels-pixabay-220453",
       "path": "example case/pexels-pixabay-220453.jpg"
-    },
-    {
-      "basename": "-- person",
-      "path": "-- templates/-- person.md"
-    },
-    {
-      "basename": "-- domain or ip",
-      "path": "-- templates/-- domain or ip.md"
     },
     {
       "basename": "-- Course Tracking Doc",
