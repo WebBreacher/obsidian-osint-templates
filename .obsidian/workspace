@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "-- START HERE.md",
+            "file": "START HERE.md",
             "mode": "preview",
             "backlinks": true,
             "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "-- START HERE.md",
+                "file": "START HERE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,9 +105,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "-- START HERE.md",
+                "file": "START HERE.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "-- START HERE.md"
+                "file": "START HERE.md"
               }
             }
           },
@@ -140,7 +140,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -148,15 +149,15 @@
   },
   "active": "bf524eefe91e5aa9",
   "lastOpenFiles": [
-    "-- START HERE.md",
+    "START HERE.md",
+    "Introduction Presentation.md",
+    "example case/domain-iwa.temp.md",
+    "example case/- tasks for example files.md",
     "README.md",
     "-- templates/domain or ip.md",
     "-- templates/person.md",
     "example case/poi-Allister Kemp.md",
     "example case/poi-Gabriella Parkington.md",
-    "example case/poi-Isiah Kemp.md",
-    "example case/Example standalone mindmap.md",
-    "example case/- tasks for example files.md",
-    "example case/domain-iwa.temp.md"
+    "example case/poi-Isiah Kemp.md"
   ]
 }

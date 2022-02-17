@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "-- START HERE",
-      "path": "-- START HERE.md"
+      "basename": "START HERE",
+      "path": "START HERE.md"
+    },
+    {
+      "basename": "Introduction Presentation",
+      "path": "Introduction Presentation.md"
+    },
+    {
+      "basename": "domain-iwa.temp",
+      "path": "example case/domain-iwa.temp.md"
+    },
+    {
+      "basename": "- tasks for example files",
+      "path": "example case/- tasks for example files.md"
     },
     {
       "basename": "README",
@@ -31,14 +43,6 @@
     {
       "basename": "Example standalone mindmap",
       "path": "example case/Example standalone mindmap.md"
-    },
-    {
-      "basename": "- tasks for example files",
-      "path": "example case/- tasks for example files.md"
-    },
-    {
-      "basename": "domain-iwa.temp",
-      "path": "example case/domain-iwa.temp.md"
     },
     {
       "basename": "loc-123 Main Street, Anytown, XX, USA 11111",
@@ -195,10 +199,6 @@
     {
       "basename": "Mentoring With Micah",
       "path": "MOT/Courses/Mentoring With Micah.md"
-    },
-    {
-      "basename": "-- Template - Tools",
-      "path": "MOT/Courses/-- Template - Tools.md"
     }
   ],
   "omittedPaths": [],
