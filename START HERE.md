@@ -13,23 +13,30 @@ Instead of me explaining what [Obsidian](https://obsidian.md) is and how to use 
 Both resources walk you through the basics of how Obsidian works and what you can expect in the tool and its files. I strongly urge you to go watch those short videos, read the docs, and take notes. 
 
 ## Templates
-These templates are suggestions of how the Obsidian notetaking tool can be used during an OSINT investigation.  The example data in those files should allow you to make some connections _(see what I did there?)_ between how you record your data during an investigation and some of what the tool can offer FOR FREE!
+These templates are suggestions of how the Obsidian notetaking tool can be used during an OSINT investigation.  The example data in those files should allow you to make some connections _(see what I did there?)_ between how you record your data during an investigation and some of what the tool can offer. 
+
+```ad-tip
+title: Tip: SOP Tasks
+
+Consider adding your Standard Operating Procedure (SOP) tasks to the templates so they automatically populate when you make new notes.
+
+```
 
 ### Use the Templates
 - I created the [[person]] and [[domain or ip]] templates to illustrate how you can templatize the information you might need to collect during an investigation.
 - Consider creating your own templates for other data you need to collect and placing those files in the `--templates` directory.
 - Modify the existing templates to customize them for your needs.
 
-### Linking Files
+## Linking Files
 - One of the most powerful features in Obsidian is the linking of data through `[[]]` tags or `#`. 
 - As you will see in the example case files ([[poi-Allister Kemp]]), Obsidian's ability to link files and tag each with arbitrary tags that YOU make up, is an incredible feature.
 - The "Graph View"  (`ctrl-G` or `Cmd-G`) will use those links you create and show you related content. 
 
-### Tasks
+## Tasks
 - The [[- tasks for example files]] page automatically aggregates all tasks in this vault.
 - To make a task or "to do" item, start a bullet with `[ ] WHAT YOU WANT THE TASK TO BE`. Examples can be found [[poi-Isiah Kemp#Username s]] and [[poi-Gabriella Parkington#Residences]]
 
-### Look At The Examples
+## Look At The Examples
 I created several example notes for you to see just some of the capabilities of this tool and these templates. I suggest starting with your #primary #poi [[poi-Allister Kemp]]. 
 
 ## Always Looking to Improve

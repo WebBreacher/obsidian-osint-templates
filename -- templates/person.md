@@ -1,18 +1,12 @@
 —
 tags: #person
 —
-
-```ad-note
-title: How to use this
-
-1. Delete this admonition box.
-2. Rename the note titel to be the person of interest's name.
-3. Fill in the data below as you acquire it.
-4. Remember to add tags using the `#` and `[[word]]` formats. 
-
-```
-
 # Person of interest
+## Standard Operating Procedures
+- [ ] If person is in an area of the world where People Search Engines exist, search those.
+- [ ] Perform Google queries for all email addresses discovered
+- [ ] For each username found, search https://whatsmyname.app
+
 ## Biographical Data
 ### About the person
 - Given/first name:

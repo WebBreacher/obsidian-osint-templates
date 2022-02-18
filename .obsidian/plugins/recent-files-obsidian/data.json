@@ -9,14 +9,6 @@
       "path": "Introduction Presentation.md"
     },
     {
-      "basename": "domain-iwa.temp",
-      "path": "example case/domain-iwa.temp.md"
-    },
-    {
-      "basename": "- tasks for example files",
-      "path": "example case/- tasks for example files.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
     },
@@ -27,6 +19,14 @@
     {
       "basename": "person",
       "path": "-- templates/person.md"
+    },
+    {
+      "basename": "domain-iwa.temp",
+      "path": "example case/domain-iwa.temp.md"
+    },
+    {
+      "basename": "- tasks for example files",
+      "path": "example case/- tasks for example files.md"
     },
     {
       "basename": "poi-Allister Kemp",

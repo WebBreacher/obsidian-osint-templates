@@ -3,6 +3,11 @@ tags:
 —
 
 # Domains and IP Addresses
+## Standard Operating Procedures
+- [ ] If domain, perform DNS searches
+- [ ] Examine ownership of domain or IP by running WHOIS queries
+- [ ] If domain, perform historic WHOIS queries
+
 ## Domain
 - Web tracking codes
 - Domain creation date(s)
