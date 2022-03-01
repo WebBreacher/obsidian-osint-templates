@@ -5,6 +5,18 @@
       "path": "START HERE.md"
     },
     {
+      "basename": "Search Engine",
+      "path": "Standard Operating Procedures/actions/Search Engine.md"
+    },
+    {
+      "basename": "Business name",
+      "path": "Standard Operating Procedures/data types/Business name.md"
+    },
+    {
+      "basename": "Domain name",
+      "path": "Standard Operating Procedures/data types/Domain name.md"
+    },
+    {
       "basename": "List of Possible locations",
       "path": "example case/List of Possible locations.md"
     },
@@ -187,14 +199,6 @@
     {
       "basename": "Espen Ringstad",
       "path": "People and Companies/Espen Ringstad.md"
-    },
-    {
-      "basename": "Griffin Glynn",
-      "path": "NCPTF/Griffin Glynn.md"
-    },
-    {
-      "basename": "2021-NCPTF-Conference-Notes",
-      "path": "Personal/Event-Notes/2021-NCPTF-Conference-Notes.md"
     }
   ],
   "omittedPaths": [],

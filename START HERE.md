@@ -36,6 +36,12 @@ Consider adding your Standard Operating Procedure (SOP) tasks to the templates s
 - The [[- tasks for example files]] page automatically aggregates all tasks in this vault.
 - To make a task or "to do" item, start a bullet with `[ ] WHAT YOU WANT THE TASK TO BE`. Examples can be found [[poi-Isiah Kemp#Username s]] and [[poi-Gabriella Parkington#Residences]]
 
+## Standard Operating Procedure (SOP) Template
+- Check out the files in the **Standard Operating Procedures** area like the [[Username]] file.
+- That directory path is an example to demonstrate how you can build your SOP (or links to sites you use) into your vault and keep it separate.
+- Using the Graph features, you can then see how certain data could relate to other data.
+	- For example, the [[Username]] data page connects to the [[Username Enumeration]] action note. So, if you find a username and do not know what to do, look in the SOP, see that you need to go to a username enumeration site, and continue working your case.  
+
 ## Look At The Examples
 I created several example notes for you to see just some of the capabilities of this tool and these templates. I suggest starting with your #primary #poi [[poi-Allister Kemp]]. 
 

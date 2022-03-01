@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "2601cc3505dc3cd5",
+        "id": "1b2c17449f34e455",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -145,17 +145,17 @@
     "direction": "horizontal",
     "width": 236
   },
-  "active": "2601cc3505dc3cd5",
+  "active": "1b2c17449f34e455",
   "lastOpenFiles": [
     "START HERE.md",
+    "Standard Operating Procedures/actions/Search Engine.md",
+    "Standard Operating Procedures/data types/Business name.md",
+    "Standard Operating Procedures/data types/Domain name.md",
     "example case/List of Possible locations.md",
     "example case/Location added on 2022-03-01T17-38.md",
     "example case/poi-Isiah Kemp.md",
     "example case/- tasks for example files.md",
     "README.md",
-    "Introduction Presentation.md",
-    "example case/poi-Gabriella Parkington.md",
-    "example case/poi-Allister Kemp.md",
-    "example case/loc-123 Main Street, Anytown, XX, USA 11111.md"
+    "Introduction Presentation.md"
   ]
 }
