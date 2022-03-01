@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bf524eefe91e5aa9",
+        "id": "2601cc3505dc3cd5",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "START HERE.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": true,
             "source": false
-          },
-          "pinned": true
+          }
         }
       }
     ],
@@ -147,12 +145,17 @@
     "direction": "horizontal",
     "width": 236
   },
-  "active": "bf524eefe91e5aa9",
+  "active": "2601cc3505dc3cd5",
   "lastOpenFiles": [
     "START HERE.md",
-    "Introduction Presentation.md",
+    "example case/List of Possible locations.md",
+    "example case/Location added on 2022-03-01T17-38.md",
+    "example case/poi-Isiah Kemp.md",
+    "example case/- tasks for example files.md",
     "README.md",
-    "-- templates/domain or ip.md",
-    "-- templates/person.md"
+    "Introduction Presentation.md",
+    "example case/poi-Gabriella Parkington.md",
+    "example case/poi-Allister Kemp.md",
+    "example case/loc-123 Main Street, Anytown, XX, USA 11111.md"
   ]
 }

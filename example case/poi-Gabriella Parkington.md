@@ -1,6 +1,6 @@
-—
+---
 tags: #person #poi
-—
+---
 
 # Person of interest
 ## Biographical Data

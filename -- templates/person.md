@@ -1,6 +1,6 @@
-—
+---
 tags: #person
-—
+---
 # Person of interest
 ## Standard Operating Procedures
 - [ ] If person is in an area of the world where People Search Engines exist, search those.

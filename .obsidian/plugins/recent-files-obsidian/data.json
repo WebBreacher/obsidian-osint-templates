@@ -5,48 +5,52 @@
       "path": "START HERE.md"
     },
     {
-      "basename": "Introduction Presentation",
-      "path": "Introduction Presentation.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "domain or ip",
-      "path": "-- templates/domain or ip.md"
-    },
-    {
-      "basename": "person",
-      "path": "-- templates/person.md"
-    },
-    {
-      "basename": "domain-iwa.temp",
-      "path": "example case/domain-iwa.temp.md"
-    },
-    {
-      "basename": "- tasks for example files",
-      "path": "example case/- tasks for example files.md"
-    },
-    {
-      "basename": "poi-Allister Kemp",
-      "path": "example case/poi-Allister Kemp.md"
-    },
-    {
-      "basename": "poi-Gabriella Parkington",
-      "path": "example case/poi-Gabriella Parkington.md"
+      "basename": "List of Possible locations",
+      "path": "example case/List of Possible locations.md"
     },
     {
       "basename": "poi-Isiah Kemp",
       "path": "example case/poi-Isiah Kemp.md"
     },
     {
-      "basename": "Example standalone mindmap",
-      "path": "example case/Example standalone mindmap.md"
+      "basename": "- tasks for example files",
+      "path": "example case/- tasks for example files.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Introduction Presentation",
+      "path": "Introduction Presentation.md"
+    },
+    {
+      "basename": "poi-Gabriella Parkington",
+      "path": "example case/poi-Gabriella Parkington.md"
+    },
+    {
+      "basename": "poi-Allister Kemp",
+      "path": "example case/poi-Allister Kemp.md"
     },
     {
       "basename": "loc-123 Main Street, Anytown, XX, USA 11111",
       "path": "example case/loc-123 Main Street, Anytown, XX, USA 11111.md"
+    },
+    {
+      "basename": "Example standalone mindmap",
+      "path": "example case/Example standalone mindmap.md"
+    },
+    {
+      "basename": "domain-iwa.temp",
+      "path": "example case/domain-iwa.temp.md"
+    },
+    {
+      "basename": "person",
+      "path": "-- templates/person.md"
+    },
+    {
+      "basename": "domain or ip",
+      "path": "-- templates/domain or ip.md"
     },
     {
       "basename": "pexels-pixabay-220453",
@@ -191,14 +195,6 @@
     {
       "basename": "2021-NCPTF-Conference-Notes",
       "path": "Personal/Event-Notes/2021-NCPTF-Conference-Notes.md"
-    },
-    {
-      "basename": "Practicing Your OSINT",
-      "path": "MOT/Courses/Practicing Your OSINT.md"
-    },
-    {
-      "basename": "Mentoring With Micah",
-      "path": "MOT/Courses/Mentoring With Micah.md"
     }
   ],
   "omittedPaths": [],
