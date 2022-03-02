@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "1b2c17449f34e455",
+        "id": "69b5a69265875c80",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "START HERE.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": true,
             "source": false
           }
@@ -145,17 +145,17 @@
     "direction": "horizontal",
     "width": 236
   },
-  "active": "1b2c17449f34e455",
+  "active": "69b5a69265875c80",
   "lastOpenFiles": [
     "START HERE.md",
-    "Standard Operating Procedures/actions/Search Engine.md",
-    "Standard Operating Procedures/data types/Business name.md",
-    "Standard Operating Procedures/data types/Domain name.md",
+    "example case/loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia.md",
     "example case/List of Possible locations.md",
-    "example case/Location added on 2022-03-01T17-38.md",
+    "example case/pexels-pixabay-220453.jpg",
+    "example case/poi-Allister Kemp.md",
+    "example case/poi-Gabriella Parkington.md",
     "example case/poi-Isiah Kemp.md",
+    "example case/domain-iwa.temp.md",
     "example case/- tasks for example files.md",
-    "README.md",
-    "Introduction Presentation.md"
+    "-- templates/domain or ip.md"
   ]
 }

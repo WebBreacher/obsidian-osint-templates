@@ -1,5 +1,5 @@
 ---
-tags: #person #poi
+tags: person poi
 ---
 
 # Person of interest
@@ -36,7 +36,7 @@ tags: #person #poi
 ## Residences
 - Current address: 
 	- [ ] Find current residence
-- Prior address 1: [[loc-123 Main Street, Anytown, XX, USA 11111]]
+- Prior address 1: [[example case/loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia]]
 
 ## Employment
 - Company 1:

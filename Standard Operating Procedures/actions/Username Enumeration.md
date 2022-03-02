@@ -1,4 +1,6 @@
-tags: #user #username #action 
+---
+tags: action user username
+---
 
-- Use the https://whatsmyname.app site
-- Use [[Sherlock]]
+- https://whatsmyname.app site
+- Use [[Sherlock]] Python tool

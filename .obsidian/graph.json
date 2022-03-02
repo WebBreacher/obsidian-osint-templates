@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
-  "search": "path:\"Standard Operating Procedures\"",
-  "showTags": false,
+  "search": "path: \"example case\"",
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
@@ -25,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 0.75,
   "linkDistance": 236,
-  "scale": 0.4982223646993616,
+  "scale": 0.9792839810161941,
   "close": false
 }

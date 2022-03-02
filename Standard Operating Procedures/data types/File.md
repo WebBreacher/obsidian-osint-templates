@@ -1,4 +1,6 @@
-tags: #file
+---
+tags: file
+---
 
 # File
 - [[Examine for Metadata]]

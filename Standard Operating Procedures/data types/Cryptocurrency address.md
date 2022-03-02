@@ -1,4 +1,6 @@
-tags: #crypto #cryptocurrency #currency 
+---
+tags: crypto cryptocurrency currency  
+---
 
 # Cryptocurrency address
 

@@ -1,5 +1,5 @@
 ---
-tags: #person #poi #child
+tags: person poi child
 ---
 
 # Person of interest
@@ -36,7 +36,7 @@ tags: #person #poi #child
 - Image of profile - ![[pexels-pixabay-220453.jpg|200]]
 
 ## Residences
-- Current address:  [[loc-123 Main Street, Anytown, XX, USA 11111]]
+- Current address:  [[example case/loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia]]
 - Prior address 1:
 
 ## Employment

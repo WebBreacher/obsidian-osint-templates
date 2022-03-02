@@ -1,4 +1,6 @@
-tags: #person #name #givenname #surname #lastname #firstname
+---
+tags: person name givenname surname lastname firstname
+---
 
 # Person's name
 - [[Government Records]]

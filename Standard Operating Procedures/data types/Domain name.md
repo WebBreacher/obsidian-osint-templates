@@ -1,4 +1,6 @@
-tags: #domain
+---
+tags: domain
+---
 
 # Domain name
 

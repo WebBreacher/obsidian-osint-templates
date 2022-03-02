@@ -1,4 +1,6 @@
-tags: #web #website
+---
+tags: web website webpage
+---
 
 # URL
 - [[Domain name]]

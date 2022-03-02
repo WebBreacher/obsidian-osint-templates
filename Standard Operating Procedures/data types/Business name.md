@@ -1,4 +1,6 @@
-tags: #business #company
+---
+tags: business company 
+---
 
 # Business name
 

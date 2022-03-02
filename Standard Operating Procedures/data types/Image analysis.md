@@ -1,4 +1,6 @@
-tags: #image #avatar
+---
+tags: image avatar
+---
 
 # Image analysis
 - [[Examine for Metadata]]

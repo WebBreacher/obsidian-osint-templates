@@ -1,27 +1,27 @@
 ---
-tags: #property #residential
-location: [4.1611507, -70.7960593]
+tags: property residential
+location: [5.719036,-72.93814]
 ---
 
 ## Map
 ```leaflet
 id: leaflet-map
 height: 500px
-lat: 4.1611507
-long: -70.7960593
+lat: 5.719036
+long: -72.93814
 minZoom: 1
 maxZoom: 16
 defaultZoom: 6
 unit: meters
 scale: 1
-marker: default, 4.1611507, -70.7960593, [[loc-123 Main Street, Anytown, XX, USA 11111]]
+marker: default, 5.719036, -72.93814, Possible Residence
 darkMode: true
 ```
 
 For more details about the options you can use with this plugin, visit https://github.com/valentine195/obsidian-leaflet-plugin
 
 # Residence
-Location: `123 Main Street, Anytown, XX, USA 11111`
+Location: `62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia`
 
 - Owners: [[poi-Allister Kemp]] and [[poi-Gabriella Parkington]]
 - Resident: [[poi-Isiah Kemp]]

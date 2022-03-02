@@ -1,5 +1,5 @@
 ---
-tags: #person
+tags: person
 ---
 # Person of interest
 ## Standard Operating Procedures

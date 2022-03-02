@@ -1,4 +1,6 @@
-tags: #user #username
+---
+tags: user username
+---
 
 # Username
 - [[Guess Email]]

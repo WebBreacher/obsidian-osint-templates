@@ -1,5 +1,5 @@
 ---
-tags:  #domain
+tags: domain
 ---
 
 # Domains and IP Addresses

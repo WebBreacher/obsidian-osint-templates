@@ -1,4 +1,6 @@
-tags: #ipaddress
+---
+tags: ipaddress
+---
 
 # IP address
 - [[Computer Infrastructure]]

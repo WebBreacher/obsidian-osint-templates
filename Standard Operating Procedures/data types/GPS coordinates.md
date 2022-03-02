@@ -1,4 +1,6 @@
-tags: #latitude #lat #lon #longitude #gpsd 
+---
+tags: latitude lat lon longitude gpsd 
+---
 
 # GPS coordinates
 - [[Map Search]]

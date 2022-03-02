@@ -1,4 +1,6 @@
-tags: #address
+---
+tags: location address
+---
 
 # Physical address
 

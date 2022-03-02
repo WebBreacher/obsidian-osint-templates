@@ -5,28 +5,152 @@
       "path": "START HERE.md"
     },
     {
-      "basename": "Search Engine",
-      "path": "Standard Operating Procedures/actions/Search Engine.md"
-    },
-    {
-      "basename": "Business name",
-      "path": "Standard Operating Procedures/data types/Business name.md"
-    },
-    {
-      "basename": "Domain name",
-      "path": "Standard Operating Procedures/data types/Domain name.md"
+      "basename": "loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia",
+      "path": "example case/loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia.md"
     },
     {
       "basename": "List of Possible locations",
       "path": "example case/List of Possible locations.md"
     },
     {
+      "basename": "pexels-pixabay-220453",
+      "path": "example case/pexels-pixabay-220453.jpg"
+    },
+    {
+      "basename": "poi-Allister Kemp",
+      "path": "example case/poi-Allister Kemp.md"
+    },
+    {
+      "basename": "poi-Gabriella Parkington",
+      "path": "example case/poi-Gabriella Parkington.md"
+    },
+    {
       "basename": "poi-Isiah Kemp",
       "path": "example case/poi-Isiah Kemp.md"
     },
     {
+      "basename": "domain-iwa.temp",
+      "path": "example case/domain-iwa.temp.md"
+    },
+    {
       "basename": "- tasks for example files",
       "path": "example case/- tasks for example files.md"
+    },
+    {
+      "basename": "domain or ip",
+      "path": "-- templates/domain or ip.md"
+    },
+    {
+      "basename": "Username",
+      "path": "Standard Operating Procedures/data types/Username.md"
+    },
+    {
+      "basename": "URL",
+      "path": "Standard Operating Procedures/data types/URL.md"
+    },
+    {
+      "basename": "Physical address",
+      "path": "Standard Operating Procedures/data types/Physical address.md"
+    },
+    {
+      "basename": "Phone number",
+      "path": "Standard Operating Procedures/data types/Phone number.md"
+    },
+    {
+      "basename": "Persons name",
+      "path": "Standard Operating Procedures/data types/Persons name.md"
+    },
+    {
+      "basename": "IP address",
+      "path": "Standard Operating Procedures/data types/IP address.md"
+    },
+    {
+      "basename": "Image analysis",
+      "path": "Standard Operating Procedures/data types/Image analysis.md"
+    },
+    {
+      "basename": "GPS coordinates",
+      "path": "Standard Operating Procedures/data types/GPS coordinates.md"
+    },
+    {
+      "basename": "File",
+      "path": "Standard Operating Procedures/data types/File.md"
+    },
+    {
+      "basename": "Email address",
+      "path": "Standard Operating Procedures/data types/Email address.md"
+    },
+    {
+      "basename": "Domain name",
+      "path": "Standard Operating Procedures/data types/Domain name.md"
+    },
+    {
+      "basename": "Cryptocurrency address",
+      "path": "Standard Operating Procedures/data types/Cryptocurrency address.md"
+    },
+    {
+      "basename": "Business name",
+      "path": "Standard Operating Procedures/data types/Business name.md"
+    },
+    {
+      "basename": "WHOIS Search",
+      "path": "Standard Operating Procedures/actions/WHOIS Search.md"
+    },
+    {
+      "basename": "Username Enumeration",
+      "path": "Standard Operating Procedures/actions/Username Enumeration.md"
+    },
+    {
+      "basename": "Search Engine",
+      "path": "Standard Operating Procedures/actions/Search Engine.md"
+    },
+    {
+      "basename": "Reverse Image Search",
+      "path": "Standard Operating Procedures/actions/Reverse Image Search.md"
+    },
+    {
+      "basename": "Real Estate Search",
+      "path": "Standard Operating Procedures/actions/Real Estate Search.md"
+    },
+    {
+      "basename": "People Search Engine",
+      "path": "Standard Operating Procedures/actions/People Search Engine.md"
+    },
+    {
+      "basename": "Map Search",
+      "path": "Standard Operating Procedures/actions/Map Search.md"
+    },
+    {
+      "basename": "HTTPS Certificates",
+      "path": "Standard Operating Procedures/actions/HTTPS Certificates.md"
+    },
+    {
+      "basename": "Email Verification",
+      "path": "Standard Operating Procedures/actions/Email Verification.md"
+    },
+    {
+      "basename": "Computer Infrastructure",
+      "path": "Standard Operating Procedures/actions/Computer Infrastructure.md"
+    },
+    {
+      "basename": "Business Profile Search",
+      "path": "Standard Operating Procedures/actions/Business Profile Search.md"
+    },
+    {
+      "basename": "Breach Site Search",
+      "path": "Standard Operating Procedures/actions/Breach Site Search.md"
+    },
+    {
+      "basename": "Archive Site Search",
+      "path": "Standard Operating Procedures/actions/Archive Site Search.md"
+    },
+    {
+      "basename": "person",
+      "path": "-- templates/person.md"
+    },
+    {
+      "basename": "Example standalone mindmap",
+      "path": "example case/Example standalone mindmap.md"
     },
     {
       "basename": "README",
@@ -35,38 +159,6 @@
     {
       "basename": "Introduction Presentation",
       "path": "Introduction Presentation.md"
-    },
-    {
-      "basename": "poi-Gabriella Parkington",
-      "path": "example case/poi-Gabriella Parkington.md"
-    },
-    {
-      "basename": "poi-Allister Kemp",
-      "path": "example case/poi-Allister Kemp.md"
-    },
-    {
-      "basename": "loc-123 Main Street, Anytown, XX, USA 11111",
-      "path": "example case/loc-123 Main Street, Anytown, XX, USA 11111.md"
-    },
-    {
-      "basename": "Example standalone mindmap",
-      "path": "example case/Example standalone mindmap.md"
-    },
-    {
-      "basename": "domain-iwa.temp",
-      "path": "example case/domain-iwa.temp.md"
-    },
-    {
-      "basename": "person",
-      "path": "-- templates/person.md"
-    },
-    {
-      "basename": "domain or ip",
-      "path": "-- templates/domain or ip.md"
-    },
-    {
-      "basename": "pexels-pixabay-220453",
-      "path": "example case/pexels-pixabay-220453.jpg"
     },
     {
       "basename": "-- Course Tracking Doc",
@@ -107,98 +199,6 @@
     {
       "basename": "Tool- dnstwist",
       "path": "MOT/Courses/Tool- dnstwist.md"
-    },
-    {
-      "basename": "-- Closed Caption Tracker",
-      "path": "MOT/-- Closed Caption Tracker.md"
-    },
-    {
-      "basename": "Introduction to OSINT",
-      "path": "SANS/Introduction to OSINT.md"
-    },
-    {
-      "basename": "202202-Technical transition SEC487 to SANS",
-      "path": "SANS/202202-Technical transition SEC487 to SANS.md"
-    },
-    {
-      "basename": "SEC487 YOURLS Server Setup",
-      "path": "SANS/SEC487 Authorship/SEC487 YOURLS Server Setup.md"
-    },
-    {
-      "basename": "Publishing a course",
-      "path": "MOT/Publishing a course.md"
-    },
-    {
-      "basename": "-- Future - Roadmaps",
-      "path": "MOT/-- Future - Roadmaps.md"
-    },
-    {
-      "basename": "20220124 Rob and Dennis Outcome of Resignation",
-      "path": "SANS/20220124 Rob and Dennis Outcome of Resignation.md"
-    },
-    {
-      "basename": "202202 - SEC487 IP Conversation",
-      "path": "SANS/202202 - SEC487 IP Conversation.md"
-    },
-    {
-      "basename": "SEC487 Authorship",
-      "path": "SANS/SEC487 Authorship/SEC487 Authorship.md"
-    },
-    {
-      "basename": "Social Links PKM Presentation Resources",
-      "path": "Social Links PKM Presentation Resources.md"
-    },
-    {
-      "basename": "Spotlight Banking",
-      "path": "Spotlight/Admin/Spotlight Banking.md"
-    },
-    {
-      "basename": "Business Address Change",
-      "path": "Spotlight/Admin/Business Address Change.md"
-    },
-    {
-      "basename": "2022 Suntrust to Novo Doc",
-      "path": "Spotlight/Admin/2022 Suntrust to Novo Doc.md"
-    },
-    {
-      "basename": "2022 Close bank account and Change of address",
-      "path": "Spotlight/Admin/2022 Close bank account and Change of address.md"
-    },
-    {
-      "basename": "Discord",
-      "path": "SOP/Social-Media/Discord.md"
-    },
-    {
-      "basename": "Flickr",
-      "path": "SOP/Social-Media/Flickr.md"
-    },
-    {
-      "basename": "Good-resources",
-      "path": "SOP/Good-resources.md"
-    },
-    {
-      "basename": "Telegram",
-      "path": "SOP/Social-Media/Telegram.md"
-    },
-    {
-      "basename": "2022 NCPTF conference",
-      "path": "NCPTF/2022 NCPTF conference.md"
-    },
-    {
-      "basename": "Methodology and Investigative Spirit",
-      "path": "MOT/Courses/Methodology and Investigative Spirit.md"
-    },
-    {
-      "basename": "Geolocation",
-      "path": "MOT/Courses/Geolocation.md"
-    },
-    {
-      "basename": "Tool- Spiderfoot",
-      "path": "MOT/Courses/Tool- Spiderfoot.md"
-    },
-    {
-      "basename": "Espen Ringstad",
-      "path": "People and Companies/Espen Ringstad.md"
     }
   ],
   "omittedPaths": [],

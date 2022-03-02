@@ -1,4 +1,6 @@
-tags: #phone #phonenumber
+---
+tags: phone phonenumber
+---
 
 # Phone number
 - [[People Search Engine]]

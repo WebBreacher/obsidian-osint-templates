@@ -1,4 +1,6 @@
-tags: #email #emailaddress
+---
+tags: email emailaddress
+---
 
 # Email address
 
