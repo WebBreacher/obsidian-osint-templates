@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Standard Operating Procedures/data types/IP address.md",
-            "mode": "source",
+            "file": "START HERE.md",
+            "mode": "preview",
             "backlinks": true,
             "source": false
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Standard Operating Procedures/data types/IP address.md",
+                "file": "START HERE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Standard Operating Procedures/data types/IP address.md",
+                "file": "START HERE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Standard Operating Procedures/data types/IP address.md"
+                "file": "START HERE.md"
               }
             }
           },
@@ -147,9 +147,9 @@
   },
   "active": "69b5a69265875c80",
   "lastOpenFiles": [
+    "START HERE.md",
     "Standard Operating Procedures/data types/IP address.md",
     "-- templates/domain or ip.md",
-    "START HERE.md",
     "example case/loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia.md",
     "example case/List of Possible locations.md",
     "example case/pexels-pixabay-220453.jpg",
