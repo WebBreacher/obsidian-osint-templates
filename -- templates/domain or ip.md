@@ -2,6 +2,8 @@
 tags: 
 ---
 
+# General Notes
+
 # Domains and IP Addresses
 ## Standard Operating Procedures
 - [ ] If domain, perform DNS searches
@@ -9,11 +11,11 @@ tags:
 - [ ] If domain, perform historic WHOIS queries
 
 ## Domain
-- Web tracking codes
-- Domain creation date(s)
-- Subdomains
-- Components
-- Cookies
+### Web tracking codes
+### Domain creation date(s)
+### Subdomains
+### Components
+### Cookies
 
 ## Whois Data
 ### Current Registration
@@ -73,15 +75,23 @@ tags:
 - Location
 - ASN
 
-## TLS/SSL Certificate History
+## Services
+### Ports Open
+
+### TLS/SSL Certificate History
 - Phone Number(s)
 - E-mail address(es)
 - IP address(es)
 
 ##  DNS Entries
-- MX record(s)
-- NS record(s)
-- TXT record(s)
-- A record(s)
-- CNAME record(s)
-- SOA
+### A record(s)
+
+### CNAME record(s)
+
+### MX record(s)
+
+### NS record(s)
+
+### SOA
+
+### TXT record(s)

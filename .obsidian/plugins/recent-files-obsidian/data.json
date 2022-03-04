@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "IP address",
+      "path": "Standard Operating Procedures/data types/IP address.md"
+    },
+    {
+      "basename": "domain or ip",
+      "path": "-- templates/domain or ip.md"
+    },
+    {
       "basename": "START HERE",
       "path": "START HERE.md"
     },
@@ -37,10 +45,6 @@
       "path": "example case/- tasks for example files.md"
     },
     {
-      "basename": "domain or ip",
-      "path": "-- templates/domain or ip.md"
-    },
-    {
       "basename": "Username",
       "path": "Standard Operating Procedures/data types/Username.md"
     },
@@ -59,10 +63,6 @@
     {
       "basename": "Persons name",
       "path": "Standard Operating Procedures/data types/Persons name.md"
-    },
-    {
-      "basename": "IP address",
-      "path": "Standard Operating Procedures/data types/IP address.md"
     },
     {
       "basename": "Image analysis",
