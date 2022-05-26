@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "START HERE.md",
-            "mode": "preview",
+            "file": "Introduction Presentation.md",
+            "mode": "source",
             "backlinks": true,
             "source": false
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "START HERE.md",
+                "file": "Introduction Presentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "START HERE.md",
+                "file": "Introduction Presentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "START HERE.md"
+                "file": "Introduction Presentation.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "69b5a69265875c80",
   "lastOpenFiles": [
+    "Introduction Presentation.md",
+    "example case/loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia.md",
+    "example case/loc-62.md",
+    "example case/poi-Isiah Kemp.md",
+    "example case/poi-Gabriella Parkington.md",
+    "example case/poi-Allister Kemp.md",
+    "example case/List of Possible locations.md",
     "START HERE.md",
     "Standard Operating Procedures/data types/IP address.md",
-    "-- templates/domain or ip.md",
-    "example case/loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia.md",
-    "example case/List of Possible locations.md",
-    "example case/pexels-pixabay-220453.jpg",
-    "example case/poi-Allister Kemp.md",
-    "example case/poi-Gabriella Parkington.md",
-    "example case/poi-Isiah Kemp.md",
-    "example case/domain-iwa.temp.md"
+    "-- templates/domain or ip.md"
   ]
 }

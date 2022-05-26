@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Introduction Presentation",
+      "path": "Introduction Presentation.md"
+    },
+    {
+      "basename": "loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia",
+      "path": "example case/loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia.md"
+    },
+    {
+      "basename": "poi-Isiah Kemp",
+      "path": "example case/poi-Isiah Kemp.md"
+    },
+    {
+      "basename": "poi-Gabriella Parkington",
+      "path": "example case/poi-Gabriella Parkington.md"
+    },
+    {
+      "basename": "poi-Allister Kemp",
+      "path": "example case/poi-Allister Kemp.md"
+    },
+    {
+      "basename": "List of Possible locations",
+      "path": "example case/List of Possible locations.md"
+    },
+    {
       "basename": "START HERE",
       "path": "START HERE.md"
     },
@@ -13,28 +37,8 @@
       "path": "-- templates/domain or ip.md"
     },
     {
-      "basename": "loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia",
-      "path": "example case/loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia.md"
-    },
-    {
-      "basename": "List of Possible locations",
-      "path": "example case/List of Possible locations.md"
-    },
-    {
       "basename": "pexels-pixabay-220453",
       "path": "example case/pexels-pixabay-220453.jpg"
-    },
-    {
-      "basename": "poi-Allister Kemp",
-      "path": "example case/poi-Allister Kemp.md"
-    },
-    {
-      "basename": "poi-Gabriella Parkington",
-      "path": "example case/poi-Gabriella Parkington.md"
-    },
-    {
-      "basename": "poi-Isiah Kemp",
-      "path": "example case/poi-Isiah Kemp.md"
     },
     {
       "basename": "domain-iwa.temp",
@@ -157,10 +161,6 @@
       "path": "README.md"
     },
     {
-      "basename": "Introduction Presentation",
-      "path": "Introduction Presentation.md"
-    },
-    {
       "basename": "-- Course Tracking Doc",
       "path": "MOT/-- Course Tracking Doc.md"
     },
@@ -195,10 +195,6 @@
     {
       "basename": "Chronolocation",
       "path": "MOT/Courses/Chronolocation.md"
-    },
-    {
-      "basename": "Tool- dnstwist",
-      "path": "MOT/Courses/Tool- dnstwist.md"
     }
   ],
   "omittedPaths": [],
