@@ -3,7 +3,7 @@ tags: person
 ---
 # Person of interest
 ## Standard Operating Procedures
-- [ ] If person is in an area of the world where People Search Engines exist, search those.
+- [ ] If person is in an area of the world where People Search Engines exist, search those - [[People Search Engine]].
 - [ ] Perform Google queries for all email addresses discovered
 - [ ] For each username found, search https://whatsmyname.app
 
@@ -15,6 +15,7 @@ tags: person
 - Unmarried/maiden name:
 - Also known as:
 - Date of birth:
+- [ ] Use the [[Persons name]] actions
 
 ### Family Members
 ```ad-tip
@@ -34,12 +35,15 @@ title: How to use this
 ## Selectors
 ### Phone number(s)
 - Phone 1:
+- [ ] Use the [[Phone number]] actions
 
 ### Email address(es)
 - Email 1:
+- [ ] Use the [[Email address]] actions
 
 ### Username(s)
 - Username 1:
+- [ ] Perform [[Username]] actions
 
 ### Social media account(s)
 - URL to profile 1:
@@ -47,6 +51,7 @@ title: How to use this
 ## Residences
 - Current address: 
 - Prior address 1:
+- [ ] Use the [[Physical address]] actions
 
 ## Employment
 ```ad-tip
@@ -58,6 +63,7 @@ title: How to use this
 
 ```
 - Company 1: 
+- [ ] Use the [[Business name]] actions
 
 ## Education
 - School 1 name

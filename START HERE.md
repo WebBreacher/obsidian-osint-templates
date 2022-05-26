@@ -29,12 +29,12 @@ Consider adding your Standard Operating Procedure (SOP) tasks to the templates s
 
 ## Linking Files
 - One of the most powerful features in Obsidian is the linking of data through `[[]]` tags or `#`. 
-- As you will see in the example case files ([[poi-Allister Kemp]]), Obsidian's ability to link files and tag each with arbitrary tags that YOU make up, is an incredible feature.
+- As you will see in the example case files ([[Allister Kemp]]), Obsidian's ability to link files and tag each with arbitrary tags that YOU make up, is an incredible feature.
 - The "Graph View"  (`ctrl-G` or `Cmd-G`) will use those links you create and show you related content. 
 
 ## Tasks
-- The [[- tasks for example files]] page automatically aggregates all tasks in this vault.
-- To make a task or "to do" item, start a bullet with `[ ] WHAT YOU WANT THE TASK TO BE`. Examples can be found [[poi-Isiah Kemp#Username s]] and [[poi-Gabriella Parkington#Residences]]
+- The [[-tasks for example files]] page automatically aggregates all tasks in this vault.
+- To make a task or "to do" item, start a bullet with `[ ] WHAT YOU WANT THE TASK TO BE`. Examples can be found [[Isiah Kemp#Username s]] and [[Gabriella Parkington#Residences]]
 
 ## Standard Operating Procedure (SOP) Template
 - Check out the files in the **Standard Operating Procedures** area like the [[Username]] file.
@@ -43,7 +43,7 @@ Consider adding your Standard Operating Procedure (SOP) tasks to the templates s
 	- For example, the [[Username]] data page connects to the [[Username Enumeration]] action note. So, if you find a username and do not know what to do, look in the SOP, see that you need to go to a username enumeration site, and continue working your case.  
 
 ## Look At The Examples
-I created several example notes for you to see just some of the capabilities of this tool and these templates. I suggest starting with your #primary #poi [[poi-Allister Kemp]]. 
+I created several example notes for you to see just some of the capabilities of this tool and these templates. I suggest starting with your #primary #poi [[Allister Kemp]]. 
 
 ## Always Looking to Improve
 Do you have suggestions on how to improve these templates? Want to contribute to the project?

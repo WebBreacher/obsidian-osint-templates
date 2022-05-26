@@ -20,13 +20,13 @@ tags: domain
 ## Whois Data
 ### Current Registration
 #### Administrative contact
-- Name: [[poi-Allister Kemp]]
+- Name: [[Allister Kemp]]
 - Company: REDACTED
 - Physical address: REDACTED
 - Email: REDACTED
 - Phone: REDACTED
 #### Technical contact
-- Name: [[poi-Allister Kemp]]
+- Name: [[Allister Kemp]]
 - Company: REDACTED
 - Physical address: REDACTED
 - Email: REDACTED

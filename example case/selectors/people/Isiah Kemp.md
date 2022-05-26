@@ -13,8 +13,8 @@ tags: person poi child
 - Date of birth: **February 29, 2001**
 
 ### Family Members
-- Mother: [[poi-Gabriella Parkington]]
-- Father: [[poi-Allister Kemp]]
+- Mother: [[Gabriella Parkington]]
+- Father: [[Allister Kemp]]
 - Sibling 1: 
 - Spouse/partner: 
 - Child 1:
@@ -36,7 +36,7 @@ tags: person poi child
 - Image of profile - ![[pexels-pixabay-220453.jpg|200]]
 
 ## Residences
-- Current address:  [[example case/loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia]]
+- Current address:  [[62 Number 20-83 a 20-15, Sogamoso, Boyacá, Colombia]]
 - Prior address 1:
 
 ## Employment

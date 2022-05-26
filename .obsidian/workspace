@@ -4,15 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "69b5a69265875c80",
+        "id": "42e60ebe6bce9783",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Introduction Presentation.md",
-            "mode": "source",
+            "file": "START HERE.md",
+            "mode": "preview",
             "backlinks": true,
-            "source": false
+            "source": true
           }
         }
       }
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "allister kemp2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction Presentation.md",
+                "file": "START HERE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction Presentation.md",
+                "file": "START HERE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction Presentation.md"
+                "file": "START HERE.md"
               }
             }
           },
@@ -139,23 +139,23 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 236
   },
-  "active": "69b5a69265875c80",
+  "active": "42e60ebe6bce9783",
   "lastOpenFiles": [
-    "Introduction Presentation.md",
-    "example case/loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia.md",
-    "example case/loc-62.md",
-    "example case/poi-Isiah Kemp.md",
-    "example case/poi-Gabriella Parkington.md",
-    "example case/poi-Allister Kemp.md",
-    "example case/List of Possible locations.md",
     "START HERE.md",
-    "Standard Operating Procedures/data types/IP address.md",
-    "-- templates/domain or ip.md"
+    "example case/selectors/people/Allister Kemp.md",
+    "example case/selectors/people/Gabriella Parkington.md",
+    "example case/selectors/people/Isiah Kemp.md",
+    "example case/loc-62.md",
+    "Introduction Presentation.md",
+    "example case/selectors/domains/iwa.temp.md",
+    "example case/selectors/locations/62 Number 20-83 a 20-15, Sogamoso, Boyacá, Colombia.md",
+    "example case/selectors/people/Gabriella Parkington3.md",
+    "example case/selectors/locations/62.md"
   ]
 }

@@ -9,5 +9,6 @@
   "newFileLocation": "current",
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "fileSortOrder": "alphabetical"
+  "fileSortOrder": "alphabetical",
+  "attachmentFolderPath": "example case/media"
 }

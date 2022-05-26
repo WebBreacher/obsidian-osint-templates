@@ -420,13 +420,13 @@ const guillemetRules = [
     {
         trigger: "<",
         from: "<<",
-        to: "«",
+        to: (settings) => settings.openGuillemet,
         contextMatch: /<$/,
     },
     {
         trigger: ">",
         from: ">>",
-        to: "»",
+        to: (settings) => settings.closeGuillemet,
         contextMatch: />$/,
     },
 ];
@@ -576,6 +576,8 @@ const DEFAULT_SETTINGS = {
     closeSingle: "’",
     openDouble: "“",
     closeDouble: "”",
+    openGuillemet: "«",
+    closeGuillemet: "»",
     leftArrow: "←",
     rightArrow: "→",
 };
@@ -957,6 +959,26 @@ class SmartTypographySettingTab extends obsidian.PluginSettingTab {
                 yield this.plugin.saveSettings();
             }));
         });
+        new obsidian.Setting(containerEl).setName("Open guillemet").addText((text) => {
+            text
+                .setValue(this.plugin.settings.openGuillemet)
+                .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+                if (!value)
+                    return;
+                this.plugin.settings.openGuillemet = value;
+                yield this.plugin.saveSettings();
+            }));
+        });
+        new obsidian.Setting(containerEl).setName("Close guillemet").addText((text) => {
+            text
+                .setValue(this.plugin.settings.closeGuillemet)
+                .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+                if (!value)
+                    return;
+                this.plugin.settings.closeGuillemet = value;
+                yield this.plugin.saveSettings();
+            }));
+        });
         new obsidian.Setting(containerEl)
             .setName("Arrows")
             .setDesc("<- | -> will be converted to ← | →")
@@ -1018,7 +1040,7 @@ class SmartTypographySettingTab extends obsidian.PluginSettingTab {
         });
     }
 }
-const ignoreListRegEx = /frontmatter|code|math|templater/;
+const ignoreListRegEx = /frontmatter|code|math|templater|hashtag/;
 function shouldCheckTextAtPos(instance, pos) {
     // Empty line
     if (!instance.getLine(pos.line)) {

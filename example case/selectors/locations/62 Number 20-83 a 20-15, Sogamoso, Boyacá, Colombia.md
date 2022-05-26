@@ -23,5 +23,5 @@ For more details about the options you can use with this plugin, visit https://g
 # Residence
 Location: `62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia`
 
-- Owners: [[poi-Allister Kemp]] and [[poi-Gabriella Parkington]]
-- Resident: [[poi-Isiah Kemp]]
+- Owners: [[Allister Kemp]] and [[Gabriella Parkington]]
+- Resident: [[Isiah Kemp]]

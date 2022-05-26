@@ -1,52 +1,100 @@
 {
   "recentFiles": [
     {
-      "basename": "Introduction Presentation",
-      "path": "Introduction Presentation.md"
-    },
-    {
-      "basename": "loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia",
-      "path": "example case/loc-62 #20-83 a 20-15, Sogamoso, Boyacá, Colombia.md"
-    },
-    {
-      "basename": "poi-Isiah Kemp",
-      "path": "example case/poi-Isiah Kemp.md"
-    },
-    {
-      "basename": "poi-Gabriella Parkington",
-      "path": "example case/poi-Gabriella Parkington.md"
-    },
-    {
-      "basename": "poi-Allister Kemp",
-      "path": "example case/poi-Allister Kemp.md"
-    },
-    {
-      "basename": "List of Possible locations",
-      "path": "example case/List of Possible locations.md"
-    },
-    {
       "basename": "START HERE",
       "path": "START HERE.md"
     },
     {
-      "basename": "IP address",
-      "path": "Standard Operating Procedures/data types/IP address.md"
+      "basename": "Allister Kemp",
+      "path": "example case/selectors/people/Allister Kemp.md"
+    },
+    {
+      "basename": "Gabriella Parkington",
+      "path": "example case/selectors/people/Gabriella Parkington.md"
+    },
+    {
+      "basename": "Isiah Kemp",
+      "path": "example case/selectors/people/Isiah Kemp.md"
+    },
+    {
+      "basename": "Introduction Presentation",
+      "path": "Introduction Presentation.md"
+    },
+    {
+      "basename": "iwa.temp",
+      "path": "example case/selectors/domains/iwa.temp.md"
+    },
+    {
+      "basename": "62 Number 20-83 a 20-15, Sogamoso, Boyacá, Colombia",
+      "path": "example case/selectors/locations/62 Number 20-83 a 20-15, Sogamoso, Boyacá, Colombia.md"
+    },
+    {
+      "basename": "Domain name",
+      "path": "Standard Operating Procedures/data types/Domain name.md"
     },
     {
       "basename": "domain or ip",
       "path": "-- templates/domain or ip.md"
     },
     {
+      "basename": "person",
+      "path": "-- templates/person.md"
+    },
+    {
+      "basename": "Persons name",
+      "path": "Standard Operating Procedures/data types/Persons name.md"
+    },
+    {
+      "basename": "Email address",
+      "path": "Standard Operating Procedures/data types/Email address.md"
+    },
+    {
+      "basename": "Breach Site Search",
+      "path": "Standard Operating Procedures/actions/Breach Site Search.md"
+    },
+    {
+      "basename": "-tasks for example files",
+      "path": "example case/-tasks for example files.md"
+    },
+    {
+      "basename": "Example standalone mindmap",
+      "path": "example case/Example standalone mindmap.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "WHOIS Search",
+      "path": "Standard Operating Procedures/actions/WHOIS Search.md"
+    },
+    {
+      "basename": "Reverse Image Search",
+      "path": "Standard Operating Procedures/actions/Reverse Image Search.md"
+    },
+    {
+      "basename": "Real Estate Search",
+      "path": "Standard Operating Procedures/actions/Real Estate Search.md"
+    },
+    {
+      "basename": "People Search Engine",
+      "path": "Standard Operating Procedures/actions/People Search Engine.md"
+    },
+    {
+      "basename": "Business name",
+      "path": "Standard Operating Procedures/data types/Business name.md"
+    },
+    {
+      "basename": "List of Possible locations",
+      "path": "example case/selectors/locations/List of Possible locations.md"
+    },
+    {
+      "basename": "IP address",
+      "path": "Standard Operating Procedures/data types/IP address.md"
+    },
+    {
       "basename": "pexels-pixabay-220453",
-      "path": "example case/pexels-pixabay-220453.jpg"
-    },
-    {
-      "basename": "domain-iwa.temp",
-      "path": "example case/domain-iwa.temp.md"
-    },
-    {
-      "basename": "- tasks for example files",
-      "path": "example case/- tasks for example files.md"
+      "path": "example case/media/pexels-pixabay-220453.jpg"
     },
     {
       "basename": "Username",
@@ -65,10 +113,6 @@
       "path": "Standard Operating Procedures/data types/Phone number.md"
     },
     {
-      "basename": "Persons name",
-      "path": "Standard Operating Procedures/data types/Persons name.md"
-    },
-    {
       "basename": "Image analysis",
       "path": "Standard Operating Procedures/data types/Image analysis.md"
     },
@@ -81,24 +125,8 @@
       "path": "Standard Operating Procedures/data types/File.md"
     },
     {
-      "basename": "Email address",
-      "path": "Standard Operating Procedures/data types/Email address.md"
-    },
-    {
-      "basename": "Domain name",
-      "path": "Standard Operating Procedures/data types/Domain name.md"
-    },
-    {
       "basename": "Cryptocurrency address",
       "path": "Standard Operating Procedures/data types/Cryptocurrency address.md"
-    },
-    {
-      "basename": "Business name",
-      "path": "Standard Operating Procedures/data types/Business name.md"
-    },
-    {
-      "basename": "WHOIS Search",
-      "path": "Standard Operating Procedures/actions/WHOIS Search.md"
     },
     {
       "basename": "Username Enumeration",
@@ -107,18 +135,6 @@
     {
       "basename": "Search Engine",
       "path": "Standard Operating Procedures/actions/Search Engine.md"
-    },
-    {
-      "basename": "Reverse Image Search",
-      "path": "Standard Operating Procedures/actions/Reverse Image Search.md"
-    },
-    {
-      "basename": "Real Estate Search",
-      "path": "Standard Operating Procedures/actions/Real Estate Search.md"
-    },
-    {
-      "basename": "People Search Engine",
-      "path": "Standard Operating Procedures/actions/People Search Engine.md"
     },
     {
       "basename": "Map Search",
@@ -141,24 +157,8 @@
       "path": "Standard Operating Procedures/actions/Business Profile Search.md"
     },
     {
-      "basename": "Breach Site Search",
-      "path": "Standard Operating Procedures/actions/Breach Site Search.md"
-    },
-    {
       "basename": "Archive Site Search",
       "path": "Standard Operating Procedures/actions/Archive Site Search.md"
-    },
-    {
-      "basename": "person",
-      "path": "-- templates/person.md"
-    },
-    {
-      "basename": "Example standalone mindmap",
-      "path": "example case/Example standalone mindmap.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "-- Course Tracking Doc",
@@ -191,10 +191,6 @@
     {
       "basename": "Sock Puppet Creation and Maintenance",
       "path": "MOT/Courses/Sock Puppet Creation and Maintenance.md"
-    },
-    {
-      "basename": "Chronolocation",
-      "path": "MOT/Courses/Chronolocation.md"
     }
   ],
   "omittedPaths": [],
