@@ -7,6 +7,7 @@ tags:
 # Domains and IP Addresses
 ## Standard Operating Procedures
 - [ ] If domain, then use the [[Domain name]] actions
+- [ ] If IP, then use the [[IP address]] actions
 - [ ] Examine ownership of domain or IP by running [[WHOIS Search]]
 
 ## Domain
@@ -69,21 +70,20 @@ tags:
 #### Name Servers
 - Name server 1
 
-
 ## IP Address Owner
 - Company name
 - Location
 - ASN
 
 ## Services
-- [ ] [[Computer Infrastructure]]
+- [ ] Check [[Computer infrastructure]]
 ### Ports Open
 
 ### TLS/SSL Certificate History
 - Phone Number(s)
 - E-mail address(es)
 - IP address(es)
-- [ ] Use [[HTTPS Certificates]]
+- [ ] Use [[Encryption certificates]]
 
 ##  DNS Entries
 ### A record(s)

@@ -1,11 +1,11 @@
 ---
-tags: person
+tags: person poi
 ---
 # Person of interest
 ## Standard Operating Procedures
 - [ ] If person is in an area of the world where People Search Engines exist, search those - [[People Search Engine]].
 - [ ] Perform Google queries for all email addresses discovered
-- [ ] For each username found, search https://whatsmyname.app
+- [ ] For each username found, use [[Username]]
 
 ## Biographical Data
 ### About the person

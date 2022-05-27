@@ -1,6 +1,7 @@
-## All Open Tasks
+## All Open Tasks in `examplecase`
 ```tasks
 not done
+path includes examplecase
 sort by path
 
 ```

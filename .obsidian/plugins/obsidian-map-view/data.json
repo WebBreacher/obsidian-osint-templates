@@ -78,6 +78,11 @@
   "useGooglePlaces": false,
   "mapSources": [
     {
+      "name": "CartoDB",
+      "urlLight": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+      "preset": true
+    },
+    {
       "name": "Default",
       "urlLight": "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
     }

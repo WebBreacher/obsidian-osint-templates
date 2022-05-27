@@ -5,16 +5,100 @@
       "path": "START HERE.md"
     },
     {
-      "basename": "Allister Kemp",
-      "path": "example case/selectors/people/Allister Kemp.md"
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "-tasks for example files",
+      "path": "examplecase/-tasks for example files.md"
+    },
+    {
+      "basename": "person",
+      "path": "-- templates/person.md"
+    },
+    {
+      "basename": "domain or ip",
+      "path": "-- templates/domain or ip.md"
     },
     {
       "basename": "Gabriella Parkington",
-      "path": "example case/selectors/people/Gabriella Parkington.md"
+      "path": "examplecase/selectors/people/Gabriella Parkington.md"
     },
     {
       "basename": "Isiah Kemp",
-      "path": "example case/selectors/people/Isiah Kemp.md"
+      "path": "examplecase/selectors/people/Isiah Kemp.md"
+    },
+    {
+      "basename": "Computer infrastructure",
+      "path": "Standard Operating Procedures/Computer infrastructure.md"
+    },
+    {
+      "basename": "Username",
+      "path": "Standard Operating Procedures/Username.md"
+    },
+    {
+      "basename": "URL",
+      "path": "Standard Operating Procedures/URL.md"
+    },
+    {
+      "basename": "Search engine",
+      "path": "Standard Operating Procedures/Search engine.md"
+    },
+    {
+      "basename": "Physical address",
+      "path": "Standard Operating Procedures/Physical address.md"
+    },
+    {
+      "basename": "Phone number",
+      "path": "Standard Operating Procedures/Phone number.md"
+    },
+    {
+      "basename": "Persons name",
+      "path": "Standard Operating Procedures/Persons name.md"
+    },
+    {
+      "basename": "People Search Engine",
+      "path": "Standard Operating Procedures/People Search Engine.md"
+    },
+    {
+      "basename": "IP address",
+      "path": "Standard Operating Procedures/IP address.md"
+    },
+    {
+      "basename": "Encryption certificates",
+      "path": "Standard Operating Procedures/Encryption certificates.md"
+    },
+    {
+      "basename": "Image analysis",
+      "path": "Standard Operating Procedures/Image analysis.md"
+    },
+    {
+      "basename": "GPS coordinates",
+      "path": "Standard Operating Procedures/GPS coordinates.md"
+    },
+    {
+      "basename": "File",
+      "path": "Standard Operating Procedures/File.md"
+    },
+    {
+      "basename": "Email address",
+      "path": "Standard Operating Procedures/Email address.md"
+    },
+    {
+      "basename": "Domain name",
+      "path": "Standard Operating Procedures/Domain name.md"
+    },
+    {
+      "basename": "Business name",
+      "path": "Standard Operating Procedures/Business name.md"
+    },
+    {
+      "basename": "Breach Data",
+      "path": "Standard Operating Procedures/Breach Data.md"
+    },
+    {
+      "basename": "Allister Kemp",
+      "path": "examplecase/selectors/people/Allister Kemp.md"
     },
     {
       "basename": "Introduction Presentation",
@@ -22,143 +106,23 @@
     },
     {
       "basename": "iwa.temp",
-      "path": "example case/selectors/domains/iwa.temp.md"
+      "path": "examplecase/selectors/domains/iwa.temp.md"
     },
     {
       "basename": "62 Number 20-83 a 20-15, Sogamoso, Boyacá, Colombia",
-      "path": "example case/selectors/locations/62 Number 20-83 a 20-15, Sogamoso, Boyacá, Colombia.md"
-    },
-    {
-      "basename": "Domain name",
-      "path": "Standard Operating Procedures/data types/Domain name.md"
-    },
-    {
-      "basename": "domain or ip",
-      "path": "-- templates/domain or ip.md"
-    },
-    {
-      "basename": "person",
-      "path": "-- templates/person.md"
-    },
-    {
-      "basename": "Persons name",
-      "path": "Standard Operating Procedures/data types/Persons name.md"
-    },
-    {
-      "basename": "Email address",
-      "path": "Standard Operating Procedures/data types/Email address.md"
-    },
-    {
-      "basename": "Breach Site Search",
-      "path": "Standard Operating Procedures/actions/Breach Site Search.md"
-    },
-    {
-      "basename": "-tasks for example files",
-      "path": "example case/-tasks for example files.md"
+      "path": "examplecase/selectors/locations/62 Number 20-83 a 20-15, Sogamoso, Boyacá, Colombia.md"
     },
     {
       "basename": "Example standalone mindmap",
-      "path": "example case/Example standalone mindmap.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "WHOIS Search",
-      "path": "Standard Operating Procedures/actions/WHOIS Search.md"
-    },
-    {
-      "basename": "Reverse Image Search",
-      "path": "Standard Operating Procedures/actions/Reverse Image Search.md"
-    },
-    {
-      "basename": "Real Estate Search",
-      "path": "Standard Operating Procedures/actions/Real Estate Search.md"
-    },
-    {
-      "basename": "People Search Engine",
-      "path": "Standard Operating Procedures/actions/People Search Engine.md"
-    },
-    {
-      "basename": "Business name",
-      "path": "Standard Operating Procedures/data types/Business name.md"
+      "path": "examplecase/Example standalone mindmap.md"
     },
     {
       "basename": "List of Possible locations",
-      "path": "example case/selectors/locations/List of Possible locations.md"
-    },
-    {
-      "basename": "IP address",
-      "path": "Standard Operating Procedures/data types/IP address.md"
+      "path": "examplecase/selectors/locations/List of Possible locations.md"
     },
     {
       "basename": "pexels-pixabay-220453",
-      "path": "example case/media/pexels-pixabay-220453.jpg"
-    },
-    {
-      "basename": "Username",
-      "path": "Standard Operating Procedures/data types/Username.md"
-    },
-    {
-      "basename": "URL",
-      "path": "Standard Operating Procedures/data types/URL.md"
-    },
-    {
-      "basename": "Physical address",
-      "path": "Standard Operating Procedures/data types/Physical address.md"
-    },
-    {
-      "basename": "Phone number",
-      "path": "Standard Operating Procedures/data types/Phone number.md"
-    },
-    {
-      "basename": "Image analysis",
-      "path": "Standard Operating Procedures/data types/Image analysis.md"
-    },
-    {
-      "basename": "GPS coordinates",
-      "path": "Standard Operating Procedures/data types/GPS coordinates.md"
-    },
-    {
-      "basename": "File",
-      "path": "Standard Operating Procedures/data types/File.md"
-    },
-    {
-      "basename": "Cryptocurrency address",
-      "path": "Standard Operating Procedures/data types/Cryptocurrency address.md"
-    },
-    {
-      "basename": "Username Enumeration",
-      "path": "Standard Operating Procedures/actions/Username Enumeration.md"
-    },
-    {
-      "basename": "Search Engine",
-      "path": "Standard Operating Procedures/actions/Search Engine.md"
-    },
-    {
-      "basename": "Map Search",
-      "path": "Standard Operating Procedures/actions/Map Search.md"
-    },
-    {
-      "basename": "HTTPS Certificates",
-      "path": "Standard Operating Procedures/actions/HTTPS Certificates.md"
-    },
-    {
-      "basename": "Email Verification",
-      "path": "Standard Operating Procedures/actions/Email Verification.md"
-    },
-    {
-      "basename": "Computer Infrastructure",
-      "path": "Standard Operating Procedures/actions/Computer Infrastructure.md"
-    },
-    {
-      "basename": "Business Profile Search",
-      "path": "Standard Operating Procedures/actions/Business Profile Search.md"
-    },
-    {
-      "basename": "Archive Site Search",
-      "path": "Standard Operating Procedures/actions/Archive Site Search.md"
+      "path": "examplecase/media/pexels-pixabay-220453.jpg"
     },
     {
       "basename": "-- Course Tracking Doc",

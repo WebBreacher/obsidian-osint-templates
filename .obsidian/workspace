@@ -4,15 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "42e60ebe6bce9783",
+        "id": "c018edbd54248172",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "START HERE.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": true,
-            "source": true
+            "source": false
           }
         }
       }
@@ -138,24 +138,23 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 236
   },
-  "active": "42e60ebe6bce9783",
+  "active": "c018edbd54248172",
   "lastOpenFiles": [
     "START HERE.md",
-    "example case/selectors/people/Allister Kemp.md",
-    "example case/selectors/people/Gabriella Parkington.md",
-    "example case/selectors/people/Isiah Kemp.md",
-    "example case/loc-62.md",
-    "Introduction Presentation.md",
-    "example case/selectors/domains/iwa.temp.md",
-    "example case/selectors/locations/62 Number 20-83 a 20-15, Sogamoso, Boyacá, Colombia.md",
-    "example case/selectors/people/Gabriella Parkington3.md",
-    "example case/selectors/locations/62.md"
+    "README.md",
+    "examplecase/-tasks for example files.md",
+    "-- templates/person.md",
+    "-- templates/domain or ip.md",
+    "examplecase/selectors/people/Gabriella Parkington.md",
+    "examplecase/selectors/people/Isiah Kemp.md",
+    "Standard Operating Procedures/Computer infrastructure.md",
+    "Standard Operating Procedures/Username.md",
+    "Standard Operating Procedures/URL.md"
   ]
 }

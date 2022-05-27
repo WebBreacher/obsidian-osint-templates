@@ -24,11 +24,11 @@ Consider adding your Standard Operating Procedure (SOP) tasks to the templates s
 
 ### Use the Templates
 - I created the [[person]] and [[domain or ip]] templates to illustrate how you can templatize the information you might need to collect during an investigation.
-- Consider creating your own templates for other data you need to collect and placing those files in the `--templates` directory.
+- Consider creating your own templates for other data you need to collect and placing those files in the `-- templates` directory.
 - Modify the existing templates to customize them for your needs.
 
 ## Linking Files
-- One of the most powerful features in Obsidian is the linking of data through `[[]]` tags or `#`. 
+- One of the most powerful features in Obsidian is the linking of data through Wikilink `[[]]` tags or a hashtag (`#`). 
 - As you will see in the example case files ([[Allister Kemp]]), Obsidian's ability to link files and tag each with arbitrary tags that YOU make up, is an incredible feature.
 - The "Graph View"  (`ctrl-G` or `Cmd-G`) will use those links you create and show you related content. 
 
@@ -39,8 +39,6 @@ Consider adding your Standard Operating Procedure (SOP) tasks to the templates s
 ## Standard Operating Procedure (SOP) Template
 - Check out the files in the **Standard Operating Procedures** area like the [[Username]] file.
 - That directory path is an example to demonstrate how you can build your SOP (or links to sites you use) into your vault and keep it separate.
-- Using the Graph features, you can then see how certain data could relate to other data.
-	- For example, the [[Username]] data page connects to the [[Username Enumeration]] action note. So, if you find a username and do not know what to do, look in the SOP, see that you need to go to a username enumeration site, and continue working your case.  
 
 ## Look At The Examples
 I created several example notes for you to see just some of the capabilities of this tool and these templates. I suggest starting with your #primary #poi [[Allister Kemp]]. 
