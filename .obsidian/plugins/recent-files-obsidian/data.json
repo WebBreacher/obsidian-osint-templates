@@ -5,44 +5,12 @@
       "path": "START HERE.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "-tasks for example files",
-      "path": "examplecase/-tasks for example files.md"
-    },
-    {
-      "basename": "person",
-      "path": "-- templates/person.md"
-    },
-    {
-      "basename": "domain or ip",
-      "path": "-- templates/domain or ip.md"
-    },
-    {
-      "basename": "Gabriella Parkington",
-      "path": "examplecase/selectors/people/Gabriella Parkington.md"
-    },
-    {
-      "basename": "Isiah Kemp",
-      "path": "examplecase/selectors/people/Isiah Kemp.md"
-    },
-    {
-      "basename": "Computer infrastructure",
-      "path": "Standard Operating Procedures/Computer infrastructure.md"
-    },
-    {
       "basename": "Username",
       "path": "Standard Operating Procedures/Username.md"
     },
     {
       "basename": "URL",
       "path": "Standard Operating Procedures/URL.md"
-    },
-    {
-      "basename": "Search engine",
-      "path": "Standard Operating Procedures/Search engine.md"
     },
     {
       "basename": "Physical address",
@@ -65,10 +33,6 @@
       "path": "Standard Operating Procedures/IP address.md"
     },
     {
-      "basename": "Encryption certificates",
-      "path": "Standard Operating Procedures/Encryption certificates.md"
-    },
-    {
       "basename": "Image analysis",
       "path": "Standard Operating Procedures/Image analysis.md"
     },
@@ -81,12 +45,20 @@
       "path": "Standard Operating Procedures/File.md"
     },
     {
+      "basename": "Encryption certificates",
+      "path": "Standard Operating Procedures/Encryption certificates.md"
+    },
+    {
       "basename": "Email address",
       "path": "Standard Operating Procedures/Email address.md"
     },
     {
       "basename": "Domain name",
       "path": "Standard Operating Procedures/Domain name.md"
+    },
+    {
+      "basename": "Computer infrastructure",
+      "path": "Standard Operating Procedures/Computer infrastructure.md"
     },
     {
       "basename": "Business name",
@@ -97,28 +69,56 @@
       "path": "Standard Operating Procedures/Breach Data.md"
     },
     {
+      "basename": "Example standalone mindmap",
+      "path": "examplecase/Example standalone mindmap.md"
+    },
+    {
+      "basename": "-tasks for example files",
+      "path": "examplecase/-tasks for example files.md"
+    },
+    {
+      "basename": "Isiah Kemp",
+      "path": "examplecase/selectors/people/Isiah Kemp.md"
+    },
+    {
+      "basename": "Gabriella Parkington",
+      "path": "examplecase/selectors/people/Gabriella Parkington.md"
+    },
+    {
       "basename": "Allister Kemp",
       "path": "examplecase/selectors/people/Allister Kemp.md"
     },
     {
-      "basename": "Introduction Presentation",
-      "path": "Introduction Presentation.md"
-    },
-    {
-      "basename": "iwa.temp",
-      "path": "examplecase/selectors/domains/iwa.temp.md"
+      "basename": "List of Possible locations",
+      "path": "examplecase/selectors/locations/List of Possible locations.md"
     },
     {
       "basename": "62 Number 20-83 a 20-15, Sogamoso, Boyacá, Colombia",
       "path": "examplecase/selectors/locations/62 Number 20-83 a 20-15, Sogamoso, Boyacá, Colombia.md"
     },
     {
-      "basename": "Example standalone mindmap",
-      "path": "examplecase/Example standalone mindmap.md"
+      "basename": "iwa.temp",
+      "path": "examplecase/selectors/domains/iwa.temp.md"
     },
     {
-      "basename": "List of Possible locations",
-      "path": "examplecase/selectors/locations/List of Possible locations.md"
+      "basename": "domain or ip",
+      "path": "-- templates/domain or ip.md"
+    },
+    {
+      "basename": "person",
+      "path": "-- templates/person.md"
+    },
+    {
+      "basename": "Introduction Presentation",
+      "path": "Introduction Presentation.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Search engine",
+      "path": "Standard Operating Procedures/Search engine.md"
     },
     {
       "basename": "pexels-pixabay-220453",

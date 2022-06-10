@@ -14177,7 +14177,7 @@ function formatWithTemplates(s, query = '') {
 }
 const CURSOR = '$CURSOR$';
 function sanitizeFileName(s) {
-    const illegalChars = /[\?<>\\:\*\|":]/g;
+    const illegalChars = /[\?<>:\*\|":]/g;
     return s.replace(illegalChars, '-');
 }
 /**
@@ -14196,15 +14196,27 @@ function newNote(app, newNoteType, directory, fileName, location, templatePath) 
             ? `---\nlocation: [${location}]\n---\n\n${CURSOR}`
             : `---\nlocations:\n---\n\n\[${CURSOR}](geo:${location})\n`;
         let templateContent = '';
-        if (templatePath)
+        if (templatePath && templatePath.length > 0)
             templateContent = yield app.vault.adapter.read(templatePath);
-        let fullName = sanitizeFileName(path__namespace.join(directory || '', fileName));
+        if (!directory)
+            directory = '';
+        if (!fileName)
+            fileName = '';
+        // Apparently in Obsidian Mobile there is no path.join function, not sure why.
+        // So in case the path module doesn't contain `join`, we do it manually, assuming Unix directory structure.
+        const filePath = (path__namespace === null || path__namespace === void 0 ? void 0 : path__namespace.join)
+            ? path__namespace.join(directory, fileName)
+            : directory
+                ? directory + '/' + fileName
+                : fileName;
+        let fullName = sanitizeFileName(filePath);
         if (yield app.vault.adapter.exists(fullName + '.md'))
             fullName += Math.random() * 1000;
         try {
             return app.vault.create(fullName + '.md', content + templateContent);
         }
         catch (e) {
+            console.log('Map View: cannot create file', fullName);
             throw Error(`Cannot create file named ${fullName}: ${e}`);
         }
     });
@@ -14245,7 +14257,7 @@ function handleNewNoteCursorMarker(editor) {
 // Returns true if a change to the note was made.
 function verifyOrAddFrontMatter(editor, fieldName, fieldValue) {
     const content = editor.getValue();
-    const frontMatterRegex = /^---(.*)^---/ms;
+    const frontMatterRegex = /^---(.*?)^---/ms;
     const frontMatter = content.match(frontMatterRegex);
     const existingFieldRegex = new RegExp(`^---.*${fieldName}:.*^---`, 'ms');
     const existingField = content.match(existingFieldRegex);
@@ -14525,7 +14537,9 @@ class GeoSearcher {
                 });
             }
             // Google Place results
-            if (this.settings.searchProvider == 'google' && this.settings.useGooglePlaces && this.settings.geocodingApiKey) {
+            if (this.settings.searchProvider == 'google' &&
+                this.settings.useGooglePlaces &&
+                this.settings.geocodingApiKey) {
                 const placesResults = yield googlePlacesSearch(query, this.settings);
                 for (const result of placesResults)
                     results.push({
@@ -14678,6 +14692,9 @@ class LocationSuggest extends obsidian.EditorSuggest {
     }
 }
 
+function copyState(state) {
+    return Object.assign({}, state);
+}
 function mergeStates(state1, state2) {
     // Overwrite an existing state with a new one, that may have null or partial values which need to be ignored
     // and taken from the existing state
@@ -14716,9 +14733,13 @@ function stateFromParsedUrl(obj) {
     return {
         name: obj.name,
         mapZoom: obj.mapZoom ? parseInt(obj.mapZoom) : null,
-        mapCenter: obj.centerLat && obj.centerLng ? new leafletSrc.LatLng(parseFloat(obj.centerLat), parseFloat(obj.centerLng)) : null,
+        mapCenter: obj.centerLat && obj.centerLng
+            ? new leafletSrc.LatLng(parseFloat(obj.centerLat), parseFloat(obj.centerLng))
+            : null,
         query: obj.query,
-        chosenMapSource: obj.chosenMapSource ? parseInt(obj.chosenMapSource) : null,
+        chosenMapSource: obj.chosenMapSource
+            ? parseInt(obj.chosenMapSource)
+            : null,
     };
 }
 
@@ -19331,6 +19352,7 @@ class ViewControls {
         this.lastSelectedPresetIndex = null;
         this.lastSelectedPreset = null;
         this.queryDelayMs = 250;
+        this.updateOngoing = false;
         this.parentElement = parentElement;
         this.settings = settings;
         this.app = app;
@@ -19342,7 +19364,8 @@ class ViewControls {
     }
     setNewState(newState, considerAutoFit) {
         return __awaiter(this, void 0, void 0, function* () {
-            yield this.view.setViewState(newState, false, considerAutoFit);
+            if (!this.updateOngoing)
+                yield this.view.setViewState(newState, false, considerAutoFit);
         });
     }
     setStateByNewMapSource(newSource) {
@@ -19375,9 +19398,13 @@ class ViewControls {
             }
     }
     updateControlsToState() {
+        // This updates the controls according to the given state, and prevents a feedback loop by
+        // raising the updateOngoing flag
+        this.updateOngoing = true;
         this.setMapSourceBoxByState();
         this.setQueryBoxByState();
         this.followActiveNoteToggle.setValue(this.getCurrentState().followActiveNote == true);
+        this.updateOngoing = false;
     }
     setMapSourceBoxByState() {
         this.mapSourceBox.setValue(this.getCurrentState().chosenMapSource.toString());
@@ -19712,12 +19739,20 @@ class MapView extends obsidian.ItemView {
             this.refreshMap();
         });
         this.app.workspace.on('file-open', (file) => __awaiter(this, void 0, void 0, function* () {
+            var _a;
             if (this.getState().followActiveNote && file) {
-                let currentState = this.leaf.getViewState();
-                currentState.state.query = `path:"${file.path}"`;
-                yield this.leaf.setViewState(currentState);
-                if (this.settings.autoZoom)
-                    this.autoFitMapToMarkers();
+                let viewState = (_a = this.leaf) === null || _a === void 0 ? void 0 : _a.getViewState();
+                if (viewState) {
+                    let mapState = viewState.state;
+                    const newQuery = `path:"${file.path}"`;
+                    // Change the map state only if the file has actually changed. If the user just went back
+                    // and forth and the map is still focused on the same file, don't ruin the user's possible
+                    // zoom and pan
+                    if (mapState.query != newQuery) {
+                        mapState.query = newQuery;
+                        yield this.setViewState(mapState, true, true);
+                    }
+                }
             }
         }));
     }
@@ -19742,7 +19777,7 @@ class MapView extends obsidian.ItemView {
      * This is the native Obsidian setState method.
      * You should *not* call it directly, but rather through this.leaf.setViewState(state), which will
      * take care of preserving the Obsidian history if required.
-    */
+     */
     setState(state, result) {
         return __awaiter(this, void 0, void 0, function* () {
             // If there are ongoing changes to the map happening at once, don't bother updating the state -- it will only
@@ -19753,7 +19788,7 @@ class MapView extends obsidian.ItemView {
             this.ongoingChanges = 0;
             if (this.shouldSaveToHistory(state)) {
                 result.history = true;
-                this.lastSavedState = Object.assign({}, state);
+                this.lastSavedState = copyState(state);
             }
             yield this.setViewState(state, true, false);
             if (this.display.controls)
@@ -19838,10 +19873,10 @@ class MapView extends obsidian.ItemView {
         this.display.map.invalidateSize();
     }
     /**
-     * This internal method of setting the state will not register the change to the Obsidian
+     * This internal method of setting the state will NOT register the change to the Obsidian
      * history stack. If you want that, use `this.leaf.setViewState(state)` instead.
-    */
-    setViewState(state, updateControls, considerAutoFit) {
+     */
+    setViewState(state, updateControls = false, considerAutoFit = false) {
         return __awaiter(this, void 0, void 0, function* () {
             if (state) {
                 const newState = mergeStates(this.state, state);
@@ -19921,6 +19956,28 @@ class MapView extends obsidian.ItemView {
             this.display.controls.updateControlsToState();
         });
     }
+    /*
+     * Receive a partial object of fields to change and calls the Obsidian setViewState
+     * method to set a history state.
+    */
+    changeViewAndSaveHistory(partialState) {
+        var _a;
+        return __awaiter(this, void 0, void 0, function* () {
+            // This check is seemingly a duplicate of the one inside setViewState, but it's
+            // actually very needed. Without it, it's possible that we'd call Obsidian's
+            // setViewState (the one below) with the same object twice, in the first call
+            // (which may have ongoingChanges > 0) we'll ignore the change and in the 2nd call
+            // Obsidian will ignore the change (thinking the state didn't change).
+            // We want to ensure setViewState is called only if we mean to change the state
+            if (this.ongoingChanges > 0)
+                return;
+            const viewState = (_a = this.leaf) === null || _a === void 0 ? void 0 : _a.getViewState();
+            if (viewState === null || viewState === void 0 ? void 0 : viewState.state) {
+                const newState = Object.assign({}, viewState === null || viewState === void 0 ? void 0 : viewState.state, partialState);
+                yield this.leaf.setViewState(Object.assign(Object.assign({}, viewState), { state: newState }));
+            }
+        });
+    }
     createMap() {
         var _a;
         return __awaiter(this, void 0, void 0, function* () {
@@ -19939,25 +19996,26 @@ class MapView extends obsidian.ItemView {
             this.updateTileLayerByState(this.state);
             this.display.clusterGroup = new leafletSrc.MarkerClusterGroup({
                 maxClusterRadius: (_a = this.settings.maxClusterRadiusPixels) !== null && _a !== void 0 ? _a : DEFAULT_SETTINGS.maxClusterRadiusPixels,
-                animate: false
+                animate: false,
             });
             this.display.map.addLayer(this.display.clusterGroup);
             this.display.map.on('zoomend', (event) => __awaiter(this, void 0, void 0, function* () {
                 var _b, _c;
                 this.ongoingChanges -= 1;
-                this.state.mapZoom = this.display.map.getZoom();
-                this.state.mapCenter = this.display.map.getCenter();
+                yield this.changeViewAndSaveHistory({
+                    mapZoom: this.display.map.getZoom(),
+                    mapCenter: this.display.map.getCenter()
+                });
                 (_c = (_b = this.display) === null || _b === void 0 ? void 0 : _b.controls) === null || _c === void 0 ? void 0 : _c.invalidateActivePreset();
-                const state = this.leaf.getViewState();
-                yield this.leaf.setViewState(state);
             }));
             this.display.map.on('moveend', (event) => __awaiter(this, void 0, void 0, function* () {
                 var _d, _e;
                 this.ongoingChanges -= 1;
-                this.state.mapCenter = this.display.map.getCenter();
+                yield this.changeViewAndSaveHistory({
+                    mapZoom: this.display.map.getZoom(),
+                    mapCenter: this.display.map.getCenter()
+                });
                 (_e = (_d = this.display) === null || _d === void 0 ? void 0 : _d.controls) === null || _e === void 0 ? void 0 : _e.invalidateActivePreset();
-                const state = this.leaf.getViewState();
-                yield this.leaf.setViewState(state);
             }));
             this.display.map.on('movestart', (event) => {
                 this.ongoingChanges += 1;
@@ -20070,7 +20128,10 @@ class MapView extends obsidian.ItemView {
                 this.display.map.getZoom() != this.state.mapZoom) {
                 // We want to call setView only if there was an actual change, because even the tiniest (epsilon) change can
                 // cause Leaflet to think it's worth triggering map center change callbacks
-                this.display.map.setView(this.state.mapCenter, this.state.mapZoom, { animate: false, duration: 0 });
+                this.display.map.setView(this.state.mapCenter, this.state.mapZoom, {
+                    animate: false,
+                    duration: 0,
+                });
             }
             this.display.controls.setQueryBoxErrorByState();
             if (this.settings.debug)
@@ -20192,7 +20253,7 @@ class MapView extends obsidian.ItemView {
             if (this.display.markers.size > 0) {
                 const locations = Array.from(this.display.markers.values()).map((fileMarker) => fileMarker.location);
                 this.display.map.fitBounds(leafletSrc.latLngBounds(locations), {
-                    maxZoom: (_a = this.getMapSource().maxZoom) !== null && _a !== void 0 ? _a : DEFAULT_MAX_TILE_ZOOM,
+                    maxZoom: Math.min(this.settings.zoomOnGoFromNote, (_a = this.getMapSource().maxZoom) !== null && _a !== void 0 ? _a : DEFAULT_MAX_TILE_ZOOM),
                 });
             }
         });
@@ -20305,11 +20366,14 @@ class MapView extends obsidian.ItemView {
         this.zoomToSearchResult(details.location);
     }
     zoomToSearchResult(location) {
-        let currentState = this.leaf.getViewState();
-        currentState.state.mapCenter = location;
-        currentState.state.mapZoom =
-            this.settings.zoomOnGoFromNote;
-        this.leaf.setViewState(currentState);
+        var _a;
+        let currentState = (_a = this.leaf) === null || _a === void 0 ? void 0 : _a.getViewState();
+        if (currentState) {
+            currentState.state.mapCenter = location;
+            currentState.state.mapZoom =
+                this.settings.zoomOnGoFromNote;
+            this.leaf.setViewState(currentState);
+        }
     }
     removeSearchResultMarker() {
         if (this.display.searchResult) {
@@ -20514,7 +20578,7 @@ class SettingsTab extends obsidian.PluginSettingTab {
         });
         new obsidian.Setting(containerEl)
             .setName('Default zoom for "show on map" action')
-            .setDesc('When jumping to the map from a note, what should be the display zoom?')
+            .setDesc('When jumping to the map from a note, what should be the display zoom? This is also used as a max zoom for "Map follows search results" above.')
             .addSlider((component) => {
             var _a;
             component
@@ -21008,9 +21072,13 @@ class TagSuggest extends obsidian.EditorSuggest {
     }
     getSuggestions(context) {
         var _a;
+        const noPound = (tagName) => {
+            return tagName.startsWith('#') ? tagName.substring(1) : tagName;
+        };
         const tagQuery = (_a = context.query) !== null && _a !== void 0 ? _a : '';
-        // Find all tags that include the query, with the pound sign removed, case insensitive
+        // Find all tags that include the query
         const matchingTags = getAllTagNames(this.app)
+            .map(value => noPound(value))
             .filter((value) => value.toLowerCase().includes(tagQuery.toLowerCase()));
         return matchingTags.map((tagName) => {
             return {
@@ -21054,7 +21122,8 @@ class MapViewPlugin extends obsidian.Plugin {
                     // If a saved URL is opened in another device on which there aren't the same sources, use
                     // the default source instead
                     if (state.chosenMapSource >= this.settings.mapSources.length)
-                        state.chosenMapSource = DEFAULT_SETTINGS.defaultState.chosenMapSource;
+                        state.chosenMapSource =
+                            DEFAULT_SETTINGS.defaultState.chosenMapSource;
                     this.openMapWithState(state, false, false);
                 }
             });

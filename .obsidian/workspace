@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "allister kemp2",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,14 +147,14 @@
   "active": "c018edbd54248172",
   "lastOpenFiles": [
     "START HERE.md",
-    "README.md",
-    "examplecase/-tasks for example files.md",
-    "-- templates/person.md",
-    "-- templates/domain or ip.md",
-    "examplecase/selectors/people/Gabriella Parkington.md",
-    "examplecase/selectors/people/Isiah Kemp.md",
-    "Standard Operating Procedures/Computer infrastructure.md",
     "Standard Operating Procedures/Username.md",
-    "Standard Operating Procedures/URL.md"
+    "Standard Operating Procedures/URL.md",
+    "Standard Operating Procedures/Physical address.md",
+    "Standard Operating Procedures/Phone number.md",
+    "Standard Operating Procedures/Persons name.md",
+    "Standard Operating Procedures/People Search Engine.md",
+    "Standard Operating Procedures/IP address.md",
+    "Standard Operating Procedures/Image analysis.md",
+    "Standard Operating Procedures/GPS coordinates.md"
   ]
 }

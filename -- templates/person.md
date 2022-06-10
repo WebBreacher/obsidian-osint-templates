@@ -18,14 +18,10 @@ tags: person poi
 - [ ] Use the [[Persons name]] actions
 
 ### Family Members
-```ad-tip
-collapse: closed
-title: How to use this
+> [!tip] How to use this
+> - Remember that Obsidian is all about linking documents 
+> - So, instead of listing every family member they have, create new [[-- person]] notes with each person's data and link them together.
 
-- Remember that Obsidian is all about linking documents 
-- So, instead of listing every family member they have, create new [[-- person]] notes with each person's data and link them together.
-
-```
 - Mother: 
 - Father:
 - Sibling 1: 
@@ -54,14 +50,10 @@ title: How to use this
 - [ ] Use the [[Physical address]] actions
 
 ## Employment
-```ad-tip
-collapse: closed
-title: How to use this
+> [!tip] How to use this
+> - Remember that Obsidian is all about linking documents 
+> - So, instead of listing every company the person worked for, create new [[-- business]] notes link them together.
 
-- Remember that Obsidian is all about linking documents 
-- So, instead of listing every company the person worked for, create new [[-- business]] notes link them together.
-
-```
 - Company 1: 
 - [ ] Use the [[Business name]] actions
 
@@ -71,4 +63,3 @@ title: How to use this
 	- Dates attended:
 	- Outcome/Diploma/Degree
 	- Area of study
-
