@@ -9,7 +9,7 @@
             -   [[Great-grandfather]]
             -   [[Great-grandmother]]
     -   [[Mother ]]
-        -   [[Grandfather-B]]
+        -   [[Grandfather]]
             -   [[Great-grandfather]]
             -   [[Great-grandmother]]
         -   [[Grandmother]]
