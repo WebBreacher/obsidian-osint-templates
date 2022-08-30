@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "c018edbd54248172",
+        "id": "e44da65ffb441ab5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "START HERE.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": true,
             "source": false
           }
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333
+    "width": 292
   },
   "right": {
     "id": "00bf19fef4db5a00",
@@ -131,7 +131,7 @@
             }
           },
           {
-            "id": "3c9f4dced90ca037",
+            "id": "23056ae53d77b471",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -144,7 +144,7 @@
     "direction": "horizontal",
     "width": 236
   },
-  "active": "c018edbd54248172",
+  "active": "6fcb759a5efbd3f0",
   "lastOpenFiles": [
     "START HERE.md",
     "Standard Operating Procedures/Username.md",
