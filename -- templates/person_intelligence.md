@@ -1,0 +1,70 @@
+
+
+- PERSONAL INFORMATION 
+ - First Name:
+ - Middle Name:
+ - Last Name:
+ - Alias | Aka: 
+ - Age:
+ - Date of Birth:
+ - City of Birth:
+ - Country of Birth:
+ - Nationality(ies):
+ - Gender:
+ - Height:
+ - Weight:
+ - Build: 
+ - Eye Color: 
+ - Hair color:
+ - Skin Tone: 
+ - Ethnicity:
+ - General Physical Aspect: 
+ - Gait: 
+ - Resident Status: 
+ - Distinctive signs (scars, Tattoos):
+ - SSN (Social Security Number): 
+ - Passport Number: 
+- LOCATION
+ - Current address: 
+ - Other current addresses: 
+ - Past addresses: 
+ - Address of relatives:
+ - Address of partner: 
+- CONTACT DETAILS
+ - Phone number (landline): 
+ - Mobile Phone(s):
+ - Email(s): 
+ - Website(s):
+ - Blogs: 
+ - Social Network profiles: 
+- VEHICLE
+ - Valid Driving license Y/N: 
+ - Driving license number: 
+ - Owns a Vehicle Y/N: 
+ - Vehicle make:
+ - Vehicle Model and colour: 
+ - Registration Plate: 
+ - Year: 
+ - Valid Insurance Y/N: 
+- PROFESSIONAL INFORMATION
+ - Company: 
+ - Company Website: 
+ - Company Number:
+ - Company Address: 
+ - Company CEO
+ - Company opening hours: 
+ - Recently seen at work Y/N: 
+- RELATIVES
+ - Mother's Name / Details:
+ - Father's Name / Details:
+ - Brothers/ Sisters: 
+ - In a relationship with:
+ - Married to: 
+ - Children's names: 
+- CRIMINAL RECORD
+ - Criminal Record Y/N: 
+ - Crime comitted: 
+ - Considered Dangerous Y/N: 
+ - Mental Health: 
+ - Armed Y/N: 
+ - Current firearms licenses: 
