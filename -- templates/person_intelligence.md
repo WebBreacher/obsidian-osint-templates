@@ -1,5 +1,3 @@
-
-
 - ## PERSONAL INFORMATION 
  - First Name:
  - Middle Name:
