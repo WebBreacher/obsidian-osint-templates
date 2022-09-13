@@ -1,4 +1,4 @@
-- ## PERSONAL INFORMATION 
+## PERSONAL INFORMATION [[Target File]]
  - First Name:
  - Middle Name:
  - Last Name:
@@ -19,28 +19,34 @@
  - General Physical Aspect: 
  - Gait: 
  - Resident Status: 
- - Distinctive signs (scars, Tattoos):
+ - Distinctive signs (scars, tattoos):
  - SSN (Social Security Number): 
- - Passport Number(s): 
-- ## LOCATION
+ - Passport Number(s) : 
+
+
+## LOCATION
  - Current address: 
  - Other secondary addresses: 
  - Past addresses: 
  - Address of relatives:
  - Address of partner: 
- - Adress of friends and contacts: 
- - Places of habit/hangouts (bars etc..): 
- - Other adresses of ownedLand, Buildings, Warehouses, Storage boxes, Garages: 
-- ## CONTACT DETAILS
+ - Address of friends and contacts:
+- Places of habit/hangouts (sport, hobbies, bars etc..):
+- Other addresses of owned Land, Buildings, Warehouses, Storage, Garages:
+
+
+## CONTACT DETAILS
  - Phone number (landline): 
- - Mobile Phone(s):
- - Applications used (WA, Signal, Telegram): 
+ - Mobile phone(s):
+ - Mobile Apps (WhatsApp, Signal, Telegram):
  - Email(s): 
  - Website(s):
  - Blogs: 
  - Social Network profiles: 
-- ## VEHICLE
- - Valid Driving license Y/N: 
+
+
+## VEHICLE
+ - Valid driving license Y/N: 
  - Driving license number: 
  - Owns a Vehicle Y/N: 
  - Vehicle make:
@@ -48,28 +54,35 @@
  - Registration Plate: 
  - Year: 
  - Valid Insurance Y/N: 
-- ## PROFESSIONAL INFORMATION
- - Company: 
+
+
+## PROFESSIONAL INFORMATION
+ - Company [[Company Details]] :
  - Company Website: 
  - Company Number:
  - Company Address: 
- - Company CEO:
+ - Company CEO
  - Company opening hours: 
- - Recently seen at work Y/N:
- - N° of years working in the company:
- - Other jobs: 
-- ## RELATIVES
- - Mother's Name & Details:
- - Father's Name & Details:
- - Brothers/Sisters: 
+ - Recently seen at work Y/N: 
+ - Number of years working in the company:
+ - Other current jobs: 
+ - Past jobs: 
+
+
+## RELATIVES
+ - Mother's Name [[File]]:
+ - Father's Name [[File]]:
+ - Brothers/ Sisters: 
  - In a relationship with:
  - Married to: 
- - Number of Children & names: 
-- ## CRIMINAL RECORD BACKGROUND
- - Criminal Record Y/N: 
+ - N° of children and name(s): 
+
+
+## CRIMINAL RECORD 
+ - Criminal Record Y/N [[File]]: 
  - Crime(s) committed: 
- - Considered Dangerous Y/N: 
+ - Considered dangerous Y/N: 
  - Mental Health Issues: 
- - Possibly Armed Y/N: 
- - Firearms type/model/caliber: 
- - Legal firearms licenses N°: 
+ - Possibly armed Y/N: 
+ - Firearm(s) type/model/caliber: 
+ - Legal firearms licenses Y/N and License number and state: 
