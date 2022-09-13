@@ -1,6 +1,6 @@
 
 
-- PERSONAL INFORMATION 
+- ## PERSONAL INFORMATION 
  - First Name:
  - Middle Name:
  - Last Name:
@@ -23,21 +23,25 @@
  - Resident Status: 
  - Distinctive signs (scars, Tattoos):
  - SSN (Social Security Number): 
- - Passport Number: 
-- LOCATION
+ - Passport Number(s): 
+- ## LOCATION
  - Current address: 
- - Other current addresses: 
+ - Other secondary addresses: 
  - Past addresses: 
  - Address of relatives:
  - Address of partner: 
-- CONTACT DETAILS
+ - Adress of friends and contacts: 
+ - Places of habit/hangouts (bars etc..): 
+ - Other adresses of ownedLand, Buildings, Warehouses, Storage boxes, Garages: 
+- ## CONTACT DETAILS
  - Phone number (landline): 
  - Mobile Phone(s):
+ - Applications used (WA, Signal, Telegram): 
  - Email(s): 
  - Website(s):
  - Blogs: 
  - Social Network profiles: 
-- VEHICLE
+- ## VEHICLE
  - Valid Driving license Y/N: 
  - Driving license number: 
  - Owns a Vehicle Y/N: 
@@ -46,25 +50,28 @@
  - Registration Plate: 
  - Year: 
  - Valid Insurance Y/N: 
-- PROFESSIONAL INFORMATION
+- ## PROFESSIONAL INFORMATION
  - Company: 
  - Company Website: 
  - Company Number:
  - Company Address: 
- - Company CEO
+ - Company CEO:
  - Company opening hours: 
- - Recently seen at work Y/N: 
-- RELATIVES
- - Mother's Name / Details:
- - Father's Name / Details:
- - Brothers/ Sisters: 
+ - Recently seen at work Y/N:
+ - N° of years working in the company:
+ - Other jobs: 
+- ## RELATIVES
+ - Mother's Name & Details:
+ - Father's Name & Details:
+ - Brothers/Sisters: 
  - In a relationship with:
  - Married to: 
- - Children's names: 
-- CRIMINAL RECORD
+ - Number of Children & names: 
+- ## CRIMINAL RECORD BACKGROUND
  - Criminal Record Y/N: 
- - Crime comitted: 
+ - Crime(s) committed: 
  - Considered Dangerous Y/N: 
- - Mental Health: 
- - Armed Y/N: 
- - Current firearms licenses: 
+ - Mental Health Issues: 
+ - Possibly Armed Y/N: 
+ - Firearms type/model/caliber: 
+ - Legal firearms licenses N°: 
