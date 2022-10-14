@@ -9,6 +9,7 @@
   --checklist-listItemBackground: var(--interactive-normal);
   --checklist-listItemBackground--hover: var(--interactive-hover);
   --checklist-listItemMargin--compact: 0 0 8px;
+  --checklist-listItemBoxShadow: none;
   --checklist-headerMargin: 0 0 8px;
   --checklist-headerGap: 4px;
   --checklist-headerFontSize: 18px;
@@ -23,6 +24,7 @@
   --checklist-loaderSize: 16px;
   --checklist-loaderBorderColor: var(--text-muted) var(--text-muted) var(--text-normal);
   --checklist-buttonPadding: 0 5px;
+  --checklist-buttonBoxShadow: none;
   --checklist-countPadding: 0 6px;
   --checklist-countBackground: var(--interactive-normal);
   --checklist-countFontSize: 13px;

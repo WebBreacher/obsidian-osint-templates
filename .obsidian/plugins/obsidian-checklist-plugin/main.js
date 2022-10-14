@@ -6603,7 +6603,7 @@ var CheckCircle_default = CheckCircle;
 
 // src/svelte/ChecklistItem.svelte
 function add_css2(target) {
-  append_styles(target, "svelte-6nbpzm", "li.svelte-6nbpzm.svelte-6nbpzm{display:flex;align-items:center;background-color:var(--checklist-listItemBackground);border-radius:var(--checklist-listItemBorderRadius);margin:var(--checklist-listItemMargin);cursor:pointer;transition:background-color 100ms ease-in-out}li.svelte-6nbpzm.svelte-6nbpzm:hover{background-color:var(--checklist-listItemBackground--hover)}.toggle.svelte-6nbpzm.svelte-6nbpzm{padding:var(--checklist-togglePadding);background:transparent;flex-shrink:1;width:initial}.content.svelte-6nbpzm.svelte-6nbpzm{padding:var(--checklist-contentPadding);flex:1;font-size:var(--checklist-contentFontSize)}.compact.svelte-6nbpzm.svelte-6nbpzm{bottom:var(--checklist-listItemMargin--compact)}.compact.svelte-6nbpzm>.content.svelte-6nbpzm{padding:var(--checklist-contentPadding--compact)}.compact.svelte-6nbpzm>.toggle.svelte-6nbpzm{padding:var(--checklist-togglePadding--compact)}.toggle.svelte-6nbpzm.svelte-6nbpzm:hover{opacity:0.8}");
+  append_styles(target, "svelte-sx5ktw", "li.svelte-sx5ktw.svelte-sx5ktw{display:flex;align-items:center;background-color:var(--checklist-listItemBackground);border-radius:var(--checklist-listItemBorderRadius);margin:var(--checklist-listItemMargin);cursor:pointer;transition:background-color 100ms ease-in-out}li.svelte-sx5ktw.svelte-sx5ktw:hover{background-color:var(--checklist-listItemBackground--hover)}.toggle.svelte-sx5ktw.svelte-sx5ktw{padding:var(--checklist-togglePadding);background:transparent;box-shadow:var(--checklist-listItemBoxShadow);flex-shrink:1;width:initial}.content.svelte-sx5ktw.svelte-sx5ktw{padding:var(--checklist-contentPadding);flex:1;font-size:var(--checklist-contentFontSize)}.compact.svelte-sx5ktw.svelte-sx5ktw{bottom:var(--checklist-listItemMargin--compact)}.compact.svelte-sx5ktw>.content.svelte-sx5ktw{padding:var(--checklist-contentPadding--compact)}.compact.svelte-sx5ktw>.toggle.svelte-sx5ktw{padding:var(--checklist-togglePadding--compact)}.toggle.svelte-sx5ktw.svelte-sx5ktw:hover{opacity:0.8}");
 }
 function create_fragment2(ctx) {
   let li;
@@ -6625,9 +6625,9 @@ function create_fragment2(ctx) {
       create_component(checkcircle.$$.fragment);
       t = space();
       div = element("div");
-      attr(button, "class", "toggle svelte-6nbpzm");
-      attr(div, "class", "content svelte-6nbpzm");
-      attr(li, "class", li_class_value = null_to_empty(`${ctx[1]}`) + " svelte-6nbpzm");
+      attr(button, "class", "toggle svelte-sx5ktw");
+      attr(div, "class", "content svelte-sx5ktw");
+      attr(li, "class", li_class_value = null_to_empty(`${ctx[1]}`) + " svelte-sx5ktw");
     },
     m(target, anchor) {
       insert(target, li, anchor);
@@ -6651,7 +6651,7 @@ function create_fragment2(ctx) {
       if (dirty & 1)
         checkcircle_changes.checked = ctx2[0].checked;
       checkcircle.$set(checkcircle_changes);
-      if (!current || dirty & 2 && li_class_value !== (li_class_value = null_to_empty(`${ctx2[1]}`) + " svelte-6nbpzm")) {
+      if (!current || dirty & 2 && li_class_value !== (li_class_value = null_to_empty(`${ctx2[1]}`) + " svelte-sx5ktw")) {
         attr(li, "class", li_class_value);
       }
     },
@@ -6893,7 +6893,7 @@ var Icon_default = Icon;
 
 // src/svelte/ChecklistGroup.svelte
 function add_css4(target) {
-  append_styles(target, "svelte-129fg97", ".page.svelte-129fg97{margin:var(--checklist-pageMargin);color:var(--checklist-textColor);transition:opacity 150ms ease-in-out;cursor:pointer}.file-link.svelte-129fg97:hover{opacity:0.8}header.svelte-129fg97{font-weight:var(--checklist-headerFontWeight);font-size:var(--checklist-headerFontSize);margin:var(--checklist-headerMargin);display:flex;gap:var(--checklist-headerGap);align-items:center}.space.svelte-129fg97{flex:1}button.svelte-129fg97,.count.svelte-129fg97,.title.svelte-129fg97{flex-shrink:1}.count.svelte-129fg97{padding:var(--checklist-countPadding);background:var(--checklist-countBackground);border-radius:var(--checklist-countBorderRadius);font-size:var(--checklist-countFontSize)}.title.svelte-129fg97{min-width:0;overflow:hidden;text-overflow:ellipsis;display:flex}button.svelte-129fg97{display:flex;padding:var(--checklist-buttonPadding);background:transparent}.tag-base.svelte-129fg97{color:var(--checklist-tagBaseColor)}.tag-sub.svelte-129fg97{color:var(--checklist-tagSubColor)}ul.svelte-129fg97{list-style:none;padding:0;margin:0;padding-inline-start:initial !important}.group.svelte-129fg97{margin-bottom:var(--checklist-groupMargin)}.collapse.svelte-129fg97{width:initial}");
+  append_styles(target, "svelte-1tzpg3c", ".page.svelte-1tzpg3c{margin:var(--checklist-pageMargin);color:var(--checklist-textColor);transition:opacity 150ms ease-in-out;cursor:pointer}.file-link.svelte-1tzpg3c:hover{opacity:0.8}header.svelte-1tzpg3c{font-weight:var(--checklist-headerFontWeight);font-size:var(--checklist-headerFontSize);margin:var(--checklist-headerMargin);display:flex;gap:var(--checklist-headerGap);align-items:center}.space.svelte-1tzpg3c{flex:1}button.svelte-1tzpg3c,.count.svelte-1tzpg3c,.title.svelte-1tzpg3c{flex-shrink:1}.count.svelte-1tzpg3c{padding:var(--checklist-countPadding);background:var(--checklist-countBackground);border-radius:var(--checklist-countBorderRadius);font-size:var(--checklist-countFontSize)}.title.svelte-1tzpg3c{min-width:0;overflow:hidden;text-overflow:ellipsis;display:flex}button.svelte-1tzpg3c{display:flex;padding:var(--checklist-buttonPadding);background:transparent;box-shadow:var(--checklist-buttonBoxShadow)}.tag-base.svelte-1tzpg3c{color:var(--checklist-tagBaseColor)}.tag-sub.svelte-1tzpg3c{color:var(--checklist-tagSubColor)}ul.svelte-1tzpg3c{list-style:none;padding:0;margin:0;padding-inline-start:initial !important}.group.svelte-1tzpg3c{margin-bottom:var(--checklist-groupMargin)}.collapse.svelte-1tzpg3c{width:initial}");
 }
 function get_each_context(ctx, list, i) {
   const child_ctx = ctx.slice();
@@ -6906,7 +6906,7 @@ function create_else_block(ctx) {
     c() {
       span = element("span");
       span.textContent = "All Tags";
-      attr(span, "class", "tag-base svelte-129fg97");
+      attr(span, "class", "tag-base svelte-1tzpg3c");
     },
     m(target, anchor) {
       insert(target, span, anchor);
@@ -6939,8 +6939,8 @@ function create_if_block_2(ctx) {
       if (if_block)
         if_block.c();
       if_block_anchor = empty();
-      attr(span0, "class", "tag-base svelte-129fg97");
-      attr(span1, "class", span1_class_value = null_to_empty(ctx[0].subTags == null ? "tag-sub" : "tag-base") + " svelte-129fg97");
+      attr(span0, "class", "tag-base svelte-1tzpg3c");
+      attr(span1, "class", span1_class_value = null_to_empty(ctx[0].subTags == null ? "tag-sub" : "tag-base") + " svelte-1tzpg3c");
     },
     m(target, anchor) {
       insert(target, span0, anchor);
@@ -6955,7 +6955,7 @@ function create_if_block_2(ctx) {
     p(ctx2, dirty) {
       if (dirty & 1 && t2_value !== (t2_value = `${ctx2[0].mainTag}${ctx2[0].subTags != null ? "/" : ""}`))
         set_data(t2, t2_value);
-      if (dirty & 1 && span1_class_value !== (span1_class_value = null_to_empty(ctx2[0].subTags == null ? "tag-sub" : "tag-base") + " svelte-129fg97")) {
+      if (dirty & 1 && span1_class_value !== (span1_class_value = null_to_empty(ctx2[0].subTags == null ? "tag-sub" : "tag-base") + " svelte-1tzpg3c")) {
         attr(span1, "class", span1_class_value);
       }
       if (ctx2[0].subTags != null) {
@@ -7015,7 +7015,7 @@ function create_if_block_3(ctx) {
     c() {
       span = element("span");
       t = text(t_value);
-      attr(span, "class", "tag-sub svelte-129fg97");
+      attr(span, "class", "tag-sub svelte-1tzpg3c");
     },
     m(target, anchor) {
       insert(target, span, anchor);
@@ -7048,7 +7048,7 @@ function create_if_block2(ctx) {
       for (let i = 0; i < each_blocks.length; i += 1) {
         each_blocks[i].c();
       }
-      attr(ul, "class", "svelte-129fg97");
+      attr(ul, "class", "svelte-1tzpg3c");
     },
     m(target, anchor) {
       insert(target, ul, anchor);
@@ -7197,13 +7197,13 @@ function create_fragment4(ctx) {
       t4 = space();
       if (if_block1)
         if_block1.c();
-      attr(div0, "class", "title svelte-129fg97");
-      attr(div1, "class", "space svelte-129fg97");
-      attr(div2, "class", "count svelte-129fg97");
-      attr(button, "class", "collapse svelte-129fg97");
+      attr(div0, "class", "title svelte-1tzpg3c");
+      attr(div1, "class", "space svelte-1tzpg3c");
+      attr(div2, "class", "count svelte-1tzpg3c");
+      attr(button, "class", "collapse svelte-1tzpg3c");
       attr(button, "title", "Toggle Group");
-      attr(header, "class", header_class_value = null_to_empty(`group-header ${ctx[0].type}`) + " svelte-129fg97");
-      attr(section, "class", section_class_value = "group " + ctx[0].className + " svelte-129fg97");
+      attr(header, "class", header_class_value = null_to_empty(`group-header ${ctx[0].type}`) + " svelte-1tzpg3c");
+      attr(section, "class", section_class_value = "group " + ctx[0].className + " svelte-1tzpg3c");
     },
     m(target, anchor) {
       insert(target, section, anchor);
@@ -7247,7 +7247,7 @@ function create_fragment4(ctx) {
       if (dirty & 2)
         icon_changes.direction = ctx2[1] ? "left" : "down";
       icon.$set(icon_changes);
-      if (!current || dirty & 1 && header_class_value !== (header_class_value = null_to_empty(`group-header ${ctx2[0].type}`) + " svelte-129fg97")) {
+      if (!current || dirty & 1 && header_class_value !== (header_class_value = null_to_empty(`group-header ${ctx2[0].type}`) + " svelte-1tzpg3c")) {
         attr(header, "class", header_class_value);
       }
       if (!ctx2[1]) {
@@ -7269,7 +7269,7 @@ function create_fragment4(ctx) {
         });
         check_outros();
       }
-      if (!current || dirty & 1 && section_class_value !== (section_class_value = "group " + ctx2[0].className + " svelte-129fg97")) {
+      if (!current || dirty & 1 && section_class_value !== (section_class_value = "group " + ctx2[0].className + " svelte-1tzpg3c")) {
         attr(section, "class", section_class_value);
       }
     },
@@ -8163,7 +8163,7 @@ var TodoListView = class extends import_obsidian4.ItemView {
   }
   groupItems() {
     const flattenedItems = Array.from(this.itemsByFile.values()).flat();
-    const searchedItems = flattenedItems.filter((e) => e.originalText.toLowerCase().includes(this.searchTerm));
+    const searchedItems = flattenedItems.filter((e) => e.originalText.toLowerCase().includes(this.searchTerm.toLowerCase()));
     this.groupedItems = groupTodos(searchedItems, this.plugin.getSettingValue("groupBy"), this.plugin.getSettingValue("sortDirectionGroups"), this.plugin.getSettingValue("sortDirectionItems"), this.plugin.getSettingValue("subGroups"), this.plugin.getSettingValue("sortDirectionSubGroups"));
   }
   renderView() {
