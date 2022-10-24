@@ -156,8 +156,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "9dea1b7dcb389249",
+  "active": "e44da65ffb441ab5",
   "lastOpenFiles": [
+    "README.md",
     "START HERE.md",
     "Standard Operating Procedures/Username.md",
     "Standard Operating Procedures/URL.md",
@@ -166,7 +167,6 @@
     "Standard Operating Procedures/Persons name.md",
     "Standard Operating Procedures/People Search Engine.md",
     "Standard Operating Procedures/IP address.md",
-    "Standard Operating Procedures/Image analysis.md",
-    "Standard Operating Procedures/GPS coordinates.md"
+    "Standard Operating Procedures/Image analysis.md"
   ]
 }

@@ -5,6 +5,10 @@
       "path": "START HERE.md"
     },
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "Username",
       "path": "Standard Operating Procedures/Username.md"
     },
@@ -111,10 +115,6 @@
     {
       "basename": "Introduction Presentation",
       "path": "Introduction Presentation.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Search engine",
