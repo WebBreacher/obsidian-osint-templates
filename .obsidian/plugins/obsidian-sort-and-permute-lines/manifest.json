@@ -1,9 +1,10 @@
 {
   "id": "obsidian-sort-and-permute-lines",
   "name": "Sort & Permute lines",
-  "version": "0.5.1",
+  "version": "0.7.0",
   "description": "",
   "author": "Vinzent",
   "authorUrl": "https://github.com/Vinzent03",
+  "fundingUrl": "https://ko-fi.com/vinzent",
   "isDesktopOnly": false
 }

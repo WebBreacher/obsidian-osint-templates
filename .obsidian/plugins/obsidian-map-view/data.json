@@ -48,7 +48,12 @@
   ],
   "zoomOnGoFromNote": 15,
   "autoZoom": true,
-  "markerClickBehavior": "secondPane",
+  "markerClickBehavior": "dedicatedPane",
+  "markerCtrlClickBehavior": "replaceCurrent",
+  "markerMiddleClickBehavior": "dedicatedTab",
+  "openMapBehavior": "replaceCurrent",
+  "openMapCtrlClickBehavior": "dedicatedPane",
+  "openMapMiddleClickBehavior": "dedicatedTab",
   "newNoteNameFormat": "Location added on {{date:YYYY-MM-DD}}T{{date:HH-mm}}",
   "showNoteNamePopup": true,
   "showNotePreview": true,
@@ -90,6 +95,9 @@
   "chosenMapMode": "dark",
   "saveHistory": true,
   "letZoomBeyondMax": false,
+  "queryForFollowActiveNote": "path:\"$PATH$\"",
+  "supportRealTimeGeolocation": false,
+  "fixFrontMatterOnPaste": true,
   "tilesUrl": null,
   "snippetLines": 3
 }

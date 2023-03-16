@@ -5915,9 +5915,9 @@ function set_input_value(input, value) {
 function toggle_class(element2, name, toggle) {
   element2.classList[toggle ? "add" : "remove"](name);
 }
-function custom_event(type, detail, bubbles = false) {
+function custom_event(type, detail, { bubbles = false, cancelable = false } = {}) {
   const e = document.createEvent("CustomEvent");
-  e.initCustomEvent(type, bubbles, false, detail);
+  e.initCustomEvent(type, bubbles, cancelable, detail);
   return e;
 }
 var current_component;
@@ -5931,14 +5931,16 @@ function get_current_component() {
 }
 function createEventDispatcher() {
   const component = get_current_component();
-  return (type, detail) => {
+  return (type, detail, { cancelable = false } = {}) => {
     const callbacks = component.$$.callbacks[type];
     if (callbacks) {
-      const event = custom_event(type, detail);
+      const event = custom_event(type, detail, { cancelable });
       callbacks.slice().forEach((fn) => {
         fn.call(component, event);
       });
+      return !event.defaultPrevented;
     }
+    return true;
   };
 }
 var dirty_components = [];
@@ -6033,6 +6035,8 @@ function transition_out(block, local, detach2, callback) {
       }
     });
     block.o(local);
+  } else if (callback) {
+    callback();
   }
 }
 var globals = typeof window !== "undefined" ? window : typeof globalThis !== "undefined" ? globalThis : global;
@@ -6196,7 +6200,6 @@ var import_obsidian3 = require("obsidian");
 
 // src/utils/helpers.ts
 var import_obsidian2 = require("obsidian");
-var isMacOS = () => window.navigator.userAgent.includes("Macintosh");
 var classifyString = (str) => {
   const sanitzedGroupName = (str != null ? str : "").replace(/[^A-Za-z0-9]/g, "");
   const dasherizedGroupName = sanitzedGroupName.replace(/^([A-Z])|[\s\._](\w)/g, function(_, p1, p2) {
@@ -6229,21 +6232,21 @@ var mapLinkMeta = (linkMeta) => {
     map.set(link.filePath, link);
   return map;
 };
-var setLineTo = (line, setTo) => line.replace(/^(\s*([\-\*]|[0-9]+\.)\s\[)([^\]]+)(\].*$)/, `$1${setTo ? "x" : " "}$4`);
+var setLineTo = (line, setTo) => line.replace(/^((\s|\>)*([\-\*]|[0-9]+\.)\s\[)([^\]]+)(\].*$)/, `$1${setTo ? "x" : " "}$5`);
 var getAllLinesFromFile = (cache) => cache.split(/\r?\n/);
 var combineFileLines = (lines) => lines.join("\n");
 var lineIsValidTodo = (line) => {
-  return /^\s*([\-\*]|[0-9]+\.)\s\[(.{1})\]\s{1,4}\S+/.test(line);
+  return /^(\s|\>)*([\-\*]|[0-9]+\.)\s\[(.{1})\]\s{1,4}\S+/.test(line);
 };
 var extractTextFromTodoLine = (line) => {
   var _a;
-  return (_a = /^\s*([\-\*]|[0-9]+\.)\s\[(.{1})\]\s{1,4}(\S{1}.*)$/.exec(line)) == null ? void 0 : _a[3];
+  return (_a = /^(\s|\>)*([\-\*]|[0-9]+\.)\s\[(.{1})\]\s{1,4}(\S{1}.*)$/.exec(line)) == null ? void 0 : _a[4];
 };
 var getIndentationSpacesFromTodoLine = (line) => {
   var _a, _b, _c;
   return (_c = (_b = (_a = /^(\s*)([\-\*]|[0-9]+\.)\s\[(.{1})\]\s{1,4}(\S+)/.exec(line)) == null ? void 0 : _a[1]) == null ? void 0 : _b.length) != null ? _c : 0;
 };
-var todoLineIsChecked = (line) => /^\s*([\-\*]|[0-9]+\.)\s\[(\S{1})\]/.test(line);
+var todoLineIsChecked = (line) => /^(\s|\>)*([\-\*]|[0-9]+\.)\s\[(\S{1})\]/.test(line);
 var getFileLabelFromName = (filename) => {
   var _a;
   return (_a = /^(.+)\.md$/.exec(filename)) == null ? void 0 : _a[1];
@@ -6262,9 +6265,6 @@ var ensureMdExtension = (path) => {
   if (!/\.md$/.test(path))
     return `${path}.md`;
   return path;
-};
-var isMetaPressed = (e) => {
-  return isMacOS() ? e.metaKey : e.ctrlKey;
 };
 var getFrontmatterTags = (cache, todoTags = []) => {
   var _a;
@@ -6293,15 +6293,15 @@ var getFileFromPath = (vault, path) => {
 
 // src/utils/files.ts
 var navToFile = (app, path, ev, line) => __async(void 0, null, function* () {
-  var _a, _b;
   path = ensureMdExtension(path);
   const file = getFileFromPath(app.vault, path);
   if (!file)
     return;
-  const leaf = isMetaPressed(ev) ? app.workspace.splitActiveLeaf() : app.workspace.getUnpinnedLeaf();
+  const mod = import_obsidian3.Keymap.isModEvent(ev);
+  const leaf = app.workspace.getLeaf(mod);
   yield leaf.openFile(file);
   if (line) {
-    (_b = (_a = app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView)) == null ? void 0 : _a.currentMode) == null ? void 0 : _b.applyScroll(line);
+    app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView).editor.setCursor(line);
   }
 });
 
@@ -6640,8 +6640,7 @@ function create_fragment2(ctx) {
       if (!mounted) {
         dispose = [
           listen(button, "click", ctx[6]),
-          listen(div, "click", ctx[8]),
-          listen(li, "click", ctx[9])
+          listen(div, "click", ctx[8])
         ];
         mounted = true;
       }
@@ -6691,6 +6690,8 @@ function instance2($$self, $$props, $$invalidate) {
         navToFile(app, target.dataset.filepath, ev, item2 === null || item2 === void 0 ? void 0 : item2.line);
       } else if (target.dataset.type === "tag") {
       }
+    } else {
+      navToFile(app, item2.filePath, ev, item2 === null || item2 === void 0 ? void 0 : item2.line);
     }
   };
   const click_handler = (ev) => {
@@ -6700,44 +6701,42 @@ function instance2($$self, $$props, $$invalidate) {
   function div_binding($$value) {
     binding_callbacks[$$value ? "unshift" : "push"](() => {
       contentDiv = $$value;
-      $$invalidate(3, contentDiv), $$invalidate(0, item);
+      $$invalidate(2, contentDiv), $$invalidate(0, item);
     });
   }
   const click_handler_1 = (ev) => handleClick(ev, item);
-  const click_handler_2 = (ev) => navToFile(app, item.filePath, ev);
   $$self.$$set = ($$props2) => {
     if ("item" in $$props2)
       $$invalidate(0, item = $$props2.item);
     if ("lookAndFeel" in $$props2)
       $$invalidate(1, lookAndFeel = $$props2.lookAndFeel);
     if ("app" in $$props2)
-      $$invalidate(2, app = $$props2.app);
+      $$invalidate(5, app = $$props2.app);
   };
   $$self.$$.update = () => {
-    if ($$self.$$.dirty & 9) {
+    if ($$self.$$.dirty & 5) {
       $: {
         if (contentDiv)
-          $$invalidate(3, contentDiv.innerHTML = item.rawHTML, contentDiv);
+          $$invalidate(2, contentDiv.innerHTML = item.rawHTML, contentDiv);
       }
     }
   };
   return [
     item,
     lookAndFeel,
-    app,
     contentDiv,
     toggleItem,
     handleClick,
+    app,
     click_handler,
     div_binding,
-    click_handler_1,
-    click_handler_2
+    click_handler_1
   ];
 }
 var ChecklistItem = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance2, create_fragment2, safe_not_equal, { item: 0, lookAndFeel: 1, app: 2 }, add_css2);
+    init(this, options, instance2, create_fragment2, safe_not_equal, { item: 0, lookAndFeel: 1, app: 5 }, add_css2);
   }
 };
 var ChecklistItem_default = ChecklistItem;

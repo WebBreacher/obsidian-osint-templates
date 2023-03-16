@@ -139,7 +139,7 @@
             }
           },
           {
-            "id": "9dea1b7dcb389249",
+            "id": "a44d8046dd841bbf",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -153,7 +153,19 @@
     "direction": "horizontal",
     "width": 236
   },
-  "active": "e44da65ffb441ab5",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "obsidian-map-view:Open map view": false
+    }
+  },
+  "active": "6fcb759a5efbd3f0",
   "lastOpenFiles": [
     "README.md",
     "START HERE.md",
