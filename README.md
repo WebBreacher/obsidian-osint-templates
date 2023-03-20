@@ -13,6 +13,12 @@ Both resources walk you through the basics of how Obsidian works and what you ca
 ## Templates
 These templates are suggestions of how the Obsidian notetaking tool can be used during an OSINT investigation.  The example data in those files should allow you to make some connections _(see what I did there?)_ between how you record your data during an investigation and some of what the tool can offer FOR FREE!
 
+## OSINT and Obsidian
+I'm made several free and paid resources to help OSINT people start in their Obsidian journey.
+1. Blog post: https://webbreacher.com/2022/03/15/obsidian/
+2. YouTube Video of me demoing an older version of Obsidian: https://www.youtube.com/watch?v=sKF37Ng4gaI
+3. Obsidian course that teaches you how to set it up, configure it, and start using Obsidian in your OSINT work: https://www.myosint.training/courses/osint-documentation-with-obsidian
+
 ## Always Looking to Improve
 Do you have suggestions on how to improve these templates? Want to contribute to the project?
 1. Create [an issue](https://github.com/WebBreacher/obsidian-osint-templates/issues) and let me know.
