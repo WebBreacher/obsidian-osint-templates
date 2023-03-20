@@ -17,4 +17,3 @@ These templates are suggestions of how the Obsidian notetaking tool can be used 
 Do you have suggestions on how to improve these templates? Want to contribute to the project?
 1. Create [an issue](https://github.com/WebBreacher/obsidian-osint-templates/issues) and let me know.
 2. Or submit a pull request to make changes.
-3. Or join the OSINT Curious Discord server (https://iam.osintcurio.us/discord) and visit the [#workflow-ethics-strategy channel](https://discord.com/channels/735708716128796763/767064102135791648)
