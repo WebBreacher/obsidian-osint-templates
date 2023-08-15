@@ -1,7 +1,8 @@
-/*蓝色托帕石，适合Obsidian v1.0.3。uid [20230102] flying fly flies制作。如果喜欢，可以在Github里给我星星 https://github.com/whyt-byte */
-/*Blue Topaz for Obsidian v1.0.3, uid [20230102] created by flying fly flies. Feel free to use, share and modify. If you like the theme, please star me on GitHub https://github.com/whyt-byte */
+/*蓝色托帕石，适合Obsidian v1.2.8。uid [20230802] flying fly flies制作。如果喜欢，可以在Github里给我星星 https://github.com/whyt-byte */
+/*Blue Topaz for Obsidian v1.2.8, uid [20230802] created by flying fly flies. Feel free to use, share and modify. If you like the theme, please star me on GitHub https://github.com/whyt-byte */
 
 /* 致谢 Credits：
+thanks pkmer.cn
 Many thanks to @Cuman
 @LillianWho @成雙酱 @嘴上云 @Klaas @Thinkbond @Rainbell129(AKA Lavi) @awyugan @GeoffreyOuO (WooYoo~~~) @锋华 @CZ-15/YZ-10 */
 
@@ -9,14 +10,6 @@ Many thanks to @Cuman
 name: 🥑Blue Topaz Theme
 id: blue-topaz-theme
 settings:
-  -
-    id: transparent-setting-panel
-    title: Translucent Setting Panel
-    title.zh: 透明窗口
-    description: Make this panel transparent
-    description.zh: 使本窗口透明，便于设置
-    type: class-toggle
-    default: false
   -
     id: background-settings
     title: 1. General Settings
@@ -142,6 +135,7 @@ settings:
     title.zh: 开启背景
     type: class-toggle
     default: false
+    addCommand: true
   -
     id: background-settings-workplace-theme-light
     title: Light mode
@@ -173,8 +167,8 @@ settings:
   -
     id: background-settings-workplace-theme-light-custom
     title: Custom Theme light (url)
-    description: Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
-    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。使用以下格式设置本地图片  url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg")
+    description: Customise the background image. Use the format in the Default below for an Online image. 
+    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置在线图片。 
     type: variable-text
     default: url("https://")
   -
@@ -220,8 +214,8 @@ settings:
   -
     id: background-settings-workplace-theme-dark-custom
     title: Custom Theme Dark (url)
-    description: Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
-    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。使用以下格式设置本地图片  url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg")
+    description: Customise the background image. Use the format in the Default below for an Online image. 
+    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。
     type: variable-text
     default: url("https://")
   -
@@ -285,10 +279,11 @@ settings:
     collapsed: true
   -
     id: background-image-settings-switch
-    title: Toggle Background Images
+    title: Toggle Note Background Images
     title.zh: 开启笔记背景
     type: class-toggle
     default: false
+    addCommand: true
   -
     id: toggle-nonoverlapping-bg
     title: Activate nonoverlapping note background when toggling workplace background
@@ -349,15 +344,15 @@ settings:
   -
     id: background-markdown-page-theme-light-custom
     title: Custom Image (Light mode)
-    description: Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
-    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。使用以下格式设置本地图片 url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg")
+    description: Customise the background image. Use the format in the Default below for an Online image. 
+    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。
     type: variable-text
     default: url("https://")
   -
     id: background-markdown-page-theme-dark-custom
     title: Custom Image (Dark mode)
-    description: Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
-    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。使用以下格式设置本地图片 url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg")
+    description: Customise the background image. Use the format in the Default below for an Online image. 
+    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。
     type: variable-text
     default: url("https://")
   -
@@ -516,15 +511,15 @@ settings:
   -
     id: background-command-palette-theme-light-custom
     title: Custom Theme light (url)
-    description: Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
-    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。使用以下格式设置本地图片  url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg")
+    description: Customise the background image. Use the format in the Default below for an Online image. 
+    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。
     type: variable-text
     default: url("https://")
   -
     id: background-command-palette-theme-dark-custom
     title: Custom Theme Dark (url)
-    description: Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
-    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。使用以下格式设置本地图片  url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg")
+    description: Customise the background image. Use the format in the Default below for an Online image. 
+    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。
     type: variable-text
     default: url("https://")
   -
@@ -621,8 +616,8 @@ settings:
   -
     id: background-panel-page-theme-light-custom
     title: Custom Image (Light mode)
-    description: Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
-    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。使用以下格式设置本地图片 url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg")
+    description: Customise the background image. Use the format in the Default below for an Online image.
+    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。
     type: variable-text
     default: url("https://")
   -
@@ -654,8 +649,8 @@ settings:
   -
     id: background-panel-page-theme-dark-custom
     title: Custom Image (Dark mode)
-    description: Customise the background image. Use the format in the Default below for an Online image. Use the following format to point to a local file - url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg").
-    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。使用以下格式设置本地图片 url("app://local/D:/Documents/Pictures/Unsplash/UnsplashTemp.jpg")
+    description: Customise the background image. Use the format in the Default below for an Online image. 
+    description.zh: 需在上方选项种选择Custom，以自定义背景。使用Default内格式设置网络图片。
     type: variable-text
     default: url("https://")
   -
@@ -876,6 +871,23 @@ settings:
     format: hex
     default-light: '#'
     default-dark: '#'
+  -
+    id: highlight-style
+    title: Highlight styles
+    title.zh: 高亮样式
+    type: class-select
+    allowEmpty: false
+    default: bt-default-highlight
+    options:
+      -
+        label: Default
+        value: bt-default-highlight
+      -
+        label: All rounded corners (@Mon & @TheGodOfKing)
+        value: all-rounded-corners-highlight
+      -
+        label: No rounded corners
+        value: no-rounded-corners-highlight
   -
     id: highlight-bg-color-head
     title: Highlight Background Color
@@ -1159,9 +1171,19 @@ settings:
     default-dark: '#'
   -
     id: search-result-file-matched-bg
-    title: Search Result Highlight Color
-    title.zh: 搜索结果高亮
+    title: File Search Result Highlight Color
+    title.zh: 文件搜索结果高亮
     description: --search-result-file-matched-bg
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#'
+    default-dark: '#'
+  -
+    id: text-search-highlight-bg
+    title: Text Search Result Highlight Color
+    title.zh: 文本搜索结果高亮
+    description: --text-search-highlight-bg
     type: variable-themed-color
     opacity: true
     format: hex
@@ -1370,37 +1392,37 @@ settings:
     description: Fonts except from the code texts
     description.zh: 除代码框外字体
     type: variable-text
-    default: "Bookerly,'Inter', 'Segoe UI','霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji',var(--font-default)"
+    default: "Bookerly,'Inter', 'Segoe UI','霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji',var(--font-interface)"
   -
     id: font-family-h1
     title: Header 1
     type: variable-text
-    default: "var(--font-default)"
+    default: "var(--font-interface)"
   -
     id: font-family-h2
     title: Header 2
     type: variable-text
-    default: "var(--font-default)"
+    default: "var(--font-interface)"
   -
     id: font-family-h3
     title: Header 3
     type: variable-text
-    default: "var(--font-default)"
+    default: "var(--font-interface)"
   -
     id: font-family-h4
     title: Header 4
     type: variable-text
-    default: "var(--font-default)"
+    default: "var(--font-interface)"
   -
     id: font-family-h5
     title: Header 5
     type: variable-text
-    default: "Bookerly, 'LXGW WenKai', var(--font-default)"
+    default: "Bookerly, 'LXGW WenKai', var(--font-interface)"
   -
     id: font-family-h6
     title: Header 6
     type: variable-text
-    default: "Bookerly, 'LXGW WenKai', var(--font-default)"
+    default: "Bookerly, 'LXGW WenKai', var(--font-interface)"
   -
     id: font-family-folder-file-title
     title: Folder & File Title
@@ -1412,13 +1434,13 @@ settings:
     title: Codebox
     title.zh: 代码框字体
     type: variable-text
-    default: "'JetBrains Mono',Consolas, Monaco, '等距更纱黑体 SC', 'Source Han Mono', 'Microsoft Yahei Mono', 'Segoe UI Emoji', 'Microsoft YaHei', 'Source Code Pro', monospace"
+    default: "'JetBrains Mono', Consolas, Monaco, '等距更纱黑体 SC', 'Source Han Mono', 'Microsoft Yahei Mono', 'Segoe UI Emoji', 'Microsoft YaHei', 'Source Code Pro', monospace"
   -
     id: font-family-inline-code
     title: Inline Code
     title.zh: 行内代码字体
     type: variable-text
-    default: var(--font-monospace-theme)
+    default: var(--font-monospace-override), var(--font-monospace-theme)
   -
     id: font-family-tag
     title: Tag
@@ -1430,7 +1452,7 @@ settings:
     title: Bold Text
     title.zh: 加粗文字字体
     type: variable-text
-    default: "Bookerly,'Inter', 'Segoe UI', 'LXGW WenKai Screen', 'LXGW WenKai Screen R', '霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji', var(--font-default)"
+    default: "Bookerly,'Inter', 'Segoe UI', 'LXGW WenKai Screen', 'LXGW WenKai Screen R', '霞鹜文楷 GB', 'LXGW WenKai', 'Segoe UI Emoji', var(--font-interface)"
   -
     id: font-weight-strong
     title: Bold text font weight
@@ -1482,6 +1504,12 @@ settings:
     title.zh: 左侧边栏文件字体大小
     type: variable-text
     default: 0.85em
+  -
+    id: font-size-outline
+    title: outline font size
+    title.zh: 大纲字体大小
+    type: variable-text
+    default: 13px
   -
     id: font-size-code
     title: Codeblock
@@ -1996,6 +2024,7 @@ settings:
     description: Enable global effect, local effect only need to  declare "cssclass：indent" in the YAML area. Contextual Typography plugin needs to be installed in Reading mode.
     type: class-toggle
     default: false
+    addCommand: true
   -
     id: justify-align
     title: Alignment of both ends(justify align)
@@ -2004,6 +2033,7 @@ settings:
     description: Enable global effect, local effect only need to  declare "cssclass：justify" in the YAML area. Contextual Typography plugin needs to be installed in Reading mode.
     type: class-toggle
     default: false
+    addCommand: true
   -
     id: reduce-bottom-padding
     title: To Reduce Padding Bottom of Pages
@@ -2534,23 +2564,20 @@ settings:
     title.zh: 阅读视图列表样式
     type: class-select
     allowEmpty: false
-    default: list-bracket-left
+    default: list-no-border
     options:
       -
         label: Bracket 1
-        value: list-bracket-left
+        value: list-bracket-style
       -
         label: Bracket 2 (1.1.1)
-        value: list-bracket-left-two
+        value: list-bracket-style-two
       -
-        label: Vertical line 1
+        label: Bracket 3
+        value: list-bracket-style-three
+      -
+        label: Vertical line 1 (1.1.1)
         value: list-vertical-line-one
-      -
-        label: Vertical line 2
-        value: list-vertical-line-two
-      -
-        label: Vertical line 3 (1.1.1)
-        value: list-vertical-line-three
       -
         label: Using Ob Settings
         value: list-no-border
@@ -2922,6 +2949,19 @@ settings:
     title.zh: 显示表格框线
     type: class-toggle
     default: false
+  -
+    id: table-width
+    title: table width 
+    title.zh: md表格默认宽度
+    type: class-select
+    default: table-width-100
+    options:
+      -
+        label: 100%
+        value: table-width-100
+      -
+        label: auto
+        value: table-width-auto
   -
     id: full-width-table
     title: Full-width table display
@@ -3826,6 +3866,7 @@ settings:
     description.zh: 需要先在设置中开启显示front-matter，笔记cssclass中声明show-full-metadata 可单独控制是否显示yaml
     type: class-toggle
     default: false
+    addCommand: true
   -
     id: canvas-styles
     title: 2.3.25 Canvas
@@ -3841,6 +3882,7 @@ settings:
     description.zh: 开启后 点击卡片会突出显示画布上所有相同颜色的卡片和线条
     type: class-toggle
     default: false
+    addCommand: true
   -
     id: canvas-card-text-middle
     title: canvas card text center align
@@ -3926,6 +3968,25 @@ settings:
     format: hex
     default-light: '#fef9ee'
     default-dark: '#05172e'
+  -
+    id: tab-stack-folder
+    title: 2.3.26 Tab Stack
+    title.zh: 2.3.26 堆叠标签页
+    type: heading
+    level: 3
+    collapsed: true
+	-
+		id: tab-stacked-pane-width
+		title: Tag stacked pane with
+		type: variable-number
+		default: 700
+		format: px
+	-
+		id: tab-stacked-header-width
+		title: Spine width
+		type: variable-number
+		default: 40
+		format: px
   -
     id: style-options-for-other-plugins
     title: 3. For Plugins
@@ -4533,6 +4594,7 @@ settings:
     title.zh: 代码换行 （阅读模式）
     type: class-toggle
     default: true
+    addCommand: true
   -
     id: remove-language-type
     title: Toggle showing types of code languages
@@ -4545,6 +4607,7 @@ settings:
     title.zh: 代码不换行 （Live Preview）
     type: class-toggle
     default: false
+    addCommand: true
   -
     id: letter-space-code
     title: Letter Spacing for Code
@@ -4833,6 +4896,7 @@ body {
   --font-size-list: 1em;
   --font-size-preview-blockquote: 1em;
   --font-size-edit-blockquote: 1em;
+  --font-size-outline:var(--nav-item-size);
   --font-size-code: 1em;
   --font-size-latex: 1.25em;
   --font-size-cloze: 0.9375em;
@@ -4847,16 +4911,16 @@ body {
   --font-default: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei", sans-serif;
   --font-family-list: ;/*列表字体*/
   --font-text-theme: Bookerly,'Inter', "Segoe UI","霞鹜文楷 GB", "LXGW WenKai", "Segoe UI Emoji"; /*主体（包括列表）字体，除代码框等少数部分*/
-  --font-family-h1: var(--font-default);
-  --font-family-h2: var(--font-default);
-  --font-family-h3: var(--font-default);
-  --font-family-h4: var(--font-default);
+  --font-family-h1: var(--font-interface);
+  --font-family-h2: var(--font-interface);
+  --font-family-h3: var(--font-interface);
+  --font-family-h4: var(--font-interface);
   --font-family-h5: ;
   --font-family-h6: ;
   --font-family-title: ;/*文件抬头标题*/
   --font-family-folder-file-title: Arlrdbd, "Source Han Sans", "Noto Sans CJK", "Source Sans Pro", "Segoe UI Emoji", sans-serif;/*左侧边栏文件、文件夹字体*/
   --font-monospace-theme: 'JetBrains Mono',Consolas, Monaco, "等距更纱黑体 SC", "Source Han Mono", "Microsoft Yahei Mono", "Segoe UI Emoji", "Microsoft YaHei", "Source Code Pro", monospace;
-  --font-family-inline-code: var(--font-monospace-theme);
+  --font-family-inline-code: var(--font-monospace-override), var(--font-monospace-theme);
   --font-family-tag: Bookerly,'Inter', "Segoe UI", "Microsoft YaHei", STzhongsong, STSong, "Segoe UI Emoji", Serif;
   --font-family-vault: "Lucida Handwriting", "Segoe UI Emoji";/*左侧库名字体*/
   --font-family-special-tag: "Lucida Handwriting", "Segoe UI Emoji";
@@ -4864,7 +4928,7 @@ body {
 
   --mermaid-font-family: Segoe UI, "Microsoft YaHei", "Segoe UI Emoji", "trebuchet ms", verdana, Arial, cursive;
   --font-family-better-footnote: Arlrdbd, "Source Han Sans", "Segoe UI Emoji";
-  --font-family-strong: Bookerly,'Inter', "Segoe UI", "LXGW WenKai Screen", "LXGW WenKai Screen R", "霞鹜文楷 GB", "LXGW WenKai", "Segoe UI Emoji", var(--font-default);
+  --font-family-strong: Bookerly,'Inter', "Segoe UI", "LXGW WenKai Screen", "LXGW WenKai Screen R", "霞鹜文楷 GB", "LXGW WenKai", "Segoe UI Emoji", var(--font-interface);
   --font-family-em: ;
   --font-loading-text: var(--font-monospace-theme);
 
@@ -5058,6 +5122,8 @@ body {
 body {
   background-color: var(--color-base-25);
 }
+
+
 body.all-dark .print.theme-light,
 .theme-dark {
   --background-primary: var(--background-primary-bg-4-bt,#202020);
@@ -5415,7 +5481,7 @@ body.all-dark .print.theme-light,
   --background-modifier-error: #e68787;
   --background-modifier-error-rgb: 230, 135, 135;
   --background-modifier-error-hover: #FF9494;
-  --background-modifier-cover: rgba(0, 0, 0, 0.8);
+
   --text-accent: var(--color-accent);
   --text-accent-hover: var(--color-accent-2);
   --text-normal: #0e0e0e;
@@ -6839,7 +6905,6 @@ body.color-scheme-options-flamingo.theme-light {
   --background-modifier-error: #f5a7a2;
   --background-modifier-error-rgb: 230, 135, 135;
   --background-modifier-error-hover: #fefcf9;
-  --background-modifier-cover: rgba(0, 0, 0, 0.2);
 
   --text-normal: #37291a;
   --text-muted: #37291a;
@@ -6970,7 +7035,6 @@ body.color-scheme-options-flamingo.theme-dark {
   --background-modifier-error: #f93759;
   --background-modifier-error-rgb: #f93759;
   --background-modifier-error-hover: #F93758;
-  --background-modifier-cover: rgba(0, 0, 0, 0.3);
 
   --text-normal: #efe9d9;
   --text-muted: #efe9d9;
@@ -8995,7 +9059,6 @@ body.color-scheme-options-simplicity-topaz.theme-dark {
   --simple-yellow:hsla(45, 63%, 43%, 1);
   --simple-blue-3:hsla(245, 60%, 67%, 1);
 
-
   --custom-titlebar-bg:var(--background-modifier-cover);
 
   --color-black: var(--simple-black-1);
@@ -9118,16 +9181,13 @@ body.color-scheme-options-simplicity-topaz .checkbox-container.is-enabled {
 }
 
 body.theme-light.color-scheme-options-simplicity-topaz .workspace-split.mod-root .workspace-tab-header.is-active.mod-active {
-
   border-radius: 6px;
   border-color: var(--background-modifier-border);
   border-style: solid;
-
   border-width: 0px;
 }
 
-body.color-scheme-options-simplicity-topaz.theme-dark:not(.background-settings-workplace-background-image) .workspace-split.mod-root .workspace-tab-header.is-active.mod-active
-{
+body.color-scheme-options-simplicity-topaz.theme-dark:not(.background-settings-workplace-background-image) .workspace-split.mod-root .workspace-tab-header.is-active.mod-active {
   background-color: var(--simple-white-4);
 }
 
@@ -9468,7 +9528,7 @@ body.color-scheme-options-simplicity-topaz.is-frameless.background-settings-work
 body.color-scheme-options-simplicity-topaz .workspace-leaf-content .view-header .view-header-icon {
   margin-left: -10px;
   opacity: 0;
-  width:18px;
+  width: 18px;
 }
 body.color-scheme-options-simplicity-topaz .workspace-leaf-content .view-header .view-header-icon:hover {
   opacity: 1;
@@ -9541,13 +9601,13 @@ body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered
 body.font-family-change-to-default *:not(font)>em>strong,
 body.font-family-change-to-default *:not(font)>strong>em,
 body.font-family-change-to-default .cm-strong.cm-em {
-  font-family: unset !important;
+  font-family: var(--font-text)!important;
 }
 
 body.font-family-change-to-default .cm-s-obsidian .cm-hmd-frontmatter,
 body.font-family-change-to-default .markdown-rendered code,
 body.font-family-change-to-default :is(.markdown-preview-view,.markdown-rendered) code{
-  font-family: 'Source Code Pro', monospace !important;
+  font-family: var(--font-monospace);
 }
 
 body.reduce-bottom-padding .workspace-leaf-content[data-type="markdown"] :is(.markdown-preview-view,.markdown-rendered) .markdown-preview-sizer,
@@ -9875,6 +9935,16 @@ body:not(.remove-cloze-style) .markdown-source-view.is-live-preview .cm-highligh
   color: var(--text-normal) !important;
   transition: all 400ms ease-in-out;
 }
+
+
+body:not(.remove-cloze-style)  .markdown-rendered mark:has(> del) {
+  background-color: transparent!important;
+}
+
+body:not(.remove-cloze-style) .markdown-rendered mark:empty {
+  background-color: initial !important;
+}
+
 
 .markdown-source-view.is-live-preview.cloze .cm-em.cm-highlight.cm-strikethrough:not([class*="formatting"]),
 body:not(.remove-cloze-style) .markdown-source-view.is-live-preview .cm-em.cm-highlight.cm-strikethrough:not([class*="formatting"]) {
@@ -10306,8 +10376,8 @@ body:not(.tag-default) .tag:not(.token):hover {
   background-color: var(--theme-color) !important;
 }
 
-body:not(.tag-default) .cm-s-obsidian span.cm-hashtag {
-  font-family: var(--font-family-tag) !important;
+body:is(:not(.tag-default),:not(.font-family-change-to-default)) .cm-s-obsidian span.cm-hashtag {
+  font-family: var(--font-family-tag);
   font-size: var(--font-size-tag) !important;
   text-decoration: none;
 }
@@ -10850,7 +10920,7 @@ div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-quote {
 /* highlight */
 :is(.markdown-preview-view,.markdown-rendered) mark {
   background-color: var(--text-highlight-bg);
-  padding: 1px 3px;
+  padding: 1px 2px;
   color: var(--text-highlight);
   border-radius: var(--radius-xs);
 }
@@ -10859,6 +10929,11 @@ div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-quote {
 .cm-highlight.cm-quote {
   color: var(--text-highlight);
   padding: 2px 0 1px 0;
+}
+
+body:not(.no-rounded-corners-highlight):not(.all-rounded-corners-highlight) .cm-s-obsidian .cm-widgetBuffer[aria-hidden="true"]+span.cm-highlight:has(+ .cm-widgetBuffer[aria-hidden="true"]) {
+  border-radius: 3px;
+  padding: 1px 2px;
 }
 
 .cm-s-obsidian span.cm-formatting-highlight {
@@ -10904,6 +10979,8 @@ body:not(.remove-cloze-style) :is(.markdown-preview-view,.markdown-rendered) mar
   background-color: var(--cloze-bg-color);
   color: var(--cloze-bg-color);
   text-decoration: underline var(--cloze-decoration) var(--cloze-decoration-color);
+  border-radius:5px;
+    padding:2px;
 }
 
 body:not(.remove-cloze-style) .cm-s-obsidian .cm-formatting.cm-formatting-highlight.cm-highlight~span.cm-formatting-strikethrough.cm-highlight.cm-strikethrough~span.cm-highlight.cm-strikethrough:not(.cm-em),
@@ -11031,13 +11108,13 @@ span.cm-strong.cm-em.cm-highlight {
 
 
 
-body.default-icons .nav-folder.mod-root .nav-folder > .nav-folder-children {
+/* body.default-icons .nav-folder.mod-root .nav-folder > .nav-folder-children {
   margin: 0 0 0 16px;
-}
+} */
 
-.nav-folder.mod-root .nav-folder > .nav-folder-children {
+/* .nav-folder.mod-root .nav-folder > .nav-folder-children {
   margin: 0 0 0 13px;
-}
+} */
 
 .nav-folder.mod-root .nav-folder > .nav-folder-children:hover {
   border-left-color: var(--theme-color-translucent-04);
@@ -11199,6 +11276,10 @@ body:not(.is-focused) .titlebar-text {
 .outline .tree-item-self.is-clickable:hover {
   background-color: var(--theme-color-translucent-015);
   color: var(--text-normal);
+}
+.outline .tree-item-self
+{
+  font-size: var(--font-size-outline);
 }
 
 .search-result-file-match:hover {
@@ -11421,7 +11502,7 @@ body.clutter-free-headings div:not(.cm-active).cm-line span:not(.cm-formatting-h
   border-radius: var(--radius-xs);
   color: var(--text-muted);
   overflow: visible;
-  font-family: var(--font-default);
+  font-family: var(--font-interface);
   font-weight: normal !important;
 }
 
@@ -12224,11 +12305,15 @@ div.math.math-block mjx-math{
   font-family: var(--font-monospace);
   text-align: start;
 }
-.cm-s-obsidian span.cm-math:not(.cm-formatting-math-begin):not(.cm-formatting-math-end)
-{
+.cm-s-obsidian span.cm-math:not(.cm-formatting-math-begin):not(.cm-formatting-math-end) {
   font-size: var(--font-size-code) !important;
   font-family: var(--font-monospace);
   text-align: start;
+}
+
+.cm-s-obsidian .cm-widgetBuffer[aria-hidden="true"]+.cm-inline-code:has(+ .cm-widgetBuffer[aria-hidden="true"]) {
+  border-radius: var(--radius-s);
+  padding: 2px 2px 1px;
 }
 
 .cm-s-obsidian div.HyperMD-codeblock-bg {
@@ -12485,10 +12570,8 @@ body.code-theme-dracula {
   --code-active-line-background-color: #414458;
   --code-matchingbracket: #fffff;
 }
-body.theme-light.code-theme-monokai
-{
+body.theme-light.code-theme-monokai {
   --code-comment: #aca47a;
-
 }
 body.code-theme-monokai {
   --background-code: #272822d9;
@@ -12499,8 +12582,7 @@ body.code-theme-monokai {
   --code-comment: #75715E;
   --code-active-line-background-color: #17013f9f;
 }
-body.code-theme-sublime
-{
+body.code-theme-sublime {
   --code-operator: #9a6e3a;
   --code-variable: #5180de;
   --code-keyword: #EA5E66;
@@ -12827,7 +12909,7 @@ code[class*="language-"] ::selection {
 /*bold code text except code language*/
 :not(pre)>code:not([class*='language-']) {
   font-weight: var(--font-weight-inline-code);
-  padding: 2px 3px 1px;
+  padding: 2px 2px 1px;
   font-family: var(--font-family-inline-code) !important;
 }
 
@@ -13607,10 +13689,17 @@ body:not(.remove-heading-indicator) .callout-content :is(h1, h2, h3, h4, h5, h6)
 }
 
 :is(.markdown-preview-section,.markdown-rendered) table:not(.dataview.table-view-table) {
-  width: 100%;
+
   border-collapse: collapse;
   overflow: auto;
   margin: 20px auto;
+}
+
+body.table-width-100 :is(.markdown-preview-section,.markdown-rendered) table:not(.dataview.table-view-table) {
+  width: 100%;
+}
+body.table-width-auto :is(.markdown-preview-section,.markdown-rendered) table:not(.dataview.table-view-table) {
+  width: auto;
 }
 
 :is(.markdown-preview-section,.markdown-rendered) table:not(.dataview.table-view-table):active,
@@ -14021,6 +14110,37 @@ body:not(.remove-colorful-highlight-bg) .cm-em.cm-formatting.cm-formatting-highl
   padding: 1px 0;
 }
 
+body.all-rounded-corners-highlight .cm-s-obsidian span.cm-highlight, 
+body.all-rounded-corners-highlight :is(.markdown-preview-view,.markdown-rendered) mark {
+  -webkit-box-decoration-break: clone;
+  border-radius: 5px;
+  padding: 1px 2px;
+  margin: 0 2px;
+}
+
+body.all-rounded-corners-highlight .cm-s-obsidian .cm-formatting.cm-formatting-highlight:has(+ span.cm-highlight) {
+  border-radius: 5px 0 0 5px;
+  padding: 1px 0;
+  margin: 0 -5px 0 2px;
+}
+
+body.all-rounded-corners-highlight .cm-s-obsidian .cm-formatting.cm-formatting-highlight+span.cm-highlight:has(+ span.cm-highlight) {
+  padding: 1px 4px;
+}
+
+body.all-rounded-corners-highlight .cm-s-obsidian span.cm-highlight+.cm-formatting.cm-formatting-highlight {
+  border-radius: 0 5px 5px 0;
+  padding: 1px 0;
+  margin: 0 2px 0 -5px;
+}
+
+body.no-rounded-corners-highlight .cm-s-obsidian span.cm-highlight, 
+body.no-rounded-corners-highlight :is(.markdown-preview-view,.markdown-rendered) mark {
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+
 .status-bar,
 .side-dock.mod-right,
 .side-dock.mod-left {
@@ -14132,11 +14252,10 @@ body.file-bg-pill .item-list {
 }
 
 .nav-file-title.is-active {
-  color: var(--accent-strong);
   background-color: var(--theme-color-translucent-01);
 }
 
-body:not(.is-grabbing) .nav-folder-title:hover {
+body:not(.is-grabbing) .tree-item-self.is-clickable.nav-folder-title:hover {
   background-color: var(--background-secondary-alt);
   color: var(--text-normal);
   font-weight: bold;
@@ -14148,8 +14267,8 @@ body:not(.is-grabbing) .nav-folder-title:hover {
   background: var(--theme-color-translucent-015);
 }
 
-body:not(.is-grabbing) .nav-file-title.is-active:hover,
-body:not(.is-grabbing) .nav-file-title:hover,
+body:not(.is-grabbing) .tree-item-self.is-clickable.nav-file-title.is-active:hover,
+body:not(.is-grabbing) .tree-item-self.is-clickable.nav-file-title:hover,
 .nav-file:not(.is-active):hover .nav-file-title,
 .nav-folder:hover .nav-folder-content {
   background-color: var(--theme-color-translucent-01);
@@ -14219,6 +14338,10 @@ a.internal-link,
   color: var(--internal-link-color) !important;
 }
 
+.cm-s-obsidian span.cm-link:hover,
+.cm-s-obsidian span.cm-hmd-internal-link:hover {
+  background: var(--theme-color-translucent-01);
+}
 /* internal link in highlight
 .cm-highlight.cm-hmd-internal-link,
 :is(.markdown-preview-view,.markdown-rendered) mark .internal-link:not(.is-unresolved) {
@@ -14232,6 +14355,7 @@ a.internal-link,
   text-decoration: none !important;
   transition: all 0.4s ease-in-out;
   text-shadow: var(--window-shadow-hover);
+  background: var(--theme-color-translucent-01);
 }
 
 body.colorful-link-animation :is(.markdown-preview-view,.markdown-rendered) a:hover {
@@ -14608,20 +14732,23 @@ body.image-border img{
   filter: drop-shadow(0px 0px 3px rgba(var(--mono-rgb-100),0.2));
 }
 /* images : reduce displayed size of embedded files, zoom on hover */
-body:not(.obsidian-default-image) :is(.markdown-preview-view,.markdown-rendered)  :not(.canvas-node-content)> img:not([class*="emoji"]) {
+body:not(.obsidian-default-image) :is(.markdown-preview-view, .markdown-rendered) .workspace-leaf-content[data-type="markdown"] img:not([class*="emoji"]) {
   max-width: var(--image-max-width);
   margin-left: auto;
   margin-right: auto;
 }
-body:not(.obsidian-default-image) .print :is(.markdown-preview-view,.markdown-rendered) img:not([class*="emoji"]) {
+
+body:not(.obsidian-default-image) .print :is(.markdown-preview-view, .markdown-rendered) img:not([class*="emoji"]) {
   display: block;
 }
-body:not(.obsidian-default-image) .view-content  :not(.canvas-node-content)>img:not([class*="emoji"]) {
+
+body:not(.obsidian-default-image) .workspace-leaf-content[data-type="markdown"] .view-content  :not(.canvas-node-content)>img:not([class*="emoji"]) {
   cursor: zoom-in;
   display: block;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  margin-left: auto ;
+  margin-right: auto;
 }
+
 body:not(.image-zoom) .markdown-reading-view button img,
 body:not(.image-zoom) .markdown-reading-view .callout-title-inner img {
   pointer-events: none;
@@ -14763,7 +14890,6 @@ body.file-name-wrapped .nav-folder-title-content {
   border-color: transparent;
   border-image: initial;
   border-radius: 0;
-  align-items: baseline;
   flex-direction: row;
 }
 
@@ -14772,7 +14898,8 @@ body.file-name-wrapped .nav-folder-title-content {
   color: var(--text-folder-file);
 }
 
-.nav-folder-title {
+.nav-folder-title,
+.tree-item-self.is-clickable.mod-collapsible.nav-folder-title {
   font-weight: 600;
   padding: 2px 5px 2px 23px;
   color: var(--text-normal);
@@ -14790,14 +14917,14 @@ body.file-name-wrapped .nav-folder-title-content {
 /*---- nav arrows adjust location ----*/
 body:not(.default-icons) .nav-folder-collapse-indicator {
   position: absolute;
-  left: 6.5px;
+  /* left: 6.5px; */
   top: 3px;
   transition: transform 20ms linear 0s;
 }
 
-body.default-icons .nav-folder-collapse-indicator {
+/* body.default-icons .nav-folder-collapse-indicator {
   margin-left: -9px;
-}
+} */
 
 body:not(.default-icons):not(.remove-arrow) .nav-folder-collapse-indicator::after {
   position: absolute;
@@ -14857,8 +14984,8 @@ body:not(.default-icons) .backlink-pane .search-result-container .tree-item.sear
 
 /* search panel icons */
 body:not(.default-icons) .workspace-leaf .search-result-container.mod-global-search .tree-item-self.search-result-file-title.is-clickable .collapse-icon {
-  left: 0;
-  top: 7px;
+  /* left: 0;
+  top: 7px; */
   margin-top: 0;
   transition: transform 20ms linear 0s;
 }
@@ -14885,13 +15012,13 @@ body:not(.default-icons) .workspace-leaf .search-result-container.mod-global-sea
   opacity: 0.5;
 }
 
-/* header collaspe indicators */
+/* header collaspe indicators*/
 :is(.markdown-preview-view,.markdown-rendered) div.is-collapsed :is(h1,h2,h3,h4,h5,h6)::after,
-:is(.markdown-preview-view,.markdown-rendered) :is(ol,ul) .is-collapsed::after {
+:is(.markdown-preview-view,.markdown-rendered) li.is-collapsed::after {  
   content: "...";
   padding: 5px;
   color: var(--text-faint);
-}
+} 
 
 body:not(.default-icons) div.heading-collapse-indicator.collapse-indicator {
   position: absolute;
@@ -14998,7 +15125,7 @@ body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-conte
   margin-top: -1px; /* fix item gap */
 }
 body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-self .tree-item-inner {
-  padding-left: 16px;
+  padding-left: 4px;
   overflow: hidden;
   text-overflow: ellipsis;
   height: calc(var(--nav-item-size) * 1.8);
@@ -15011,7 +15138,7 @@ body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-conte
   border: 2px solid hsla(var(--color-accent-hsl), 0.9);
   border-radius: 50%;
   position: absolute;
-  left: 7px;
+margin-left:-1.5em;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -15037,12 +15164,13 @@ body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-conte
   cursor: pointer;
 }
 body.logseq-outline-style .workspace-leaf-content[data-type=outline] .view-content .outline .tree-item-icon::before {
+  margin-top: 50%;
   width: var(--size-4-2);
   height: var(--size-4-2);
   background-color: hsla(var(--color-accent-hsl), 0.9);
   border-radius: 50%;
   position: absolute;
-  left: 7px;
+  left: 4px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -15176,17 +15304,7 @@ body.translucent-setting-panel .modal-bg {
   background-color: var(--background-secondary-translucent-1);
 }
 
-body.transparent-setting-panel .modal.mod-settings .vertical-tab-content-container,
-body.transparent-setting-panel .horizontal-tab-content,
-body.transparent-setting-panel .vertical-tab-content {
-  background-color: var(--background-secondary-translucent) !important;
-}
-
-body.transparent-setting-panel .modal-bg,
-body.transparent-setting-panel .modal.mod-settings {
-  background-color: var(--background-secondary-translucent) !important;
-  backdrop-filter: blur(0) !important;
-}
+ 
 
 body.setting-default-frosted-glass .prompt {
   background-color: var(--bg-color-settings-4);
@@ -15253,23 +15371,9 @@ body.translucent-setting-panel .vertical-tab-content {
   background-color: var(--bg-color-settings-1);
 }
 
-body.transparent-setting-panel .modal,
-body.transparent-setting-panel .modal.mod-settings,
-body.transparent-setting-panel .vertical-tab-content {
-  background-color: transparent !important;
-}
+ 
 
-body.transparent-setting-panel .vertical-tab-header,
-body.transparent-setting-panel .horizontal-tab-nav-item,
-body.transparent-setting-panel .vertical-tab-nav-item {
-  background-color: var(--background-secondary-translucent) !important;
-}
-
-body.transparent-setting-panel .vertical-tab-nav-item.is-active {
-  color: var(--text-noraml) !important;
-  font-weight: bolder;
-}
-
+ 
 body.setting-default-frosted-glass .vertical-tab-header-group-title {
   border: none;
 }
@@ -17135,7 +17239,7 @@ body.style-options-for-kanban-plugin-dynamic-neon-three.theme-dark .kanban-plugi
 }
 
 body.style-options-for-kanban-plugin-dynamic-neon-one .kanban-plugin__lane-wrapper:nth-child(n) {
-  background: unset !important;
+
   position: relative;
   z-index: 0;
   border-radius: 10px;
@@ -17153,8 +17257,8 @@ body.style-options-for-kanban-plugin-dynamic-neon-two .kanban-plugin__lane-wrapp
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 250%;
-  height: 300%;
+  width: 38px;
+  height: 125%;
   background-color: var(--background-secondary-alt) !important;
   background-repeat: no-repeat;
   background-size: 50% 50%;
@@ -17915,6 +18019,13 @@ body.style-options-for-admonition-plugin :is(.admonition-flex,.admonition-col2,.
   list-style-type: none;
   padding:0;
 }
+.markdown-rendered .admonition  ul li p:last-of-type, .markdown-rendered ol li p:last-of-type {
+ margin-block-end: 0.5em; 
+}
+
+.markdown-rendered  .admonition  ul li p:first-of-type, .markdown-rendered ol li p:first-of-type {
+  margin-block-start: 0.5em; 
+}
 
 body.style-options-for-admonition-plugin .admonition-col2 .admonition-content ul li .task-list-item-checkbox,
 body.style-options-for-admonition-plugin .admonition-col3 .admonition-content ul li .task-list-item-checkbox,
@@ -18547,8 +18658,8 @@ ul.dataview.dataview-ul.dataview-result-list-root-ul {
   border: 1px solid var(--embed-color);
 }
 
-body:is(.rainbow-lines-reading,.list-vertical-line-one,.list-vertical-line-two,.list-vertical-line-three) table.dataview.table-view-table :is(ol,ul) :is(ol,ul)::before,
-body:is(.rainbow-lines-reading,.list-vertical-line-one,.list-vertical-line-two,.list-vertical-line-three) .kanban-plugin__markdown-preview-view :is(ol,ul) :is(ol,ul)::before {
+body:is(.rainbow-lines-reading,.list-vertical-line-one) table.dataview.table-view-table :is(ol,ul) :is(ol,ul)::before,
+body:is(.rainbow-lines-reading,.list-vertical-line-one) .kanban-plugin__markdown-preview-view :is(ol,ul) :is(ol,ul)::before {
   border-left: none;
 }
 
@@ -19658,22 +19769,17 @@ body.remove-file-icons .workspace-leaf-content[data-type="recent-files"] .view-c
   padding: unset;
 }
 
-body.remove-file-icons:not(.remove-arrow) .nav-folder.mod-root>.nav-folder-children>.nav-file
-{
- padding-left:16px ;
+body.remove-file-icons:not(.remove-arrow) .nav-folder.mod-root>.nav-folder-children>.nav-file {
+ padding-left: 16px;
 }
-body.remove-file-icons.remove-arrow .nav-folder.mod-root
-{
- padding-left:4px ;
+body.remove-file-icons.remove-arrow .nav-folder.mod-root {
+ padding-left: 4px ;
 }
 .workspace-leaf-content[data-type="recent-files"] .view-content {
   padding: unset;
 }
 .workspace-leaf-content[data-type="recent-files"] .nav-folder.mod-root {
   height: fit-content;
-}
-.workspace-leaf-content[data-type="recent-files"] .nav-file-title {
-  padding: 0;
 }
 
 /**end recent file **/
@@ -19772,8 +19878,7 @@ body.hide-titlebar-close-btn.hide-left-ribbon-retention-drawer .file-tree-plugin
 /* ================================== */
 /* ============== webpage export html ============= */
 /* ================================== */
-.flex-container
-{
+.flex-container {
 --banner-height:300px;
 --banner-internal-embed-height:200px;
 --banner-preview-embed-height:120px;
@@ -21118,8 +21223,9 @@ body.dialogue-style-chat .dialogue-plugin-message-title {
   color: var(--code-language);
 }
 
-.markdown-source-view.is-live-preview .HyperMD-codeblock.HyperMD-codeblock-bg.cm-line {
+.markdown-source-view .HyperMD-codeblock.HyperMD-codeblock-bg.cm-line {
   letter-spacing: calc(var(--letter-space-code) * 0.02em);
+  line-height: var(--line-height-normal);
 }
 
 .cm-s-obsidian div.HyperMD-codeblock-end-bg {
@@ -21161,15 +21267,13 @@ body.top-bottom-style .titlebar::after {
   background: var(--background-titlebar-inner);
 }
 
-body.theme-dark.top-bottom-style  .workspace-split.mod-root .workspace-tab-header.is-active.mod-active
-{
-  border-bottom-left-radius:0;
-  border-bottom-right-radius:0;
+body.theme-dark.top-bottom-style  .workspace-split.mod-root .workspace-tab-header.is-active.mod-active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
   box-shadow: none;
-  background-color:#181818;
+  background-color: #181818;
 }
-body.theme-light.top-bottom-style  .workspace-split.mod-root .workspace-tab-header.is-active.mod-active
-{
+body.theme-light.top-bottom-style  .workspace-split.mod-root .workspace-tab-header.is-active.mod-active {
   box-shadow: none;
   background-color:var(--color-base-00);
 }
@@ -21180,8 +21284,7 @@ body.theme-light.background-settings-workplace-background-image .nav-folder.mod-
 }
 body.theme-dark.background-settings-workplace-background-image .workspace-ribbon.side-dock-ribbon.mod-left,
 body.theme-dark.background-settings-workplace-background-image .workspace-ribbon.side-dock-ribbon.mod-right,
-body.background-settings-workplace-background-image div.workspace-ribbon.mod-left:before
- {
+body.background-settings-workplace-background-image div.workspace-ribbon.mod-left:before {
   background-color: var(--background-primary-alt);
 }
 
@@ -21267,19 +21370,30 @@ body.background-settings-workplace-background-image .workspace-tab-header-contai
 }
 
 
-
 body.toggle-divider-lines {
   --divider-color: transparent;
   --tab-outline-color: transparent;
   --tab-divider-color: transparent;
 }
+body.toggle-divider-lines .workspace-ribbon,
+body.toggle-divider-lines .workspace-split > .workspace-leaf-resize-handle,
+body.toggle-divider-lines .view-header  {
+  border: none;
+}
 
+body.toggle-divider-lines .workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle:not(:hover) {
+  border-bottom-color: transparent;
+}
 
 body.toggle-divider-lines .workspace-ribbon.mod-left:before {
   border-bottom: var(--tab-outline-width) transparent;
 }
 body.toggle-divider-lines .workspace-tab-header-container{
   border-bottom: var(--tab-outline-width) transparent;
+}
+
+body.toggle-divider-lines .workspace-split.mod-root .workspace-tab-header.is-active {
+  box-shadow: var(--window-shadow);
 }
 
 /*
@@ -21469,11 +21583,13 @@ body.folder-icons .nav-folder-children .nav-folder.is-collapsed .nav-folder-titl
   -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5h-8.586L9.707 3.293A.997.997 0 0 0 9 3H4c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V7c0-1.103-.897-2-2-2zM4 19V7h16l.002 12H4z"></path></svg>');
 }
 
-body.folder-icons.remove-arrow:not(.default-icons) .nav-folder-collapse-indicator::after {
+ 
+
+body.remove-arrow:not(.default-icons) .nav-folder-collapse-indicator::after {
   display: none;
 }
-body.folder-icons.remove-arrow:not(.default-icons) :is(.nav-folder-title,.nav-file-title) {
-  padding-left: 5px;
+body.remove-arrow:not(.default-icons) :is(.nav-folder-title,.nav-file-title) {
+  padding-left: 5px!important;
 }
 body:not(.remove-file-icons) [data-type="starred"] .nav-file-icon .svg-icon {
   padding: 4px 0 0;
@@ -21686,7 +21802,7 @@ body.toggle-bg-panel-page.panel-page-bg-theme-light-custom.theme-light {
 }
 
 
-body.toggle-nonoverlapping-bg .workspace-split.mod-root .view-content {
+body.background-image-settings-switch.toggle-nonoverlapping-bg .workspace-split.mod-root .view-content {
   background: var(--background-nonoverlapping-note);
 }
 
@@ -21963,20 +22079,15 @@ body.background-image-settings-switch.background-image-settings-markdown-page-ra
 
 body.background-image-settings-switch.background-image-settings-markdown-page-transparent .workspace-split.mod-root {
   --background-primary: transparent;
-
   --tab-outline-color:transparent;
 }
 
-body.background-image-settings-switch.background-image-settings-markdown-page-transparent.theme-dark .workspace-split.mod-root .workspace-tab-header.is-active
-{
-
+body.background-image-settings-switch.background-image-settings-markdown-page-transparent.theme-dark .workspace-split.mod-root .workspace-tab-header.is-active {
   background-color: transparent;
 }
 body.background-image-settings-switch.background-image-settings-markdown-page-transparent .mod-root .workspace-tabs .workspace-leaf {
   background-color: unset;
 }
-
-
 
 
 body.background-image-settings-switch.background-image-settings-markdown-page-sea-and-sky.theme-dark .workspace-split.mod-root .workspace-leaf:nth-child(5n+1) .workspace-leaf-content[data-type="markdown"]::before {
@@ -22266,8 +22377,7 @@ body:is(.folder-style-change-options-colorful,.folder-style-change-options-color
 
 /*color scheme-1, high transparency*/
 body:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order).folder-colorful-one.theme-dark,
-body.folder-style-change-options-colorful-title.folder-colorful-one.theme-light
-{
+body.folder-style-change-options-colorful-title.folder-colorful-one.theme-light {
   --Fold0: #ff40403d;
   --Fold1: #f31f7448;
   --Fold2: #be25ff49;
@@ -22476,83 +22586,84 @@ body:is(.folder-style-change-options-colorful,.folder-style-change-options-color
 /*color scheme-1, high transparency*/
 body:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order).folder-colorful-one.theme-light,
 body.folder-style-change-options-colorful-title.folder-colorful-one.theme-dark {
-  --Fold0: #ff9a9a54;
-  --Fold1: #ff8cba69;
-  --Fold2: #da83ff69;
-  --Fold3: #9f76ff65;
-  --Fold4: #677bff5e;
-  --Fold5: #389cff5d;
-  --Fold6: #0eabff5d;
-  --Fold7: #0096a75d;
-  --Fold8: #009b895b;
-  --Fold9: #47b14c62;
-  --FoldA: #7dbb465e;
-  --FoldB: #a9bb465e;
-  --FoldC: #ccce3d65;
-  --FoldD: #e2c33b65;
-  --FoldE: #e2a73b65;
-  --FoldF: #e27e3b65;
-  --FoldG: #e24e3b65;
-  --FoldH: #ff313165;
-  --FoldI: #ff31806e;
-  --FoldJ: #ff31c16e;
-  --FoldK: #ee31ff6e;
-  --FoldL: #be31ff6e;
-  --FoldM: #9b31ff6e;
-  --FoldN: #7931ff6e;
-  --FoldO: #4631ff6e;
-  --FoldP: #3146ff6e;
-  --FoldQ: #3161ff6e;
-  --FoldR: #3180ff6e;
-  --FoldS: #3497f36e;
-  --FoldT: #34a9ec6e;
-  --FoldU: #34c5e96e;
-  --FoldV: #31d8d86e;
-  --FoldW: #31d8bc6e;
-  --FoldX: #31d8986e;
-  --FoldY: #31d8716e;
-  --FoldZ: #3fd8316e;
+  --Fold0: #f3bfbf54;
+  --Fold1: #ffbdd769;
+  --Fold2: #ebbcff69;
+  --Fold3: #ccb7ff65;
+  --Fold4: #b1bcff5e;
+  --Fold5: #98c6f45d;
+  --Fold6: #99ceeb5d;
+  --Fold7: #81dee95d;
+  --Fold8: #6ec7bc5b;
+  --Fold9: #8dde9162;
+  --FoldA: #a5dd745e;
+  --FoldB: #c9d96c5e;
+  --FoldC: #dbdd6a65;
+  --FoldD: #e5cb5965;
+  --FoldE: #e6b25365;
+  --FoldF: #e5915965;
+  --FoldG: #df756765;
+  --FoldH: #f46f6f65;
+  --FoldI: #f16fa16e;
+  --FoldJ: #ec6bc66e;
+  --FoldK: #de6ce86e;
+  --FoldL: #be62e96e;
+  --FoldM: #ad6cea6e;
+  --FoldN: #966ce66e;
+  --FoldO: #786be56e;
+  --FoldP: #717ce26e;
+  --FoldQ: #748fe76e;
+  --FoldR: #6f9ee96e;
+  --FoldS: #6fade86e;
+  --FoldT: #68b8e76e;
+  --FoldU: #63c9e36e;
+  --FoldV: #6ed3d36e;
+  --FoldW: #61c0b06e;
+  --FoldX: #4dbc916e;
+  --FoldY: #52bb7b6e;
+  --FoldZ: #5fbb576e;
 }
 
 /*color scheme-2, low transparency*/
 body:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order).folder-colorful-two.theme-light,body.folder-style-change-options-colorful-title.folder-colorful-two.theme-dark {
-  --Fold0: #ffb9b9d7;
-  --Fold1: #ffa3c8d7;
-  --Fold2: #e4a4ffd7;
-  --Fold3: #c5adffd7;
-  --Fold4: #98a5ffd7;
-  --Fold5: #84c2ffd7;
-  --Fold6: #73ceffd7;
-  --Fold7: #4ad5e4d7;
-  --Fold8: #69e6d7d7;
-  --Fold9: #7ee483d7;
-  --FoldA: #c1eb9fef;
-  --FoldB: #dbe6a2ef;
-  --FoldC: #e5e7a1ef;
-  --FoldD: #eee19def;
-  --FoldE: #eed5a7ef;
-  --FoldF: #f1c5a8ef;
-  --FoldG: #f8b6aeef;
-  --FoldH: #ffacacef;
-  --FoldI: #ffa8c9ef;
-  --FoldJ: #ffa7e5ef;
-  --FoldK: #f8acffef;
-  --FoldL: #e5acffef;
-  --FoldM: #d4a7ffef;
-  --FoldN: #c7a9ffef;
-  --FoldO: #b7afffef;
-  --FoldP: #adb5ffef;
-  --FoldQ: #adc0ffef;
-  --FoldR: #a1c5ffef;
-  --FoldS: #a6d4ffef;
-  --FoldT: #a8dfffef;
-  --FoldU: #97e1f3ef;
-  --FoldV: #97e9e9ef;
-  --FoldW: #93e9dbef;
-  --FoldX: #a0ebceef;
-  --FoldY: #9de9baef;
-  --FoldZ: #a7e9a1ef;
+  --Fold0: #ffe2e2;
+  --Fold1: #ffdee9;
+  --Fold2: #f6e1ff;
+  --Fold3: #e9dfff;
+  --Fold4: #e1e5ff;
+  --Fold5: #d4eaff;
+  --Fold6: #cdedff;
+  --Fold7: #ccf2f7;
+  --Fold8: #d5f8f4;
+  --Fold9: #d8f8da;
+  --FoldA: #ecffdb;
+  --FoldB: #f4fbd2;
+  --FoldC: #f7f8cf;
+  --FoldD: #f7f0cc;
+  --FoldE: #fdeed2;
+  --FoldF: #ffe4d3;
+  --FoldG: #ffdbd6;
+  --FoldH: #ffdfdf;
+  --FoldI: #ffdce9;
+  --FoldJ: #ffdbf4;
+  --FoldK: #fcddff;
+  --FoldL: #f4dbff;
+  --FoldM: #ecd7ff;
+  --FoldN: #e5d7ff;
+  --FoldO: #dad6ff;
+  --FoldP: #d6daff;
+  --FoldQ: #d7e1ff;
+  --FoldR: #d5e5ff;
+  --FoldS: #d3eaff;
+  --FoldT: #d3eeff;
+  --FoldU: #d6f7ff;
+  --FoldV: #d6ffff;
+  --FoldW: #dafff8;
+  --FoldX: #dcfcef;
+  --FoldY: #dcffe9;
+  --FoldZ: #defcdc;
 }
+
 
 /*color scheme-3*/
 body:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order).folder-colorful-three.theme-light,
@@ -22979,8 +23090,7 @@ body.folder-style-change-options-colorful-title .nav-folder.mod-root>.nav-folder
   font-weight: bold;
   filter: saturate(150%);
 }
-body.folder-style-change-options-colorful-title .nav-folder.mod-root>.nav-folder-children>.nav-folder .nav-folder-title
- {
+body.folder-style-change-options-colorful-title .nav-folder.mod-root>.nav-folder-children>.nav-folder .nav-folder-title {
   font-weight: 600;
 }
 body.folder-style-change-options-colorful-title .nav-folder.mod-root>.nav-folder-children>.nav-folder:nth-child(12n+2) .nav-folder-title,
@@ -23035,11 +23145,11 @@ body.folder-style-change-options-colorful-title .nav-folder.mod-root>.nav-folder
 /*=====folder-colorful-custom=====*/
 body.folder-style-change-options-colorful-order.folder-colorful-custom .nav-folder.mod-root>.nav-folder-children>.nav-folder .nav-folder-title,
 body.folder-style-change-options-colorful-order.folder-colorful-custom .nav-folder.mod-root>.nav-folder-children>.nav-folder .nav-folder-title+.nav-folder-children {
-  background-color: var( --folder-colorful-custom-color);
+  background-color: var(--folder-colorful-custom-color);
 }
 
 body:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order,.folder-style-change-options-colorful-title) {
-  --folder-colorful-custom-color:var(--theme-color);
+  --folder-colorful-custom-color: var(--theme-color);
 }
 
 body.folder-colorful-custom:not(.folder-style-change-options-colorful-default) .nav-folder.mod-root>.nav-folder-children>.nav-folder .nav-folder-title.is-active,
@@ -23110,15 +23220,18 @@ body:is(.folder-style-change-options-colorful,.folder-style-change-options-color
 }
 
 /* Remove collapse arrow from top level folders */
-body:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order) .nav-folder.mod-root>.nav-folder-children>.nav-folder>.nav-folder-title>.nav-folder-collapse-indicator {
+
+body.remove-arrow:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order) .nav-folder.mod-root>.nav-folder-children>.nav-folder>.nav-folder-title>.nav-folder-collapse-indicator {
   display: none;
 }
 
 /* Top Level Folder Titles */
 body:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order) .nav-folder.mod-root>.nav-folder-children>.nav-folder>.nav-folder-title {
   color: var(--FoldText);
-  padding-left: 3px;
-  margin-top: 7px;
+  padding: var(--nav-item-parent-padding);
+  padding-bottom: 4px;
+  /* padding-left: 3px; */
+   margin-top: 3px;
   /* space between top level sections */
   border-radius: 5px 5px 0 0;
 }
@@ -23130,12 +23243,12 @@ body:is(.folder-style-change-options-colorful,.folder-style-change-options-color
 
 /* General Nav Folder Children (this is the part that expands from each top level folder) */
 body:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order) .nav-folder.mod-root>.nav-folder-children>.nav-folder>.nav-folder-children {
-  padding-left: 0;
+  
   margin-left: 0;
-  border-top: var(--FoldText) 1px solid;
   border-radius: 0 0 5px 5px;
-  padding-bottom: 12px;
+  padding-bottom: 5px;
   border-left: 0px solid;
+  padding-left:1em;
 }
 
 body:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order) .nav-file-title {
@@ -23384,7 +23497,8 @@ body.folder-style-change-options-colorful .workspace-leaf-content[data-type='fil
 */
 
 body.folder-style-change-options-colorful .nav-folder-title:hover {
-  background-color: var(--background-secondary-alt) !important;
+  font-weight: bold;
+  filter: saturate(250%);
 }
 
 body:is(.folder-style-change-options-colorful,.folder-style-change-options-colorful-order) .theme-dark .workspace-leaf-content[data-type="file-explorer"] {
@@ -23398,9 +23512,7 @@ body:is(.folder-style-change-options-colorful,.folder-style-change-options-color
 /*style settings blockquote quotation marks*/
 body.blockquote-style-quotation-mark .markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before,
 body.blockquote-style-quotation-mark .markdown-source-view.mod-cm6 .cm-blockquote-border:before {
-
   border-left: none;
-
 }
 body.blockquote-style-quotation-mark :is(.markdown-preview-view,.markdown-rendered) blockquote {
   color: var(--text-normal);
@@ -23662,10 +23774,9 @@ body.background-settings-workplace-background-image:not(.simple-titlebar):not(.i
   display: flex;
   flex-grow: 1;
   color: var(--text-normal);
-
 }
 body .titlebar,
- body .workspace-ribbon.mod-left {
+body .workspace-ribbon.mod-left {
   --titlebar-background: var(--titlebar-background-focused);
 }
 
@@ -23696,8 +23807,7 @@ body.is-mobile.background-settings-workplace-background-image:not(:is(.backgroun
   background-size: cover;
   opacity: 0.8;
 }
-body.color-scheme-options-simplicity-topaz.theme-dark.background-settings-workplace-background-image .workspace::before
-{
+body.color-scheme-options-simplicity-topaz.theme-dark.background-settings-workplace-background-image .workspace::before {
   filter: blur(var(--blur-depth)) brightness(calc(var(--brightness-4-bg) - 0.5)) saturate(var(--saturate-4-bg));
 }
 
@@ -23858,9 +23968,9 @@ body.background-settings-workplace-background-image.background-settings-workplac
 }
 
 /* font color */
-body.background-settings-workplace-background-image :is(.tree-item-inner,.tree-item-flair,.workspace-ribbon-collapse-btn,.side-dock-ribbon-tab,.side-dock-ribbon-action):not(:hover) {
+/* body.background-settings-workplace-background-image :is(.tree-item-inner,.tree-item-flair,.workspace-ribbon-collapse-btn,.side-dock-ribbon-tab,.side-dock-ribbon-action):not(:hover) {
   color: var(--text-normal);
-}
+} */
 
 body.background-settings-workplace-background-image.background-settings-workplace-theme-light-in-the-sky.theme-light {
   --in-the-sky: url('https://images.unsplash.com/photo-1514519334989-3d5c8b1a9f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
@@ -25296,7 +25406,7 @@ body.theme-dark .popover.hover-popover:not(.is-loaded) {
   margin-top: 0.55em;
   margin-bottom: 0.55em;
 }
-.gridlist ul>li  strong::before {
+.gridlist ul>li strong::before {
   content: '';
   background-image: url("data:image/svg+xml,%3Csvg t='1626092983490' class='icon' viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' p-id='3709' width='200' height='200'%3E%3Cpath d='M444.88192 549.376h529.72544v263.5776a48.83456 48.83456 0 0 1-48.7936 48.88064H303.48288v-170.80832A141.53216 141.53216 0 0 1 444.88192 549.376z' fill='%23F4CA1C' p-id='3710'%3E%3C/path%3E%3Cpath d='M890.83904 196.80256h-269.85984a2.23744 2.23744 0 0 1-1.024-0.24064l-160.48128-80.384A82.176 82.176 0 0 0 422.81984 107.52H133.16096A82.11968 82.11968 0 0 0 51.2 189.60896v644.78208A82.11968 82.11968 0 0 0 133.16096 916.48h757.67808A82.11968 82.11968 0 0 0 972.8 834.39104V278.89152a82.11968 82.11968 0 0 0-81.96096-82.08896z m-757.67808-9.472h289.65888a2.24768 2.24768 0 0 1 1.024 0.24064l160.49664 80.384a82.304 82.304 0 0 0 36.65408 8.66816h269.85984a2.2784 2.2784 0 0 1 2.27328 2.27328v91.51488H130.88768V189.60896a2.2784 2.2784 0 0 1 2.27328-2.2784z m757.67808 649.33888H133.16096a2.2784 2.2784 0 0 1-2.27328-2.2784V450.22208h762.22464v384.16896a2.2784 2.2784 0 0 1-2.27328 2.2784z' fill='%23595BB3' p-id='3711'%3E%3C/path%3E%3C/svg%3E");
   background-size: 14px 14px;
@@ -25318,24 +25428,22 @@ body.theme-dark .popover.hover-popover:not(.is-loaded) {
 }
 
 
-
-.gridlist ul li a[href$=".js"]::before
-{
+.gridlist ul li a[href$=".js"]::before {
   font-family:var(--font-family-inline-code);
   content: 'JS';
- color: var(--text-faint);
+  color: var(--text-faint);
   margin-right: 5px;
   font-size:10px;
 }
-.gridlist ul li a[href$=".css"]::before
-{   font-family:var(--font-family-inline-code);
+.gridlist ul li a[href$=".css"]::before {   
+  font-family:var(--font-family-inline-code);
   content: 'CSS';
   color: var(--text-faint);
   margin-right: 5px;
   font-size:10px;
 }
 
-.gridlist ul li a[href$=".html"]::before{
+.gridlist ul li a[href$=".html"]::before {
   font-family:var(--font-family-inline-code);
   content: 'HTML';
   color: var(--text-faint);
@@ -25343,7 +25451,7 @@ body.theme-dark .popover.hover-popover:not(.is-loaded) {
   font-size:10px;
 }
 
-.gridlist ul li a[href$=".pdf"]::before{
+.gridlist ul li a[href$=".pdf"]::before {
   font-family:var(--font-family-inline-code);
   content: 'PDF';
   color: var(--text-faint);
@@ -25355,8 +25463,7 @@ body.theme-dark .popover.hover-popover:not(.is-loaded) {
 .gridlist ul li a[href$=".m4a"]::before,
 .gridlist ul li a[href$=".ogg"]::before,
 .gridlist ul li a[href$=".3gp"]::before,
-.gridlist ul li a[href$=".flac"]::before
-{
+.gridlist ul li a[href$=".flac"]::before {
   content: '';
   background-size: 18px 18px;
   background-repeat: no-repeat;
@@ -25373,9 +25480,7 @@ body.theme-dark .popover.hover-popover:not(.is-loaded) {
 .gridlist ul li a[href$=".svg"]::before,
 .gridlist ul li a[href$=".gif"]::before,
 .gridlist ul li a[href$=".jpeg"]::before,
-.gridlist ul li a[href$=".bmp"]::before
-{
-
+.gridlist ul li a[href$=".bmp"]::before {
   content: '';
   background-image: url("data:image/svg+xml,%3Csvg t='1626092464076' class='icon' viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' p-id='3121' width='200' height='200'%3E%3Cpath d='M266.42944 804.352l123.3408-136.82688a37.93408 37.93408 0 0 1 53.39136-2.90304l81.6896 72.83712a37.92384 37.92384 0 0 0 56.43776-6.76864l99.92704-145.04448a37.91872 37.91872 0 0 1 58.15808-5.12l86.33856 87.31136 66.64704 72.65792-13.9264 60.18048-67.30752 25.46176-529.20832 11.5712z' fill='%23F4CA1C' p-id='3122'%3E%3C/path%3E%3Cpath d='M814.76096 148.48H209.23904A153.26208 153.26208 0 0 0 56.32 301.74208v415.40096A153.26208 153.26208 0 0 0 209.23904 870.4h605.52192A153.26208 153.26208 0 0 0 967.68 717.13792V301.74208A153.26208 153.26208 0 0 0 814.76096 148.48z m83.456 568.65792a83.62496 83.62496 0 0 1-83.456 83.62496H209.23904a83.62496 83.62496 0 0 1-83.456-83.62496V301.74208a83.62496 83.62496 0 0 1 83.456-83.63008h605.52192a83.62496 83.62496 0 0 1 83.456 83.61984v415.40096z m-137.728-298.55744a72.42752 72.42752 0 0 0-111.4112 9.87648l-99.712 145.46432a2.8672 2.8672 0 0 1-2.14528 1.29536 2.81088 2.81088 0 0 1-2.38592-0.75264L463.28832 501.41696a72.52992 72.52992 0 0 0-102.272 5.59104l-123.0848 137.216a34.77504 34.77504 0 1 0 51.67104 46.55616l123.0848-137.216a3.03104 3.03104 0 0 1 4.28544-0.2304l81.51552 73.04192a72.41728 72.41728 0 0 0 108.1088-13.02528l99.71712-145.4592a3.03104 3.03104 0 0 1 4.66432-0.41472l86.15936 87.552a34.78016 34.78016 0 1 0 49.47456-48.896z m-316.2368-33.32608a47.00672 47.00672 0 1 0-46.90432-47.00672 46.95552 46.95552 0 0 0 46.90432 47.00672z' fill='%23595BB3' p-id='3123'%3E%3C/path%3E%3C/svg%3E");
   background-size: 18px 16px;
@@ -25385,11 +25490,9 @@ body.theme-dark .popover.hover-popover:not(.is-loaded) {
   width: 18px;
   vertical-align: middle;
   margin-right: 5px;
-
 }
 
-.gridlist ul li a[href*=".excalidraw"]::before
-{
+.gridlist ul li a[href*=".excalidraw"]::before {
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23595BB3' d='M18.404 2.998c-.757-.754-2.077-.751-2.828.005l-1.784 1.791L11.586 7H7a.998.998 0 0 0-.939.658l-4 11c-.133.365-.042.774.232 1.049l2 2a.997.997 0 0 0 1.049.232l11-4A.998.998 0 0 0 17 17v-4.586l2.207-2.207v-.001h.001L21 8.409c.378-.378.586-.881.585-1.415 0-.535-.209-1.038-.588-1.415l-2.593-2.581zm-3.111 8.295A.996.996 0 0 0 15 12v4.3l-9.249 3.363 4.671-4.671c.026.001.052.008.078.008A1.5 1.5 0 1 0 9 13.5c0 .026.007.052.008.078l-4.671 4.671L7.7 9H12c.266 0 .52-.105.707-.293L14.5 6.914 17.086 9.5l-1.793 1.793zm3.206-3.208-2.586-2.586 1.079-1.084 2.593 2.581-1.086 1.089z '%3E%3C/path%3E%3C/svg%3E");
   content: '';
   background-size: 14px 18px;
@@ -25399,8 +25502,6 @@ body.theme-dark .popover.hover-popover:not(.is-loaded) {
   width: 14px;
   margin-right: 5px;
 }
-
-
 
 
 @media print {
@@ -25496,26 +25597,20 @@ body.theme-dark .popover.hover-popover:not(.is-loaded) {
 /* ================================== */
 /* ======= Callout======= */
 /* ================================== */
-
-
-body.admonition-bg-color-same .callout
-{
+body.admonition-bg-color-same .callout {
   background-color: rgba(var(--callout-color), 0.1);
   border-width: var(--callout-border-width);
 }
-body.shade-callout-style .callout
-{
-
- border:none;
- box-shadow: inset 0 0 0 2px rgba(var(--callout-color), 0.25), 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.1) !important;
+body.shade-callout-style .callout {
+  border:none;
+  box-shadow: inset 0 0 0 2px rgba(var(--callout-color), 0.25), 0px 0.5px 1px 0.5px rgba(0, 0, 0, 0.1) !important;
 }
-body.shade-callout-style  .callout .callout-title {
+body.shade-callout-style .callout .callout-title {
   padding: 6px;
   background-color: rgba(var(--callout-color), 0.4);
 }
 
-body.border-callout-style .callout
-{
+body.border-callout-style .callout {
   --callout-radius: 2px;
   border-left: solid 4px rgb(var(--callout-color));
 }
@@ -25553,8 +25648,7 @@ body.admonition-bg-color-same .callout-title {
   padding: 12px 0 12px 12px;
   color: unset;
 }
-.admonition-title .admonition-title-icon
-{
+.admonition-title .admonition-title-icon {
   color: rgb(var(--callout-color));
 }
 
@@ -26005,6 +26099,9 @@ body.admonition-bg-color-same .callout-title {
   float: right !important;
   margin: unset;
 }
+ 
+
+
 
 .callout.callout:is([data-callout-metadata*="center"],
 [data-callout*=center]) {
@@ -26609,8 +26706,7 @@ body.colorful-p-kanban .callout.callout[data-callout*="kanban"] .task-list-item-
 
 /******callout icon*****/
 .show-inline-title  .callout.callout:is([data-callout-metadata^='icon'],
-.show-inline-title [data-callout='icon'])
-{
+.show-inline-title [data-callout='icon']) {
   margin-top: -7em;
 }
 .callout.callout:is([data-callout-metadata^='icon'],
@@ -26657,8 +26753,7 @@ body.colorful-p-kanban .callout.callout[data-callout*="kanban"] .task-list-item-
   border-left:0px;
   overflow: unset;
 }
-.callout[data-callout="stickies"][data-callout-metadata*="left"]
-{
+.callout[data-callout="stickies"][data-callout-metadata*="left"] {
   width: max(180px, 30%);
 }
 
@@ -26774,8 +26869,7 @@ body.colorful-p-kanban .callout.callout[data-callout*="kanban"] .task-list-item-
   border: 1px;
   box-shadow: inset -10px -10px 10px #f0b7a4, inset 3px 3px 5px;
 }
-.callout[data-callout="stickies2"][data-callout-metadata*="right"]
-{
+.callout[data-callout="stickies2"][data-callout-metadata*="right"] {
   width: max(180px, 30%);
 }
 .callout[data-callout="stickies2"][data-callout-metadata*="right"] >.callout-content {
@@ -26987,7 +27081,6 @@ body.funny-header-anim.clutter-free-headings .cm-active .cm-header:first-of-type
 }
 
 /* head-tag-style*/
-
 body.head-tag-style :is(.cm-header) +.cm-widgetBuffer + .cm-html-embed>sup {
   background-color: var(--text-accent-hover);
   color: #fff;
@@ -27139,13 +27232,11 @@ body:not(.remove-selectionbackground) .markdown-source-view.mod-cm6 .cm-editor .
 }
 
 .workspace-split.mod-root .workspace-tab-header.is-active {
-  border: none;
   z-index: var(--layer-popover);
   color: var(--text-normal);
-  box-shadow: var(--window-shadow);
+  /*box-shadow: var(--window-shadow);*/
 }
-.is-mobile  .workspace-split.mod-root .workspace-tab-header.is-active.mod-active
-{
+.is-mobile  .workspace-split.mod-root .workspace-tab-header.is-active.mod-active {
   z-index: 29;
 }
 .is-focused .workspace-tab-header {
@@ -27175,9 +27266,9 @@ body:not(.remove-selectionbackground) .markdown-source-view.mod-cm6 .cm-editor .
   background-color: unset;
 }
 
-body:not(.default-list-marker) .list-bullet::before {
+/* body:not(.default-list-marker) .list-bullet::before {
   display: none;
-}
+} */
 
 body:not(.default-list-marker) .markdown-rendered .list-bullet::after {
   content: '\2022';
@@ -27189,7 +27280,7 @@ body:not(.default-list-marker) .markdown-rendered .list-bullet::after {
   background: transparent;
   color: var(--list-ul-marker-color);
   margin-left: 0.13em;
-  margin-top: calc(0.466em * var(--line-height-list) - 0.286em);
+  /* margin-top: calc(0.466em * var(--line-height-list) - 0.286em); */
   line-height: 0.55;
   transition: all 0.15s ease;
 }
@@ -27251,7 +27342,7 @@ body:not(.default-list-marker) .has-list-bullet .list-bullet::after,
 body:not(.default-list-marker) .has-list-bullet .has-list-bullet .list-bullet::after,
 body:not(.default-list-marker) .has-list-bullet .has-list-bullet .has-list-bullet .list-bullet::after,
 body:not(.default-list-marker) .has-list-bullet .has-list-bullet .has-list-bullet .has-list-bullet .list-bullet::after {
-  top: 0;
+  /* top: 0; */
 }
 
 body:not(.default-list-marker) .markdown-source-view.mod-cm6 .cm-indent::before {
@@ -27462,6 +27553,128 @@ body.list-bracket-style :is(.markdown-preview-view,.markdown-rendered) ol:not(.c
   border-color: var(--list-ol-hover);
 }
 
+
+body.list-bracket-style-two :is(.markdown-preview-view,.markdown-rendered):not(.kanban) :is(ul,ol)>li:not(.task-list-item) {
+  border-radius: var(--radius-s);
+  word-wrap: break-word;
+  word-break: break-word;
+  transition: all 300ms ease-in-out;
+  border-left: 0.125em solid var(--list-ul-block-color);
+}
+
+body.list-bracket-style-two :is(.markdown-preview-view,.markdown-rendered):not(.kanban) ol>li:not(.task-list-item) {
+  border-left: 0.125em solid var(--list-ol-block-color);
+}
+
+body.list-bracket-style-two .markdown-rendered.show-indentation-guide li:not(.task-list-item) > ul::before, 
+body.list-bracket-style-two .markdown-rendered.show-indentation-guide li:not(.task-list-item) > ol::before {
+  border: none;
+}
+
+/*list-bracket-style-two*/
+body.list-bracket-style-two ol,
+body.list-bracket-style-two ol ol,
+body.list-bracket-style-two ol ol ol,
+body.list-bracket-style-two ol ul ol,
+body.list-bracket-style-two ol ol ol ol,
+body.list-bracket-style-two ol ol ul ol,
+body.list-bracket-style-two ol ul ol ol {
+  list-style: none;
+}
+
+body.list-bracket-style-two ol {
+  counter-reset: niceBT;
+}
+
+body.list-bracket-style-two ol>li {
+  counter-increment: niceBT;
+}
+
+body.list-bracket-style-two ol>li::before {
+  content: counters(niceBT, '.') '. ';
+  font-weight: bold;
+  font-family: Monaco;
+  font-size: 0.8em;
+  color: var(--list-ol-number-color);
+  display: inline-block;
+  white-space: pre;
+}
+
+body.list-bracket-style-two ul>li:not(.task-list-item) {
+  padding-left: 1.1em;
+}
+body.list-bracket-style-two ol>li:not(.task-list-item) {
+  padding-left: 0.4em;
+}
+
+body.list-bracket-style-two .markdown-rendered .list-bullet {
+  left: 0.6em;
+}
+
+body.list-bracket-style-three :is(.markdown-preview-view,.markdown-rendered):not(.kanban) :is(ul,ol):has(:is(ol,ul))>li:has(:is(ol,ul)):not(.task-list-item) {
+  border-radius: var(--radius-s);
+  word-wrap: break-word;
+  word-break: break-word;
+  transition: all 300ms ease-in-out;
+  border-left: 0.125em solid var(--list-ul-block-color);
+
+}
+body.list-bracket-style-three :is(.markdown-preview-view,.markdown-rendered):not(.kanban) ol:has(:is(ol,ul))>li:has(:is(ol,ul)):not(.task-list-item) {
+  border-left: 0.125em solid var(--list-ol-block-color);
+}
+
+body.list-bracket-style-three :is(.markdown-preview-view,.markdown-rendered):not(.kanban) :is(ul,ol):has(:is(ol,ul))>li:has(:is(ol,ul)):not(.task-list-item) {
+  padding-left: 0.3em;
+}
+
+body.list-bracket-style-three .markdown-rendered.show-indentation-guide li:not(.task-list-item) > ul::before, 
+body.list-bracket-style-three .markdown-rendered.show-indentation-guide li:not(.task-list-item) > ol::before {
+  border: none;
+}
+body.list-bracket-style-three :is(.markdown-preview-view,.markdown-rendered):not(.kanban) li:not(.task-list-item) {
+  padding-left: 0.45rem;
+}
+
+
+/*list-vertical-line-one*/
+body.list-vertical-line-one ol,
+body.list-vertical-line-one ol ol,
+body.list-vertical-line-one ol ol ol,
+body.list-vertical-line-one ol ul ol,
+body.list-vertical-line-one ol ol ol ol,
+body.list-vertical-line-one ol ol ul ol,
+body.list-vertical-line-one ol ul ol ol {
+  list-style: none;
+}
+
+body.list-vertical-line-one ol {
+  counter-reset: niceBTT;
+}
+
+body.list-vertical-line-one ol>li {
+  counter-increment: niceBTT;
+}
+
+body.list-vertical-line-one ol>li::before {
+  content: counters(niceBTT, '.') '. ';
+  font-weight: bold;
+  color: var(--list-ol-number-color);
+  margin-left: -1.3em;
+  font-family: Monaco;
+  font-size: 0.9em;
+}
+
+body.list-vertical-line-one :is(ol,ul) :is(ol,ul) {
+  position: relative;
+}
+
+:is(body.list-vertical-line-one,body.list-vertical-line-one, body.list-vertical-line-one) :is(.markdown-preview-view,.markdown-rendered) ul ol:not(.contains-task-list)>li:not(.task-list-item), 
+:is(body.list-vertical-line-one,body.list-vertical-line-one, body.list-vertical-line-one) :is(.markdown-preview-view,.markdown-rendered) ul ol:not(.contains-task-list)+ul>li:not(.task-list-item), 
+:is(body.list-vertical-line-one,body.list-vertical-line-one, body.list-vertical-line-one) :is(.markdown-preview-view,.markdown-rendered):not(.kanban) ol ul>li:not(.task-list-item),
+:is(body.list-vertical-line-one,body.list-vertical-line-one, body.list-vertical-line-one) :is(.markdown-preview-view,.markdown-rendered):not(.kanban) ol ul+ol>li:not(.task-list-item) {
+  margin-top: calc(var(--margin-list) * -0.25em);
+  padding-top: calc(var(--margin-list) * 0.25em);
+}
 
 
 
@@ -28182,15 +28395,11 @@ body.title-justify-start .view-header-title-container {
   justify-content: flex-start;
 }
 
-.search-input-container input {
-  border: none;
-  background: var(--background-secondary);
-}
 .search-input-container input:hover {
   box-shadow: var(--window-shadow-hover);
 }
 .menu{
-  background-color:var(--color-base-10);
+  background-color: var(--color-base-10);
 }
 
 .cm-s-obsidian span.obsidian-search-match-highlight {
@@ -28216,8 +28425,7 @@ body.remove-arrow:not(.default-icons) :is(.nav-folder-title,.nav-file-title) {
   padding-left: var(--size-2-3);
 }
 
-.nav-folder .nav-folder-children[style="height: 0px;"]
-{
+.nav-folder .nav-folder-children[style="height: 0px;"] {
   height: auto !important;
 }
 
@@ -28401,10 +28609,8 @@ body.hide-left-ribbon-retention-drawer .workspace-ribbon.mod-left:before,
 body.hide-left-ribbon-retention-drawer .workspace-ribbon.side-dock-ribbon.mod-left,
 body.hide-left-ribbon-retention-drawer .workspace-ribbon.mod-left:hover ~ .workspace-split .workspace-tabs.mod-top .workspace-tab-header-container {
   transition: all 350ms ease-in-out;
-
 }
-body.hide-titlebar-close-btn.hide-left-ribbon-retention-drawer .workspace-ribbon.side-dock-ribbon.mod-left .sidebar-toggle-button.mod-left
-{
+body.hide-titlebar-close-btn.hide-left-ribbon-retention-drawer .workspace-ribbon.side-dock-ribbon.mod-left .sidebar-toggle-button.mod-left {
   background: unset;
 }
 
@@ -28459,7 +28665,6 @@ body.view-button-front.tab-title-bar-position .workspace-leaf-content[data-mode=
 }
 
 
-
 body.tab-title-bar-position .markdown-reading-view .markdown-preview-view {
   padding-left: unset;
 }
@@ -28489,7 +28694,7 @@ body.hide-titlebar-close-btn.hide-left-ribbon-retention-drawer.view-button-front
 }
 
 body.view-button-front .view-header {
-  padding-left: 32px!important;
+  padding-left: 32px !important;
 }
 body.hide-titlebar-close-btn.hide-left-ribbon.is-hidden-frameless .titlebar-button.mod-logo {
   display: none;
@@ -28661,10 +28866,6 @@ body.theme-dark .workspace-split.mod-root .workspace-tab-header.is-active.mod-ac
 body.background-settings-workplace-background-image .workspace-split.mod-root .workspace-tab-header.is-active::before,
 body.background-settings-workplace-background-image .workspace-split.mod-root .workspace-tab-header.is-active::after {
   box-shadow: inset 0 0 0 var(--tab-outline-width) transparent, 0 0 0 calc(var(--tab-curve) * 4) var(--background-secondary);
-}
-
-body.background-settings-workplace-background-image .mod-root .workspace-tab-header-container-inner {
-  padding-bottom: 1.5px;
 }
 
 body.theme-dark:not(.background-settings-workplace-background-image) .workspace-split.mod-horizontal:is(.mod-left-split,.mod-right-split) .workspace-tabs .workspace-leaf-resize-handle {
@@ -28859,10 +29060,9 @@ body.background-settings-workplace-background-image.theme-dark.is-frameless:is(.
 /* ================================== */
 /* ========= Canvas ========= */
 /* ================================== */
-
-.app-container:has(~ .canvas-wrapper.is-screenshotting ) ,
-.titlebar:has(~ .canvas-wrapper.is-screenshotting ) {
-   display: none;
+.app-container:has(~ .canvas-wrapper.is-screenshotting) ,
+.titlebar:has(~ .canvas-wrapper.is-screenshotting) {
+  display: none;
 }
 
 .workspace-leaf-content[data-type='canvas'] .view-content .canvas-wrapper {
@@ -28877,14 +29077,14 @@ body.background-settings-workplace-background-image.theme-dark.is-frameless:is(.
 
 .canvas-node-content div[data-embed-type="image"]>p>img {
   min-width: 100%;
-  position:absolute;
+  position: absolute;
   left: 0;
   top: 0;
-  right:0;
+  right: 0;
   bottom: 0;
-  image-rendering:-moz-crisp-edges;
-  image-rendering:-o-crisp-edges;
-  image-rendering:-webkit-optimize-contrast;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
   -ms-interpolation-mode:nearest-neighbor;
 }
@@ -28898,13 +29098,11 @@ body.background-settings-workplace-background-image.theme-dark.is-frameless:is(.
   border: unset;
   box-shadow: inset 0 0 0 1px rgba(var(--canvas-color), calc(var(--canvas-card-opacity) + 0.6)), var(--shadow-stationary);
 }
- .canvas-wrapper .canvas-node:not(.is-themed) .canvas-node-container:has(.canvas-node-placeholder)
-{
+ .canvas-wrapper .canvas-node:not(.is-themed) .canvas-node-container:has(.canvas-node-placeholder) {
   border: 2px solid var(--color-base-60);
   box-shadow: none;
 }
-.canvas-wrapper .canvas-node:not(.is-themed) .canvas-node-container
-{
+.canvas-wrapper .canvas-node:not(.is-themed) .canvas-node-container {
   border: 1px solid rgb(var(--canvas-color));
   box-shadow: inset 0 0 0 1px var(--color-base-00), var(--shadow-stationary);
 }
@@ -28962,7 +29160,6 @@ body.toggle-canvas-grid .canvas-wrapper .canvas-background rect,
   left: 0;
   background-color: var(--custom-canvas-bg,var(--canvas-background-color)) ;
   background-image: var(--canvas-background) ;
-
 }
 
 
@@ -29028,39 +29225,39 @@ body.blackboard-canvas-background{
 /*=======canvas-card-focus-mode========
 =====Modified by Cuman from boninall=====*/
 
-body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-1) .canvas-edges>:not(.mod-canvas-color-1),
-body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-2) .canvas-edges>:not(.mod-canvas-color-2),
-body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-3) .canvas-edges>:not(.mod-canvas-color-3),
-body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-4) .canvas-edges>:not(.mod-canvas-color-4),
-body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-5) .canvas-edges>:not(.mod-canvas-color-5),
-body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-6) .canvas-edges>:not(.mod-canvas-color-6),
-body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-custom) .canvas-edges>:not(.mod-canvas-color-custom),
+body.theme-dark.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-1) .canvas-edges>:not(.mod-canvas-color-1),
+body.theme-dark.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-2) .canvas-edges>:not(.mod-canvas-color-2),
+body.theme-dark.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-3) .canvas-edges>:not(.mod-canvas-color-3),
+body.theme-dark.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-4) .canvas-edges>:not(.mod-canvas-color-4),
+body.theme-dark.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-5) .canvas-edges>:not(.mod-canvas-color-5),
+body.theme-dark.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-6) .canvas-edges>:not(.mod-canvas-color-6),
+body.theme-dark.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-custom) .canvas-edges>:not(.mod-canvas-color-custom),
 /* .canvas:has(.is-focused:not(.mod-canvas-color-1, .mod-canvas-color-2, .mod-canvas-color-3, .mod-canvas-color-4, .mod-canvas-color-5, .mod-canvas-color-6, .mod-canvas-color-custom)) .canvas-node:not(.is-focused):is(.mod-canvas-color-1, .mod-canvas-color-2, .mod-canvas-color-3, .mod-canvas-color-4, .mod-canvas-color-5, .mod-canvas-color-6, .mod-canvas-color-custom),  */
-body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-1) .canvas-node.is-themed:not(:is(.mod-canvas-color-1)),
-body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-2) .canvas-node.is-themed:not(:is(.mod-canvas-color-2)),
-body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-3) .canvas-node.is-themed:not(:is(.mod-canvas-color-3)),
-body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-4) .canvas-node.is-themed:not(:is(.mod-canvas-color-4)),
-body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-5) .canvas-node.is-themed:not(:is(.mod-canvas-color-5)),
-body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-6) .canvas-node.is-themed:not(:is(.mod-canvas-color-6)),
-body.theme-dark.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-custom) .canvas-node.is-themed:not(.mod-canvas-color-custom)  {
+body.theme-dark.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-1) .canvas-node.is-themed:not(:is(.mod-canvas-color-1)),
+body.theme-dark.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-2) .canvas-node.is-themed:not(:is(.mod-canvas-color-2)),
+body.theme-dark.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-3) .canvas-node.is-themed:not(:is(.mod-canvas-color-3)),
+body.theme-dark.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-4) .canvas-node.is-themed:not(:is(.mod-canvas-color-4)),
+body.theme-dark.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-5) .canvas-node.is-themed:not(:is(.mod-canvas-color-5)),
+body.theme-dark.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-6) .canvas-node.is-themed:not(:is(.mod-canvas-color-6)),
+body.theme-dark.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-custom) .canvas-node.is-themed:not(.mod-canvas-color-custom) {
   filter: brightness(0.8) grayscale(0.9);
 }
 
-body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-1) .canvas-edges>:not(.mod-canvas-color-1),
-body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-2) .canvas-edges>:not(.mod-canvas-color-2),
-body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-3) .canvas-edges>:not(.mod-canvas-color-3),
-body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-4) .canvas-edges>:not(.mod-canvas-color-4),
-body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-5) .canvas-edges>:not(.mod-canvas-color-5),
-body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-6) .canvas-edges>:not(.mod-canvas-color-6),
-body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-custom) .canvas-edges>:not(.mod-canvas-color-custom),
+body.theme-light.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-1) .canvas-edges>:not(.mod-canvas-color-1),
+body.theme-light.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-2) .canvas-edges>:not(.mod-canvas-color-2),
+body.theme-light.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-3) .canvas-edges>:not(.mod-canvas-color-3),
+body.theme-light.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-4) .canvas-edges>:not(.mod-canvas-color-4),
+body.theme-light.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-5) .canvas-edges>:not(.mod-canvas-color-5),
+body.theme-light.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-6) .canvas-edges>:not(.mod-canvas-color-6),
+body.theme-light.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-custom) .canvas-edges>:not(.mod-canvas-color-custom),
 /* .canvas:has(.is-focused:not(.mod-canvas-color-1, .mod-canvas-color-2, .mod-canvas-color-3, .mod-canvas-color-4, .mod-canvas-color-5, .mod-canvas-color-6, .mod-canvas-color-custom)) .canvas-node:not(.is-focused):is(.mod-canvas-color-1, .mod-canvas-color-2, .mod-canvas-color-3, .mod-canvas-color-4, .mod-canvas-color-5, .mod-canvas-color-6, .mod-canvas-color-custom),  */
-body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-1) .canvas-node.is-themed:not(:is(.mod-canvas-color-1)),
-body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-2) .canvas-node.is-themed:not(:is(.mod-canvas-color-2)),
-body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-3) .canvas-node.is-themed:not(:is(.mod-canvas-color-3)),
-body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-4) .canvas-node.is-themed:not(:is(.mod-canvas-color-4)),
-body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-5) .canvas-node.is-themed:not(:is(.mod-canvas-color-5)),
-body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-6) .canvas-node.is-themed:not(:is(.mod-canvas-color-6)),
-body.theme-light.canvas-card-focus-mode  .canvas:has(.is-focused.mod-canvas-color-custom) .canvas-node.is-themed:not(.mod-canvas-color-custom)  {
+body.theme-light.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-1) .canvas-node.is-themed:not(:is(.mod-canvas-color-1)),
+body.theme-light.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-2) .canvas-node.is-themed:not(:is(.mod-canvas-color-2)),
+body.theme-light.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-3) .canvas-node.is-themed:not(:is(.mod-canvas-color-3)),
+body.theme-light.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-4) .canvas-node.is-themed:not(:is(.mod-canvas-color-4)),
+body.theme-light.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-5) .canvas-node.is-themed:not(:is(.mod-canvas-color-5)),
+body.theme-light.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-6) .canvas-node.is-themed:not(:is(.mod-canvas-color-6)),
+body.theme-light.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-custom) .canvas-node.is-themed:not(.mod-canvas-color-custom) {
   filter:grayscale(0.9);
 }
 
@@ -29098,8 +29295,7 @@ body.canvas-card-focus-mode .canvas:has(.is-focused.mod-canvas-color-custom) .ca
 .show-full-metadata  .frontmatter-container:not(.is-collapsed) .frontmatter-section {
   display: flex!important;
 }
-body:not(.show-full-metadata) .frontmatter-container  .frontmatter-container-header  ~ .frontmatter-section:not(:is(.mod-aliases,.mod-tags)) 
-{
+body:not(.show-full-metadata) .frontmatter-container  .frontmatter-container-header  ~ .frontmatter-section:not(:is(.mod-aliases,.mod-tags)) {
   display: none;
 }
 
@@ -29135,11 +29331,30 @@ body:not(.show-full-metadata) .frontmatter-container:not(:has(.frontmatter-conta
 .canvas-icon-placeholder svg {
   opacity: 0.5;
 }
-body.canvas-card-text-middle .canvas-node-container .canvas-node-content.markdown-embed:not(.is-loaded)
-{
-text-align: center;
+body.canvas-card-text-middle .canvas-node-container .canvas-node-content.markdown-embed:not(.is-loaded) {
+  text-align: center;
 }
 
 div#popup-search {
   background-color: var(--color-base-10);
+}
+ 
+/* pdf 匹配暗色模式 */
+
+body {
+    --pdf-background: var(--background-secondary);
+    --pdf-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 8px transparent;
+    --pdf-thumbnail-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 8px transparent;
+}
+body.theme-dark .pdf-viewer .canvasWrapper,
+body.theme-dark .pdf-thumbnail-view .thumbnailImage {
+    filter: invert(1) hue-rotate(180deg);
+    mix-blend-mode: screen;
+}
+body.theme-dark .pdf-viewer {
+    background-color: var(--pdf-background);
+}
+body.theme-dark .pdf-viewer .page {
+    background-color: var(--background-primary);
+    border-color: var(--pdf-background);
 }

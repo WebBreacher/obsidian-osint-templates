@@ -18,6 +18,29 @@
     padding-left: 20px;
 }
 
+/* Tooltip pop up above the description in short mode */
+.tooltip.pop-up {
+    animation: pop-up-animation 200ms forwards ease-in-out;
+}
+@keyframes pop-up-animation {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%) scale(1);
+  }
+  20% {
+    opacity: 0.7;
+    transform: translateY(-100%) scale(1.02);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(-100%) scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-100%) scale(1);
+  }
+}
+
 /* Pencil icon. */
 .tasks-edit {
     background-color: var(--text-faint);
@@ -58,6 +81,11 @@
     top: 0px;
     left: 0px;
     white-space: nowrap;
+}
+
+/* Hide tags that Obsidian recognises, if `hide tags` instruction was used. */
+.tasks-layout-hide-tags .task-description a.tag {
+    display: none;
 }
 
 .tasks-setting-important {
@@ -103,9 +131,15 @@
     width: 100%;
 }
 
+.tasks-modal textarea {
+    width: 100%;
+    min-height: calc(var(--input-height) * 2);
+    resize: vertical;
+}
+
 .tasks-modal-priorities {
     display: grid;
-    grid-template-columns: 4em 5em 5em 7em 5em;
+    grid-template-columns: 4em 8em 8em 8em;
     grid-column-gap: 1.33em;
 }
 
@@ -117,6 +151,9 @@
 .tasks-modal-priorities label {
     border-radius: var(--input-radius);
     padding: 2px 3px;
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 7;
 }
 
 .tasks-modal-priorities input:focus + label {
@@ -124,11 +161,11 @@
     border-color: var(--background-modifier-border-focus);
 }
 
-.tasks-modal-priorities input:checked + label > span:first-child {
+.tasks-modal-priorities input:checked + label > span {
     font-weight: bold;
 }
 
-.tasks-modal-priorities input:not(:checked) + label > span:nth-child(2) {
+.tasks-modal-priorities input:not(:checked) + label > span:nth-child(4) {
     filter: grayscale(100%) opacity(60%);
 }
 
@@ -178,7 +215,7 @@
         margin-bottom: -10px;
     }
     .tasks-modal-priorities > label {
-        grid-row: 1 / span 2;
+        grid-row: 1 / span 7;
     }
     .tasks-modal-dates {
         grid-template-columns: 1fr;
@@ -202,7 +239,7 @@
         grid-template-columns: 4em auto;
     }
     .tasks-modal-priorities > label {
-        grid-row: 1 / span 4;
+        grid-row: 1 / span 7;
     }
 }
 

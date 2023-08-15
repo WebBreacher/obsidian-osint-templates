@@ -4,6 +4,12 @@
     font-family: var(--font-text);
 }
 
+.map-view-marker-sub-name {
+    color: var(--text-normal);
+    font-size: var(--font-text-size);
+    font-family: var(--font-text);
+}
+
 .map-view-main {
     position: relative;
     width: 100%;
@@ -52,6 +58,17 @@
     display: inline;
 }
 
+/* An icon button on the map, e.g. lock */
+.mv-icon-button {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+a.mv-icon-button.on {
+    background-color: var(--background-modifier-border-focus) !important;
+}
+
 .controls-toggle:checked
     + .lbl-triangle
     + .lbl-toggle
@@ -78,6 +95,10 @@
 .leaflet-container .dark-mode {
     filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg)
         saturate(0.3) brightness(0.7);
+}
+
+.leaflet-container {
+    background-color: var(--titlebar-background-focused) !important;
 }
 
 .newPresetDialogGrid {
@@ -190,4 +211,25 @@ div.map-view-highlight.marker-cluster {
     .leaflet-control-zoom {
         display: none;
     }
+}
+
+.map-preview-popup {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease-in-out, visibility 0s 0.2s;
+    padding: 2px;
+}
+
+.map-preview-popup.show {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.map-preview-popup-map {
+    width: 100%;
+    height: 100%;
 }
