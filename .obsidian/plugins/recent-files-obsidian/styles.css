@@ -1,6 +1,6 @@
 .recent-files-title {
-  display: flex;
   justify-content: space-between;
+  align-items: unset;
 }
 
 .recent-files-title-content {
@@ -9,12 +9,10 @@
 
 .recent-files-file-delete {
   display: none;
-  color: var(--nav-item-color);
-  height: 17px;
 }
 
 .recent-files-title:hover .recent-files-file-delete {
-  display: block;
+  display: flex;
   cursor: pointer;
 }
 
