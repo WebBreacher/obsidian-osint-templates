@@ -22,7 +22,8 @@
   --checklist-accentColor--active: var(--text-accent-hover);
   --checklist-pageMargin: 0 0 4px;
   --checklist-loaderSize: 16px;
-  --checklist-loaderBorderColor: var(--text-muted) var(--text-muted) var(--text-normal);
+  --checklist-loaderBorderColor: var(--text-muted) var(--text-muted)
+    var(--text-normal);
   --checklist-buttonPadding: 0 5px;
   --checklist-buttonBoxShadow: none;
   --checklist-countPadding: 0 6px;

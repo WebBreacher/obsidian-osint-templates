@@ -5,6 +5,10 @@
       "path": "START HERE.md"
     },
     {
+      "basename": "Introduction Presentation",
+      "path": "Introduction Presentation.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -111,10 +115,6 @@
     {
       "basename": "person",
       "path": "-- templates/person.md"
-    },
-    {
-      "basename": "Introduction Presentation",
-      "path": "Introduction Presentation.md"
     },
     {
       "basename": "Search engine",

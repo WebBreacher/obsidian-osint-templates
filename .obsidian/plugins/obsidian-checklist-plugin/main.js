@@ -5732,7 +5732,9 @@ var TodoSettingTab = class extends import_obsidian.PluginSettingTab {
   buildSettings() {
     new import_obsidian.Setting(this.containerEl).setName("General");
     new import_obsidian.Setting(this.containerEl).setName("Tag name").setDesc('e.g. "todo" will match #todo. You may add mutliple tags separated by a newline. Leave empty to capture all').addTextArea((text2) => text2.setPlaceholder("todo").setValue(this.plugin.getSettingValue("todoPageName")).onChange((value) => __async(this, null, function* () {
-      yield this.plugin.updateSettings({ todoPageName: value });
+      yield this.plugin.updateSettings({
+        todoPageName: value
+      });
     })));
     new import_obsidian.Setting(this.containerEl).setName("Show Completed?").addToggle((toggle) => {
       toggle.setValue(this.plugin.getSettingValue("showChecked"));
@@ -5762,7 +5764,9 @@ var TodoSettingTab = class extends import_obsidian.PluginSettingTab {
       dropdown.addOption("old->new", "Old -> New");
       dropdown.setValue(this.plugin.getSettingValue("sortDirectionItems"));
       dropdown.onChange((value) => __async(this, null, function* () {
-        yield this.plugin.updateSettings({ sortDirectionItems: value });
+        yield this.plugin.updateSettings({
+          sortDirectionItems: value
+        });
       }));
     }).setDesc("Time sorts are based on last time the file for a particular item was edited");
     new import_obsidian.Setting(this.containerEl).setName("Group Sort").addDropdown((dropdown) => {
@@ -5772,7 +5776,9 @@ var TodoSettingTab = class extends import_obsidian.PluginSettingTab {
       dropdown.addOption("old->new", "Old -> New");
       dropdown.setValue(this.plugin.getSettingValue("sortDirectionGroups"));
       dropdown.onChange((value) => __async(this, null, function* () {
-        yield this.plugin.updateSettings({ sortDirectionGroups: value });
+        yield this.plugin.updateSettings({
+          sortDirectionGroups: value
+        });
       }));
     }).setDesc("Time sorts are based on last time the file for the newest or oldest item in a group was edited");
     new import_obsidian.Setting(this.containerEl).setName("Styling");
@@ -5786,7 +5792,9 @@ var TodoSettingTab = class extends import_obsidian.PluginSettingTab {
     });
     new import_obsidian.Setting(this.containerEl).setName("Advanced");
     new import_obsidian.Setting(this.containerEl).setName("Include Files").setDesc("Include all files that match this glob pattern. Examples on plugin page/github readme. Leave empty to check all files.").setTooltip("**/*").addText((text2) => text2.setValue(this.plugin.getSettingValue("includeFiles")).onChange((value) => __async(this, null, function* () {
-      yield this.plugin.updateSettings({ includeFiles: value });
+      yield this.plugin.updateSettings({
+        includeFiles: value
+      });
     })));
     new import_obsidian.Setting(this.containerEl).setName("Auto Refresh List?").addToggle((toggle) => {
       toggle.setValue(this.plugin.getSettingValue("autoRefresh"));
@@ -6407,6 +6415,8 @@ var linkPlugin = (linkMap) => regexPlugin(/\[\[([^\]]+)\]\]/, (match, utils2) =>
   } else {
     displayText = link;
   }
+  if (!linkItem)
+    return `[[${content}]]`;
   return `<a data-href="${link}" data-type="link" data-filepath="${linkItem.filePath}" class="internal-link">${utils2.escape(displayText)}</a>`;
 });
 
@@ -6441,7 +6451,9 @@ var parseTodos = (files, todoTags, cache, vault, includeFiles, showChecked, show
     return {
       content,
       cache: fileCache,
-      validTags: tagsOnPage.map((e) => __spreadProps(__spreadValues({}, e), { tag: e.tag.toLowerCase() })),
+      validTags: tagsOnPage.map((e) => __spreadProps(__spreadValues({}, e), {
+        tag: e.tag.toLowerCase()
+      })),
       file,
       parseEntireFile,
       frontmatterTag: todoTags.length ? frontMatterTags[0] : void 0
@@ -8196,7 +8208,10 @@ var TodoPlugin = class extends import_obsidian5.Plugin {
               workspace.setActiveLeaf(todoLeaf, true, true);
             });
           } else {
-            views[0].setViewState({ active: true, type: TODO_VIEW_TYPE });
+            views[0].setViewState({
+              active: true,
+              type: TODO_VIEW_TYPE
+            });
             workspace.revealLeaf(views[0]);
             workspace.setActiveLeaf(views[0], true, true);
           }
@@ -8243,7 +8258,11 @@ var TodoPlugin = class extends import_obsidian5.Plugin {
     return __async(this, null, function* () {
       Object.assign(this.settings, updates);
       yield this.saveData(this.settings);
-      const onlyRepaintWhenChanges = ["autoRefresh", "lookAndFeel", "_collapsedSections"];
+      const onlyRepaintWhenChanges = [
+        "autoRefresh",
+        "lookAndFeel",
+        "_collapsedSections"
+      ];
       const onlyReGroupWhenChanges = [
         "subGroups",
         "groupBy",

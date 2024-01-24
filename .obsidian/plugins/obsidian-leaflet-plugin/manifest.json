@@ -2,7 +2,7 @@
     "id": "obsidian-leaflet-plugin",
     "name": "Obsidian Leaflet",
     "description": "Interactive maps inside your notes",
-    "version": "5.7.3",
+    "version": "6.0.1",
     "minAppVersion": "0.12.12",
     "author": "Jeremy Valentine",
     "repo": "valentine195/obsidian-leaflet-plugin",
