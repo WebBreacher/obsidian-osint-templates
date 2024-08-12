@@ -1,6 +1,6 @@
 # How to use this Obsidian Vault
 > [!info] License
-> Copyright (c) 2023 Micah Hoffman
+> Copyright (c) 2024 Micah Hoffman
 > 
 > This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
@@ -13,7 +13,7 @@ Both resources walk you through the basics of how Obsidian works and what you ca
 These templates are suggestions of how the Obsidian notetaking tool can be used during an OSINT investigation.  The example data in those files should allow you to make some connections _(see what I did there?)_ between how you record your data during an investigation and some of what the tool can offer. 
 
 > [!tip] SOP Tasks
-> Consider adding your Standard Operating Procedure (SOP) tasks to the templates so they automatically populate when you make new notes.+
+> Consider adding your Standard Operating Procedure (SOP) tasks to the templates so they automatically populate when you make new notes.
 
 ### Use the Templates
 - I created the [[person]] and [[domain or ip]] templates to illustrate how you can templatize the information you might need to collect during an investigation.
@@ -36,8 +36,7 @@ These templates are suggestions of how the Obsidian notetaking tool can be used 
 ## Look At The Examples
 I created several example notes for you to see just some of the capabilities of this tool and these templates. I suggest starting with your #primary #poi [[Allister Kemp]]. 
 
-## Always Looking to Improve
-Do you have suggestions on how to improve these templates? Want to contribute to the project?
-1. Create [an issue](https://github.com/WebBreacher/obsidian-osint-templates/issues) in the GitHub repository and let me know.
-2. Or submit a pull request in GitHub to make changes.
-3. Or join the OSINT Curious Discord server (https://iam.osintcurio.us/discord) and visit the [#workflow-ethics-strategy channel](https://discord.com/channels/735708716128796763/767064102135791648)
+And there are some other great pages/projects about using Obsidian for your OSINT work. Consider checking out:
+- Claudia Tietze's work: https://medium.com/@farallon/uncommon-osint-obsidian-semantic-meaning-and-nlp-3339e1e51d70 
+- Ervin Zubic's work: https://publication.osintambition.org/unlock-the-power-of-obsidian-for-osint-and-blockchain-intelligence-analysis-a69e526e2638
+- Markus Malewski's work: https://github.com/malleVF/Threat-Research-with-Obsidian-for-SOC-Analysts/
