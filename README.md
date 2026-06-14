@@ -18,8 +18,3 @@ I'm made several free and paid resources to help OSINT people start in their Obs
 1. Blog post: https://webbreacher.com/2022/03/15/obsidian/
 2. YouTube Video of me demoing an older version of Obsidian: https://www.youtube.com/watch?v=sKF37Ng4gaI
 3. Obsidian course that teaches you how to set it up, configure it, and start using Obsidian in your OSINT work: https://www.myosint.training/courses/osint-documentation-with-obsidian
-
-## Always Looking to Improve
-Do you have suggestions on how to improve these templates? Want to contribute to the project?
-1. Create [an issue](https://github.com/WebBreacher/obsidian-osint-templates/issues) and let me know.
-2. Or submit a pull request to make changes.
